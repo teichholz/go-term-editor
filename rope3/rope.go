@@ -84,8 +84,7 @@ func (n NodeInfo) accumulate(other NodeInfo) {
 	n.lineCount = n.lineCount + other.lineCount
 }
 
-
-// Type of node values.
+// NodeVal Type of node values.
 // Each node is either an internal node or a leaf node.
 type NodeVal interface {
 	isNode()
@@ -108,7 +107,7 @@ func NodeFromLeaf(leaf Leaf) Node {
 	return Node{&NodeBody{0, len, info, LeafNodeVal{leaf}}}
 }
 
-// Invariance: 1 <= len(nodes) <= MAX_CHILDREN
+// NodeFromNodes Invariance: 1 <= len(nodes) <= MAX_CHILDREN
 // Invariance: All nodes are same height
 // Invariance: All the nodes must satisfy IsOkChild
 func NodeFromNodes(nodes []Node) Node {
