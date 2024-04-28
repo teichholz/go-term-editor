@@ -1,5 +1,7 @@
 package BRope
 
+import "slices"
+
 const (
 	MIN_LEAF = 511
 	MAX_LEAF = 1024
@@ -24,37 +26,37 @@ const (
 
 type Leaf interface {
 	Len() int
-	String() string
+	Runes() []rune
 	IsOkChild() bool
 	Slice(Interval) Leaf
 	Interval() Interval
 }
 
 type StringLeaf struct {
-	string
+	vec []rune
 }
 
 func (s StringLeaf) Len() int {
-	return len(s.string)
+	return len(s.vec)
 }
 
-func (s StringLeaf) String() string {
-	return s.string
+func (s StringLeaf) Runes() []rune {
+	return s.vec
 }
 
 func (s StringLeaf) IsOkChild() bool {
-	return len(s.string) >= MIN_LEAF
+	return s.Len() >= MIN_LEAF
 }
 
 func (s StringLeaf) Slice(iv Interval) Leaf {
-	return StringLeaf{s.String()[iv.Lo:iv.Hi]}
+	return StringLeaf{s.vec[iv.Lo:iv.Hi]}
 }
 
 func (s StringLeaf) Interval() Interval {
 	return Interval{0, s.Len()}
 }
 
-func NewString(s string) Node {
+func NewString(s []rune) Node {
 	leaf := StringLeaf{s}
 	return NodeFromLeaf(leaf)
 }
@@ -178,19 +180,20 @@ func (n Node) isOkChild() bool {
 // Always returns a new InternalNodeVal
 func mergeNodes(children1 []Node, children2 []Node) Node {
 	compoundSize := len(children1) + len(children2)
-	all := append(children1[:len(children1):len(children1)], children2...)
+	all := slices.Concat(children1, children2)
 
 	if compoundSize <= MAX_CHILDREN {
 		return NodeFromNodes(all)
 	} else {
 		splitpoint := min(MAX_CHILDREN, compoundSize - MIN_CHILDREN)
+		// TODO is this safe?
 		parentNodes := []Node{NodeFromNodes(all[:splitpoint]), NodeFromNodes(all[splitpoint:])}
 		return NodeFromNodes(parentNodes)
 	}
 }
 
 func mergeLeaves(rope1 Node, rope2 Node) Node {
-	if (!rope1.isLeaf() || !rope2.isLeaf()) { panic("Both parameters must be a Leaf") }
+	if !rope1.isLeaf() || !rope2.isLeaf() { panic("Both parameters must be a Leaf") }
 
 	bothOk := rope1.getLeaf().IsOkChild() && rope2.getLeaf().IsOkChild()
 	if bothOk {
@@ -199,12 +202,15 @@ func mergeLeaves(rope1 Node, rope2 Node) Node {
 		leaf1 := rope1.getLeaf()
 		leaf2 := rope2.getLeaf()
 		if leaf1.Len() +  leaf2.Len() <= MAX_LEAF {
-			new := StringLeaf{leaf1.String() + leaf2.String()}
-			return NodeFromLeaf(new)
+			// TODO currently always copy for safety. Later one could use context on write to also mutate in place, if only one referen to node
+			newRunes := slices.Concat(slices.Clone(leaf1.Runes()), slices.Clone(leaf2.Runes()))
+			newLeaf := StringLeaf{newRunes}
+			return NodeFromLeaf(newLeaf)
 		} else {
 			space := MAX_LEAF - leaf1.Len()
-			new1 := StringLeaf{leaf1.String() + leaf2.String()[:space]}
-			new2 := StringLeaf{leaf2.String()[space:]}
+			nv := slices.Concat(slices.Clone(leaf1.Runes()), slices.Clone(leaf2.Runes()[:space]))
+			new1 := StringLeaf{nv}
+			new2 := StringLeaf{slices.Clone(leaf2.Runes()[space:])}
 			return NodeFromNodes([]Node{NodeFromLeaf(new1), NodeFromLeaf(new2)})
 		}
 	}
@@ -218,6 +224,7 @@ func concat(rope1 Node, rope2 Node) Node {
 	switch {
 	case h1 < h2:
 		children2 := rope2.getChildren()
+		// recursion base
 		if h1 == h2 - 1 && rope1.isOkChild() {
 			mergeNodes([]Node{rope1}, children2)
 		}
@@ -229,6 +236,7 @@ func concat(rope1 Node, rope2 Node) Node {
 		}
 	case h1 > h2:
 		children1 := rope1.getChildren()
+		// recursion base
 		if h2 == h1 - 1 && rope2.isOkChild() {
 			mergeNodes([]Node{rope1}, children1)
 		}
@@ -239,7 +247,7 @@ func concat(rope1 Node, rope2 Node) Node {
 		} else {
 			return mergeNodes(children1[:lasti], newrope.getChildren())
 		}
-	default:
+	case h1 == h2:
 		if rope1.isOkChild() && rope2.isOkChild() {
 			return NodeFromNodes([]Node{rope1, rope2})
 		}
@@ -250,11 +258,19 @@ func concat(rope1 Node, rope2 Node) Node {
 	}
 }
 
+// slice or subseq
 func (n Node) slice(iv Interval) Node {
-	panic("Not implemented")
+	builder := NewTreeBuilder()
+	builder.PushSlice(n, iv)
+	return builder.Build()
 }
 
-func (n Node) edit(iv Interval, node Node) Node {
-	panic("Not implemented")
+func (n Node) edit(iv Interval, toInsert Node) Node {
+	b := NewTreeBuilder()
+	selfIv := n.interval()
+	b.PushSlice(n, selfIv.Prefix(iv))
+	b.Push(toInsert)
+	b.PushSlice(n, selfIv.Suffix(iv))
+	return b.Build()
 }
 

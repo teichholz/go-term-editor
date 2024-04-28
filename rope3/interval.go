@@ -60,5 +60,5 @@ func (i Interval) IsBefore(n int) bool {
 }
 
 func (i Interval) String() string {
-	return "[" + string(i.Lo) + ", " + string(i.Hi) + ")"
+	return "[" + string(rune(i.Lo)) + ", " + string(rune(i.Hi)) + ")"
 }

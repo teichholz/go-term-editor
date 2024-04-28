@@ -241,7 +241,7 @@ func main() {
 		application.clampCursor()
 		s.ShowCursor(cursor.x, cursor.y)
 
-		// drawText(s, 2, window.height-7, window.width-1, window.height-1, DefaultStyle, application.buffer.String())
+		// drawText(s, 2, window.height-7, window.width-1, window.height-1, DefaultStyle, application.buffer.Runes())
 		// log.Printf("Rope: %v", application.rope)
 
 		// Update screen

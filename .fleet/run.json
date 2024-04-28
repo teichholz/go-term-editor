@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        
+        {
+            "name": "TestWhatAreStrings in main/rope3",
+            "type": "go-test",
+            "workingDir": "$PROJECT_DIR$/rope3",
+            "goExecPath": "$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.0.darwin-arm64/bin/go",
+            "buildParams": ["main/rope3"],
+            "testRunPattern": "^\\QTestWhatAreStrings\\E$"
+        }
+    ]
+}

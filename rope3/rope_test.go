@@ -1,7 +1,9 @@
 package BRope
 
 import (
+	"fmt"
 	"testing"
+	"unsafe"
 )
 
 func expectString(a, b string, t *testing.T) {
@@ -16,13 +18,26 @@ func expectInt(a, b int, t *testing.T) {
 	}
 }
 
-/* func TestString(t *testing.T) {
-	str := "Hallo, Welt!"
-	ref := &str
-	slice := (*ref)[0:5]
+func TestWhatAreStrings(t *testing.T) {
+	var a string = "a string"
+	fmt.Print(a)
+	var rs []rune = []rune{'h', 'a', 'l', 'l', 'o'}
+	fmt.Println(rs)
+	fmt.Println(string(rs))
+	str2 := *(*string)(unsafe.Pointer(&rs))
+	fmt.Println(str2)
 
-	t.Log(&str)
-	t.Log(ref)
-	t.Log(&slice)
-	expectInt(1, 2, t)
-} */
+
+
+	data := []byte("yellow submarine")
+	str3 := *(*string)(unsafe.Pointer(&data))
+	fmt.Println(str3)
+	str4 := unsafe.String(&data[0], len(data))
+	fmt.Println(str4)
+	data[0] = 'g'
+	fmt.Println(str4)
+
+	// Strings are byte arrays, useful for efficient networking and byte sized operations
+	// characters are runes, basically 4 byte unicode
+	// conversions from []rune to string force a copy, because of the different data types / representations
+}
