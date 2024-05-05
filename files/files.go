@@ -14,16 +14,15 @@ func Read(path string) (BRope.Rope, error) {
 	}
 	defer file.Close()
 
-	var rope BRope.Rope
+	var dest BRope.Rope
 	src := bufio.NewReader(file)
-	dest := BRope.RopeWriter{Rope: &rope}
-	_, err = io.Copy(dest, src)
+	_, err = io.Copy(&dest, src)
 
 	if err != nil {
 		return BRope.EmptyRope(), err
 	}
 
-	return rope, nil
+	return dest, nil
 }
 
 func Write(path string, buffer io.Reader) error {

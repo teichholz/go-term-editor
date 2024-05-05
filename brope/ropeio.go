@@ -15,10 +15,6 @@ func (r Rope) Read(p []byte) (n int, err error) {
 	return
 }
 
-type RopeWriter struct {
-	*Rope
-}
-
 // Buffer -> Rope
 func (r *Rope) Write(p []byte) (n int, err error) {
 	// Read from the rope into p.
