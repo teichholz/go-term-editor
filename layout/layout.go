@@ -23,7 +23,6 @@ func (f Flex) StartLayouting(width, height int) {
 }
 
 func (f Flex) Layout(c Context) {
-	// calculate dimensinos
 	width, height := c.constraints.br.X-c.constraints.tl.X, c.constraints.br.Y-c.constraints.tl.Y
 	contextmap := make(map[int]Dimensions, len(f.Items))
 

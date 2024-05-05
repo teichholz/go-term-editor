@@ -336,7 +336,7 @@ func (n Node) String() string {
 	return str
 }
 
-// Unsafe operation, gives a mutable view of the line
+// Unsafe operation, gives a mutable view of the rope content
 func (n Node) runes() []rune {
 	if n.isLeaf() {
 		return n.getLeaf().Runes()
