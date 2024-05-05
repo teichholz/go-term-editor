@@ -11,7 +11,7 @@ This project was my first experience with Go as language and I'am quite fond of 
 To implement the terminal editor, I used https://github.com/gdamore/tcell.
 
 ## Structure
-brope: Contains a reimplementation of the rope as written in the xi-editor. It is based on the idea of a b-tree. 
-layout: Contains a crude implementation of a ui layout constraint solver. My first intention was to use linear programming for that, but but it currently is too feature poor to justify the add complexity of linear programming.
-buffer: Contains extension methods on the rope datatype. 
-btree: A copy of the go b-tree reference implementation. Would have been used as a template to implement copy on write for the b-tree rope.
+- brope: Contains a reimplementation of the rope as written in the xi-editor. It is based on the idea of a b-tree. 
+- layout: Contains a crude implementation of a ui layout constraint solver. My first intention was to use linear programming for that, but but it currently is too feature poor to justify the add complexity of linear programming.
+- buffer: Contains extension methods on the rope datatype. 
+- btree: A copy of the go b-tree reference implementation. Would have been used as a template to implement copy on write for the b-tree rope.
