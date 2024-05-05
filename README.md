@@ -6,6 +6,6 @@ The project is inspired by:
 - https://github.com/xi-editor/xi-editor: The implementation of a rope as a b-tree as well as many useful generic operations on it
 - https://github.com/google/btree: A b-tree reference implementation in go
 
-This project was my first experience with Go as language and I'am quite fond of it now. Though it lacks expressiveness in certain areas, the primitives it gives you are simple to understand with no magic behind them.
+This project was my first experience with Go as language and I'am quite fond of it now. Though it lacks expressiveness in certain areas (like the type system or error handling), the primitives it gives you are simple to understand with no magic behind them.
 
 To implement the terminal editor, I used https://github.com/gdamore/tcell.
