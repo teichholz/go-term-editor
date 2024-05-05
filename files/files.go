@@ -8,18 +8,18 @@ import (
 )
 
 func Read(path string) (BRope.Rope, error) {
-    file, err := os.Open(path)
-    if err != nil {
-        return BRope.EmptyRope(), err
-    }
-    defer file.Close()
+	file, err := os.Open(path)
+	if err != nil {
+		return BRope.EmptyRope(), err
+	}
+	defer file.Close()
 
 	var rope BRope.Rope
-    src := bufio.NewReader(file)
+	src := bufio.NewReader(file)
 	dest := BRope.RopeWriter{Rope: &rope}
 	_, err = io.Copy(dest, src)
 
-	if (err != nil) {
+	if err != nil {
 		return BRope.EmptyRope(), err
 	}
 
@@ -28,14 +28,14 @@ func Read(path string) (BRope.Rope, error) {
 
 func Write(path string, buffer io.Reader) error {
 	file, err := os.OpenFile(path, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0666)
-    if err != nil {
-        return err
-    }
-    defer file.Close()
+	if err != nil {
+		return err
+	}
+	defer file.Close()
 
 	_, err = io.Copy(file, buffer)
 
-	if (err != nil) {
+	if err != nil {
 		return err
 	}
 

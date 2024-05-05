@@ -1,7 +1,7 @@
 package Buffer
 
 import (
-	BRope "main/rope3"
+	BRope "main/brope"
 	"testing"
 )
 
