@@ -2,7 +2,7 @@ package Buffer
 
 import (
 	"io"
-	BRope "main/rope3"
+	BRope "main/brope"
 )
 
 // undo: history of ropes

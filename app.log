@@ -14420,3 +14420,29 @@ a'
  ''
 2024/05/05 12:58:28 main.go:92: Deleting character. Rope is now:
  ''
+2024/05/05 13:01:26 main.go:209: Started program without any files. Created new rope.
+2024/05/05 13:01:29 main.go:209: Started program without any files. Created new rope.
+2024/05/05 13:01:30 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 13:01:30 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 13:01:30 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 13:01:30 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 13:01:31 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 13:01:31 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 13:01:31 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 13:01:31 main.go:92: Deleting character. Rope is now:
+ ''

@@ -3,7 +3,7 @@ package Files
 import (
 	"bufio"
 	"io"
-	BRope "main/rope3"
+	BRope "main/brope"
 	"os"
 )
 

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 	"log"
+	BRope "main/brope"
 	Buffer "main/buffer"
 	Files "main/files"
 	"main/layout"
-	BRope "main/rope3"
 	"os"
 
 	"github.com/gdamore/tcell/v2"
