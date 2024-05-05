@@ -1,7 +1,7 @@
 package Buffer
 
 import (
-	"main/rope"
+	BRope "main/rope3"
 	"testing"
 )
 
@@ -18,7 +18,7 @@ func expectInt(a, b int, t *testing.T) {
 }
 
 func TestInsertChar(t *testing.T) {
-	buffer := ExtendedBuffer{rope.NewString("foo")}
+	buffer := ExtendedBuffer{BRope.NewRopeString("foo")}
 	buffer.Buffer = buffer.InsertChar(0, 3, '\n')
 	expectString("foo\n", buffer.String(), t)
 	buffer.Buffer = buffer.InsertChar(0, 4, 'b')

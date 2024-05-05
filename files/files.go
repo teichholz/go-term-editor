@@ -3,26 +3,27 @@ package Files
 import (
 	"bufio"
 	"io"
-	"main/rope"
+	BRope "main/rope3"
 	"os"
 )
 
-func Read(path string) (*rope.Rope, error) {
+func Read(path string) (BRope.Rope, error) {
     file, err := os.Open(path)
     if err != nil {
-        return nil, err
+        return BRope.EmptyRope(), err
     }
     defer file.Close()
 
-    reader := bufio.NewReader(file)
-	writer := rope.Writer()
-	_, err = io.Copy(writer, reader)
+	var rope BRope.Rope
+    src := bufio.NewReader(file)
+	dest := BRope.RopeWriter{Rope: &rope}
+	_, err = io.Copy(dest, src)
 
 	if (err != nil) {
-		return nil, err
+		return BRope.EmptyRope(), err
 	}
 
-	return writer.Rope(), nil
+	return rope, nil
 }
 
 func Write(path string, buffer io.Reader) error {

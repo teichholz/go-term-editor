@@ -1516,3 +1516,10836 @@ d '
 'Yoo what up'
 2024/04/01 17:24:46 main.go:140: Wrote rope to file testfile:
 'Yoo what up'
+2024/04/29 20:57:27 main.go:214: Started program without any files. Created new rope.
+2024/04/29 20:57:28 main.go:83: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/04/29 20:57:28 main.go:83: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/04/29 20:57:28 main.go:83: Inserting 'o' into rope 'ua' at Cursor (x=2, y=0)
+2024/04/29 20:57:28 main.go:83: Inserting 'u' into rope 'uao' at Cursor (x=3, y=0)
+2024/04/29 20:57:28 main.go:83: Inserting 'o' into rope 'uaou' at Cursor (x=4, y=0)
+2024/04/29 20:57:28 main.go:83: Inserting 'e' into rope 'uaouo' at Cursor (x=5, y=0)
+2024/04/29 20:57:28 main.go:83: Inserting 'u' into rope 'uaouoe' at Cursor (x=6, y=0)
+2024/04/29 20:57:28 main.go:93: Inserting '\n' into rope 'uaouoeu' at Cursor (x=7, y=0)
+2024/04/29 20:57:28 main.go:83: Inserting 'a' into rope 'uaouoeu
+' at Cursor (x=0, y=1)
+2024/04/29 20:57:28 main.go:83: Inserting 'o' into rope 'uaouoeu
+a' at Cursor (x=1, y=1)
+2024/04/29 20:57:29 main.go:83: Inserting 'u' into rope 'uaouoeu
+ao' at Cursor (x=2, y=1)
+2024/04/29 20:57:29 main.go:83: Inserting 'e' into rope 'uaouoeu
+aou' at Cursor (x=3, y=1)
+2024/04/29 20:57:29 main.go:83: Inserting 'u' into rope 'uaouoeu
+aoue' at Cursor (x=4, y=1)
+2024/04/29 20:57:29 main.go:83: Inserting 'o' into rope 'uaouoeu
+aoueu' at Cursor (x=5, y=1)
+2024/04/29 20:57:29 main.go:83: Inserting 'e' into rope 'uaouoeu
+aoueuo' at Cursor (x=6, y=1)
+2024/04/29 20:57:29 main.go:83: Inserting 'u' into rope 'uaouoeu
+aoueuoe' at Cursor (x=7, y=1)
+2024/04/29 20:57:29 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu' at Cursor (x=8, y=1)
+2024/04/29 20:57:29 main.go:83: Inserting 'u' into rope 'uaouoeu
+aoueuoeu
+' at Cursor (x=0, y=2)
+2024/04/29 20:57:29 main.go:83: Inserting 'o' into rope 'uaouoeu
+aoueuoeu
+u' at Cursor (x=1, y=2)
+2024/04/29 20:57:29 main.go:83: Inserting 'a' into rope 'uaouoeu
+aoueuoeu
+uo' at Cursor (x=2, y=2)
+2024/04/29 20:57:29 main.go:83: Inserting 'e' into rope 'uaouoeu
+aoueuoeu
+uoa' at Cursor (x=3, y=2)
+2024/04/29 20:57:29 main.go:83: Inserting 'u' into rope 'uaouoeu
+aoueuoeu
+uoae' at Cursor (x=4, y=2)
+2024/04/29 20:57:29 main.go:83: Inserting 'o' into rope 'uaouoeu
+aoueuoeu
+uoaeu' at Cursor (x=5, y=2)
+2024/04/29 20:57:29 main.go:83: Inserting 'e' into rope 'uaouoeu
+aoueuoeu
+uoaeuo' at Cursor (x=6, y=2)
+2024/04/29 20:57:30 main.go:83: Inserting 'u' into rope 'uaouoeu
+aoueuoeu
+uoaeuoe' at Cursor (x=7, y=2)
+2024/04/29 20:57:30 main.go:83: Inserting 'o' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeu' at Cursor (x=8, y=2)
+2024/04/29 20:57:30 main.go:83: Inserting 'a' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuo' at Cursor (x=9, y=2)
+2024/04/29 20:57:30 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa' at Cursor (x=10, y=2)
+2024/04/29 20:57:30 main.go:83: Inserting 'u' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+' at Cursor (x=0, y=3)
+2024/04/29 20:57:30 main.go:83: Inserting 'o' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+u' at Cursor (x=1, y=3)
+2024/04/29 20:57:30 main.go:83: Inserting 'e' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uo' at Cursor (x=2, y=3)
+2024/04/29 20:57:30 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe' at Cursor (x=3, y=3)
+2024/04/29 20:57:30 main.go:83: Inserting 'u' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+' at Cursor (x=0, y=4)
+2024/04/29 20:57:30 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u' at Cursor (x=1, y=4)
+2024/04/29 20:57:30 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+' at Cursor (x=0, y=5)
+2024/04/29 20:57:30 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+' at Cursor (x=0, y=6)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+' at Cursor (x=0, y=7)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+' at Cursor (x=0, y=8)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+' at Cursor (x=0, y=9)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+' at Cursor (x=0, y=10)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+' at Cursor (x=0, y=11)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+' at Cursor (x=0, y=12)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=13)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=14)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=15)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=16)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=17)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=18)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=19)
+2024/04/29 20:57:31 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=20)
+2024/04/29 20:57:32 main.go:83: Inserting 'u' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=21)
+2024/04/29 20:57:32 main.go:83: Inserting 'a' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u' at Cursor (x=1, y=21)
+2024/04/29 20:57:32 main.go:83: Inserting 'o' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ua' at Cursor (x=2, y=21)
+2024/04/29 20:57:32 main.go:83: Inserting 'e' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uao' at Cursor (x=3, y=21)
+2024/04/29 20:57:32 main.go:83: Inserting 'u' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uaoe' at Cursor (x=4, y=21)
+2024/04/29 20:57:32 main.go:83: Inserting 'o' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uaoeu' at Cursor (x=5, y=21)
+2024/04/29 20:57:32 main.go:83: Inserting 'u' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uaoeuo' at Cursor (x=6, y=21)
+2024/04/29 20:57:32 main.go:93: Inserting '\n' into rope 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uaoeuou' at Cursor (x=7, y=21)
+2024/04/29 20:57:32 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uaoeuou'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uaoeuo'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uaoeu'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uaoe'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uao'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ua'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:33 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+
+'
+2024/04/29 20:57:34 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+'
+2024/04/29 20:57:35 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u
+'
+2024/04/29 20:57:35 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+u'
+2024/04/29 20:57:35 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe
+'
+2024/04/29 20:57:35 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uoe'
+2024/04/29 20:57:35 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+uo'
+2024/04/29 20:57:36 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+u'
+2024/04/29 20:57:36 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa
+'
+2024/04/29 20:57:36 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuoa'
+2024/04/29 20:57:36 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeuo'
+2024/04/29 20:57:36 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoeu'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuoe'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeuo'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoaeu'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoae'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uoa'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+uo'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+u'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu
+'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoeu'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuoe'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueuo'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoueu'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aoue'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+aou'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+ao'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+a'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu
+'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoeu'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouoe'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaouo'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uaou'
+2024/04/29 20:57:37 main.go:90: Deleting character. Rope is now:
+ 'uao'
+2024/04/29 20:57:38 main.go:90: Deleting character. Rope is now:
+ 'ua'
+2024/04/29 20:57:38 main.go:90: Deleting character. Rope is now:
+ 'u'
+2024/04/29 20:57:38 main.go:90: Deleting character. Rope is now:
+ ''
+2024/05/05 10:00:23 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:00:24 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:00:24 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=0, y=0)
+2024/05/05 10:00:24 main.go:85: Inserting 'o' into rope 'au' at Cursor (x=0, y=0)
+2024/05/05 10:00:24 main.go:85: Inserting 'e' into rope 'oau' at Cursor (x=0, y=0)
+2024/05/05 10:00:24 main.go:85: Inserting 'u' into rope 'eoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:24 main.go:85: Inserting 'a' into rope 'ueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:24 main.go:85: Inserting 'o' into rope 'aueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:24 main.go:85: Inserting 'e' into rope 'oaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:24 main.go:85: Inserting 'u' into rope 'eoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:24 main.go:85: Inserting 'o' into rope 'ueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'e' into rope 'oueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'a' into rope 'eoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'u' into rope 'aeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'a' into rope 'uaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'o' into rope 'auaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'e' into rope 'oauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'u' into rope 'eoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'o' into rope 'ueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'a' into rope 'oueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'e' into rope 'aoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'u' into rope 'eaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'o' into rope 'ueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'a' into rope 'oueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'e' into rope 'aoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:25 main.go:85: Inserting 'u' into rope 'eaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'o' into rope 'ueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'e' into rope 'oueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'u' into rope 'eoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'o' into rope 'ueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'e' into rope 'oueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'a' into rope 'eoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'u' into rope 'aeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'u' into rope 'uaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'a' into rope 'uuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'o' into rope 'auuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:26 main.go:85: Inserting 'e' into rope 'oauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:27 main.go:85: Inserting 'u' into rope 'eoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:27 main.go:85: Inserting 'a' into rope 'ueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:27 main.go:85: Inserting 'o' into rope 'aueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:27 main.go:85: Inserting 'e' into rope 'oaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:27 main.go:85: Inserting 'u' into rope 'eoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:27 main.go:85: Inserting 'o' into rope 'ueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:27 main.go:85: Inserting 'a' into rope 'oueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:27 main.go:85: Inserting 'e' into rope 'aoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:27 main.go:85: Inserting 'u' into rope 'eaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:29 main.go:85: Inserting 'a' into rope 'ueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:29 main.go:85: Inserting 'o' into rope 'aueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:29 main.go:85: Inserting 'e' into rope 'oaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'u' into rope 'eoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'o' into rope 'ueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'e' into rope 'oueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'u' into rope 'eoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'a' into rope 'ueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'u' into rope 'aueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'o' into rope 'uaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'e' into rope 'ouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'u' into rope 'eouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'o' into rope 'ueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'e' into rope 'oueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:30 main.go:85: Inserting 'u' into rope 'eoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:31 main.go:85: Inserting 'u' into rope 'ueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:31 main.go:85: Inserting 'u' into rope 'uueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:31 main.go:85: Inserting 'u' into rope 'uuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:31 main.go:85: Inserting 'a' into rope 'uuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:31 main.go:85: Inserting 'o' into rope 'auuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:31 main.go:85: Inserting 'e' into rope 'oauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:31 main.go:85: Inserting 'u' into rope 'eoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:31 main.go:85: Inserting 'o' into rope 'ueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:31 main.go:85: Inserting 'e' into rope 'oueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:31 main.go:85: Inserting 'u' into rope 'eoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:32 main.go:85: Inserting 'o' into rope 'ueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:32 main.go:85: Inserting 'e' into rope 'oueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:32 main.go:85: Inserting 'u' into rope 'eoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:32 main.go:85: Inserting 'i' into rope 'ueoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:32 main.go:85: Inserting 'i' into rope 'iueoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:32 main.go:85: Inserting 'i' into rope 'iiueoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:33 main.go:85: Inserting ',' into rope 'iiiueoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:33 main.go:85: Inserting '.' into rope ',iiiueoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:33 main.go:85: Inserting 'p' into rope '.,iiiueoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:33 main.go:85: Inserting ''' into rope 'p.,iiiueoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:33 main.go:85: Inserting 'p' into rope ''p.,iiiueoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:33 main.go:85: Inserting ',' into rope 'p'p.,iiiueoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:00:33 main.go:85: Inserting 'p' into rope ',p'p.,iiiueoueoueoauuuueoueouaueoueoaueaoueoaueoauuaeoueoueaoueaoueoauaeoueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:20:21 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:20:25 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:20:27 main.go:85: Inserting 'a' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:20:27 main.go:85: Inserting 'u' into rope 'a' at Cursor (x=0, y=0)
+2024/05/05 10:20:27 main.go:85: Inserting 'o' into rope 'ua' at Cursor (x=0, y=0)
+2024/05/05 10:20:27 main.go:85: Inserting 'e' into rope 'oua' at Cursor (x=0, y=0)
+2024/05/05 10:20:27 main.go:85: Inserting 'u' into rope 'eoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:27 main.go:85: Inserting 'o' into rope 'ueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:27 main.go:85: Inserting 'e' into rope 'oueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:27 main.go:85: Inserting 'u' into rope 'eoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'a' into rope 'ueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'o' into rope 'aueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'e' into rope 'oaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'u' into rope 'eoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'a' into rope 'ueoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'u' into rope 'aueoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'o' into rope 'uaueoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'a' into rope 'ouaueoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'e' into rope 'aouaueoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'u' into rope 'eaouaueoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'a' into rope 'ueaouaueoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'o' into rope 'aueaouaueoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'e' into rope 'oaueaouaueoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:20:28 main.go:85: Inserting 'u' into rope 'eoaueaouaueoaueoueoua' at Cursor (x=0, y=0)
+2024/05/05 10:25:20 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:25:22 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'o' into rope 'au' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'e' into rope 'oau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'u' into rope 'eoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'o' into rope 'ueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'e' into rope 'oueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'a' into rope 'eoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'u' into rope 'aeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'o' into rope 'uaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'e' into rope 'ouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'a' into rope 'eouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'u' into rope 'aeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'o' into rope 'uaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:22 main.go:85: Inserting 'e' into rope 'ouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:23 main.go:85: Inserting 'u' into rope 'eouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:23 main.go:85: Inserting 'o' into rope 'ueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:23 main.go:85: Inserting 'a' into rope 'oueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:23 main.go:85: Inserting 'e' into rope 'aoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:23 main.go:85: Inserting 'u' into rope 'eaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:23 main.go:85: Inserting 'o' into rope 'ueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:23 main.go:85: Inserting 'e' into rope 'oueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:23 main.go:85: Inserting 'u' into rope 'eoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:23 main.go:85: Inserting 'u' into rope 'ueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:24 main.go:85: Inserting 'u' into rope 'uueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:24 main.go:85: Inserting 'a' into rope 'uuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:24 main.go:85: Inserting 'o' into rope 'auuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:24 main.go:85: Inserting 'e' into rope 'oauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:24 main.go:85: Inserting 'u' into rope 'eoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:24 main.go:85: Inserting 'o' into rope 'ueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:24 main.go:85: Inserting 'e' into rope 'oueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:24 main.go:85: Inserting 'u' into rope 'eoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:24 main.go:85: Inserting 'e' into rope 'ueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:24 main.go:85: Inserting 'o' into rope 'eueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:25 main.go:85: Inserting 'u' into rope 'oeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:25 main.go:85: Inserting 'o' into rope 'uoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:25 main.go:85: Inserting 'e' into rope 'ouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:25 main.go:85: Inserting 'u' into rope 'eouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:25 main.go:85: Inserting 'o' into rope 'ueouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:37 main.go:85: Inserting 'e' into rope 'oueouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:37 main.go:85: Inserting 'u' into rope 'eoueouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:37 main.go:85: Inserting 'a' into rope 'ueoueouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:37 main.go:85: Inserting 'u' into rope 'aueoueouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:37 main.go:85: Inserting 'o' into rope 'uaueoueouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:38 main.go:85: Inserting 'e' into rope 'ouaueoueouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:38 main.go:85: Inserting 'u' into rope 'eouaueoueouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:38 main.go:85: Inserting 'i' into rope 'ueouaueoueouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:38 main.go:85: Inserting 'i' into rope 'iueouaueoueouoeueoueoauuueoueaoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:40 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:25:40 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:25:40 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=0, y=0)
+2024/05/05 10:25:40 main.go:85: Inserting 'o' into rope 'au' at Cursor (x=0, y=0)
+2024/05/05 10:25:40 main.go:85: Inserting 'e' into rope 'oau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'u' into rope 'eoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'o' into rope 'ueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'e' into rope 'oueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'a' into rope 'eoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'u' into rope 'aeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'o' into rope 'uaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'e' into rope 'ouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'a' into rope 'eouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'u' into rope 'aeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'o' into rope 'uaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'e' into rope 'ouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'u' into rope 'eouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'o' into rope 'ueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'a' into rope 'oueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:25:41 main.go:85: Inserting 'e' into rope 'aoueouaeouaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:07 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:29:08 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'o' into rope 'au' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'e' into rope 'oau' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'u' into rope 'eoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'o' into rope 'ueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'e' into rope 'oueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'a' into rope 'eoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'u' into rope 'aeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'a' into rope 'uaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'o' into rope 'auaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'e' into rope 'oauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:08 main.go:85: Inserting 'u' into rope 'eoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'o' into rope 'ueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'e' into rope 'oueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'u' into rope 'eoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'a' into rope 'ueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'o' into rope 'aueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'e' into rope 'oaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'u' into rope 'eoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'a' into rope 'ueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'o' into rope 'aueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'e' into rope 'oaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'u' into rope 'eoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'o' into rope 'ueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'a' into rope 'oueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'e' into rope 'aoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:09 main.go:85: Inserting 'u' into rope 'eaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'a' into rope 'ueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'o' into rope 'aueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'e' into rope 'oaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'u' into rope 'eoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'o' into rope 'ueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'e' into rope 'oueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'u' into rope 'eoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'a' into rope 'ueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'o' into rope 'aueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'e' into rope 'oaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:85: Inserting 'u' into rope 'eoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:95: Inserting '\n' into rope 'ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:95: Inserting '\n' into rope '
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:10 main.go:95: Inserting '\n' into rope '
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:11 main.go:95: Inserting '\n' into rope '
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:11 main.go:95: Inserting '\n' into rope '
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:11 main.go:95: Inserting '\n' into rope '
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:11 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:11 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:11 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:12 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:13 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:13 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:13 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:13 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:13 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:14 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ueoaueoueoaueaoueoaueoaueoueoauaeoueoau' at Cursor (x=0, y=0)
+2024/05/05 10:29:18 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:29:18 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:29:18 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=0, y=0)
+2024/05/05 10:29:18 main.go:85: Inserting 'e' into rope 'au' at Cursor (x=0, y=0)
+2024/05/05 10:29:18 main.go:85: Inserting 'o' into rope 'eau' at Cursor (x=0, y=0)
+2024/05/05 10:29:18 main.go:85: Inserting 'u' into rope 'oeau' at Cursor (x=0, y=0)
+2024/05/05 10:29:18 main.go:85: Inserting 'o' into rope 'uoeau' at Cursor (x=0, y=0)
+2024/05/05 10:29:18 main.go:85: Inserting 'e' into rope 'ouoeau' at Cursor (x=0, y=0)
+2024/05/05 10:29:18 main.go:85: Inserting 'u' into rope 'eouoeau' at Cursor (x=0, y=0)
+2024/05/05 10:29:19 main.go:85: Inserting 'o' into rope 'ueouoeau' at Cursor (x=0, y=0)
+2024/05/05 10:29:19 main.go:85: Inserting 'a' into rope 'oueouoeau' at Cursor (x=0, y=0)
+2024/05/05 10:29:19 main.go:85: Inserting 'u' into rope 'aoueouoeau' at Cursor (x=0, y=0)
+2024/05/05 10:29:43 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:29:59 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:30:16 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:30:16 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=0, y=0)
+2024/05/05 10:30:16 main.go:85: Inserting 'o' into rope 'au' at Cursor (x=0, y=0)
+2024/05/05 10:30:16 main.go:85: Inserting 'e' into rope 'oau' at Cursor (x=0, y=0)
+2024/05/05 10:30:16 main.go:85: Inserting 'u' into rope 'eoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:16 main.go:85: Inserting 'a' into rope 'ueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:16 main.go:85: Inserting 'o' into rope 'aueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'e' into rope 'oaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'u' into rope 'eoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'u' into rope 'ueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'a' into rope 'uueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'o' into rope 'auueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'e' into rope 'oauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'u' into rope 'eoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'a' into rope 'ueoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'o' into rope 'aueoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'e' into rope 'oaueoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:85: Inserting 'u' into rope 'eoaueoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:17 main.go:95: Inserting '\n' into rope 'ueoaueoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:18 main.go:95: Inserting '\n' into rope '
+ueoaueoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:18 main.go:95: Inserting '\n' into rope '
+
+ueoaueoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:18 main.go:95: Inserting '\n' into rope '
+
+
+ueoaueoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:18 main.go:95: Inserting '\n' into rope '
+
+
+
+ueoaueoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:18 main.go:95: Inserting '\n' into rope '
+
+
+
+
+ueoaueoauueoaueoau' at Cursor (x=0, y=0)
+2024/05/05 10:30:52 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:30:53 main.go:85: Inserting 'a' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'o' into rope 'a' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'e' into rope 'oa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'u' into rope 'eoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'o' into rope 'ueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'e' into rope 'oueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'u' into rope 'eoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'o' into rope 'ueoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'u' into rope 'oueoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'o' into rope 'uoueoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'e' into rope 'ououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'u' into rope 'eououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'o' into rope 'ueououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'a' into rope 'oueououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:53 main.go:85: Inserting 'e' into rope 'aoueououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:54 main.go:85: Inserting 'u' into rope 'eaoueououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:54 main.go:85: Inserting 'o' into rope 'ueaoueououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:54 main.go:85: Inserting 'a' into rope 'oueaoueououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:54 main.go:85: Inserting 'u' into rope 'aoueaoueououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:54 main.go:85: Inserting 'o' into rope 'uaoueaoueououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:30:54 main.go:85: Inserting 'u' into rope 'ouaoueaoueououeoueoa' at Cursor (x=0, y=0)
+2024/05/05 10:31:01 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:31:31 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:31:31 main.go:85: Inserting 'o' into rope 'u' at Cursor (x=0, y=0)
+2024/05/05 10:31:31 main.go:85: Inserting 'e' into rope 'ou' at Cursor (x=0, y=0)
+2024/05/05 10:31:31 main.go:85: Inserting 'a' into rope 'eou' at Cursor (x=0, y=0)
+2024/05/05 10:31:31 main.go:85: Inserting 'u' into rope 'aeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:31 main.go:85: Inserting 'a' into rope 'uaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:31 main.go:85: Inserting 'o' into rope 'auaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:31 main.go:85: Inserting 'e' into rope 'oauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:31 main.go:85: Inserting 'u' into rope 'eoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:33 main.go:95: Inserting '\n' into rope 'ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:33 main.go:95: Inserting '\n' into rope '
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:34 main.go:95: Inserting '\n' into rope '
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:34 main.go:95: Inserting '\n' into rope '
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:34 main.go:95: Inserting '\n' into rope '
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:34 main.go:95: Inserting '\n' into rope '
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:34 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:34 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:35 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:35 main.go:85: Inserting 'u' into rope '
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:35 main.go:85: Inserting 'a' into rope 'u
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:35 main.go:85: Inserting 'o' into rope 'au
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:35 main.go:85: Inserting 'e' into rope 'oau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:35 main.go:85: Inserting 'u' into rope 'eoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:35 main.go:85: Inserting 'a' into rope 'ueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:35 main.go:85: Inserting 'o' into rope 'aueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:35 main.go:85: Inserting 'u' into rope 'oaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:35 main.go:85: Inserting 'e' into rope 'uoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:36 main.go:95: Inserting '\n' into rope 'euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:36 main.go:95: Inserting '\n' into rope '
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:36 main.go:95: Inserting '\n' into rope '
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:36 main.go:95: Inserting '\n' into rope '
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:36 main.go:95: Inserting '\n' into rope '
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:36 main.go:95: Inserting '\n' into rope '
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:36 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:37 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:37 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:37 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:37 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:37 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:38 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:38 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:38 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:38 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:39 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:39 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:39 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:39 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:39 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:39 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:40 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:40 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:40 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:40 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:40 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+euoaueoau
+
+
+
+
+
+
+
+
+ueoauaeou' at Cursor (x=0, y=0)
+2024/05/05 10:31:44 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:31:44 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:31:44 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:44 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:44 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:45 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:31:46 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:33:38 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:33:38 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:33:38 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=0)
+2024/05/05 10:33:38 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:33:39 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:33:39 main.go:95: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=0)
+2024/05/05 10:50:55 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:50:56 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:50:56 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 10:50:56 main.go:85: Inserting 'o' into rope 'ua' at Cursor (x=2, y=0)
+2024/05/05 10:50:56 main.go:85: Inserting 'e' into rope 'uao' at Cursor (x=3, y=0)
+2024/05/05 10:50:56 main.go:85: Inserting 'u' into rope 'uaoe' at Cursor (x=4, y=0)
+2024/05/05 10:50:56 main.go:85: Inserting 'o' into rope 'uaoeu' at Cursor (x=5, y=0)
+2024/05/05 10:50:56 main.go:85: Inserting 'e' into rope 'uaoeuo' at Cursor (x=6, y=0)
+2024/05/05 10:50:57 main.go:85: Inserting 'u' into rope 'uaoeuoe' at Cursor (x=7, y=0)
+2024/05/05 10:50:57 main.go:85: Inserting 'o' into rope 'uaoeuoeu' at Cursor (x=8, y=0)
+2024/05/05 10:50:57 main.go:85: Inserting 'u' into rope 'uaoeuoeuo' at Cursor (x=9, y=0)
+2024/05/05 10:50:57 main.go:95: Inserting '\n' into rope 'uaoeuoeuou' at Cursor (x=10, y=0)
+2024/05/05 10:50:57 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+' at Cursor (x=0, y=1)
+2024/05/05 10:50:57 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+a' at Cursor (x=1, y=1)
+2024/05/05 10:50:57 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+ao' at Cursor (x=2, y=1)
+2024/05/05 10:50:57 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoe' at Cursor (x=3, y=1)
+2024/05/05 10:50:57 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeu' at Cursor (x=4, y=1)
+2024/05/05 10:50:57 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuo' at Cursor (x=5, y=1)
+2024/05/05 10:50:57 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoa' at Cursor (x=6, y=1)
+2024/05/05 10:50:57 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoae' at Cursor (x=7, y=1)
+2024/05/05 10:50:58 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeu' at Cursor (x=8, y=1)
+2024/05/05 10:50:58 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuo' at Cursor (x=9, y=1)
+2024/05/05 10:50:58 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoa' at Cursor (x=10, y=1)
+2024/05/05 10:50:58 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoae' at Cursor (x=11, y=1)
+2024/05/05 10:50:58 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeu' at Cursor (x=12, y=1)
+2024/05/05 10:50:58 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeua' at Cursor (x=13, y=1)
+2024/05/05 10:50:58 main.go:95: Inserting '\n' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae' at Cursor (x=14, y=1)
+2024/05/05 10:50:58 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+' at Cursor (x=0, y=2)
+2024/05/05 10:50:58 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+a' at Cursor (x=1, y=2)
+2024/05/05 10:50:58 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+ao' at Cursor (x=2, y=2)
+2024/05/05 10:50:58 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoe' at Cursor (x=3, y=2)
+2024/05/05 10:50:58 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeu' at Cursor (x=4, y=2)
+2024/05/05 10:50:58 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuo' at Cursor (x=5, y=2)
+2024/05/05 10:50:58 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoe' at Cursor (x=6, y=2)
+2024/05/05 10:50:58 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeu' at Cursor (x=7, y=2)
+2024/05/05 10:50:58 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeua' at Cursor (x=8, y=2)
+2024/05/05 10:50:59 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuao' at Cursor (x=9, y=2)
+2024/05/05 10:50:59 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoe' at Cursor (x=10, y=2)
+2024/05/05 10:50:59 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeu' at Cursor (x=11, y=2)
+2024/05/05 10:50:59 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeua' at Cursor (x=12, y=2)
+2024/05/05 10:50:59 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuao' at Cursor (x=13, y=2)
+2024/05/05 10:50:59 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoe' at Cursor (x=14, y=2)
+2024/05/05 10:50:59 main.go:95: Inserting '\n' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu' at Cursor (x=15, y=2)
+2024/05/05 10:50:59 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+' at Cursor (x=0, y=3)
+2024/05/05 10:50:59 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+a' at Cursor (x=1, y=3)
+2024/05/05 10:50:59 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+ao' at Cursor (x=2, y=3)
+2024/05/05 10:50:59 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoe' at Cursor (x=3, y=3)
+2024/05/05 10:50:59 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeu' at Cursor (x=4, y=3)
+2024/05/05 10:50:59 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuo' at Cursor (x=5, y=3)
+2024/05/05 10:50:59 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoa' at Cursor (x=6, y=3)
+2024/05/05 10:50:59 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoae' at Cursor (x=7, y=3)
+2024/05/05 10:51:00 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeu' at Cursor (x=8, y=3)
+2024/05/05 10:51:00 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeua' at Cursor (x=9, y=3)
+2024/05/05 10:51:00 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuao' at Cursor (x=10, y=3)
+2024/05/05 10:51:00 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoe' at Cursor (x=11, y=3)
+2024/05/05 10:51:00 main.go:95: Inserting '\n' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu' at Cursor (x=12, y=3)
+2024/05/05 10:51:00 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+' at Cursor (x=0, y=4)
+2024/05/05 10:51:00 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+a' at Cursor (x=1, y=4)
+2024/05/05 10:51:00 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+ao' at Cursor (x=2, y=4)
+2024/05/05 10:51:00 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aou' at Cursor (x=3, y=4)
+2024/05/05 10:51:00 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouo' at Cursor (x=4, y=4)
+2024/05/05 10:51:00 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoe' at Cursor (x=5, y=4)
+2024/05/05 10:51:00 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeu' at Cursor (x=6, y=4)
+2024/05/05 10:51:00 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeua' at Cursor (x=7, y=4)
+2024/05/05 10:51:00 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuao' at Cursor (x=8, y=4)
+2024/05/05 10:51:00 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoe' at Cursor (x=9, y=4)
+2024/05/05 10:51:01 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeu' at Cursor (x=10, y=4)
+2024/05/05 10:51:01 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuo' at Cursor (x=11, y=4)
+2024/05/05 10:51:01 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoe' at Cursor (x=12, y=4)
+2024/05/05 10:51:01 main.go:95: Inserting '\n' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu' at Cursor (x=13, y=4)
+2024/05/05 10:51:01 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+' at Cursor (x=0, y=5)
+2024/05/05 10:51:01 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+u' at Cursor (x=1, y=5)
+2024/05/05 10:51:01 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+ua' at Cursor (x=2, y=5)
+2024/05/05 10:51:01 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uao' at Cursor (x=3, y=5)
+2024/05/05 10:51:01 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoe' at Cursor (x=4, y=5)
+2024/05/05 10:51:01 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeu' at Cursor (x=5, y=5)
+2024/05/05 10:51:01 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeua' at Cursor (x=6, y=5)
+2024/05/05 10:51:01 main.go:85: Inserting 'e' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuao' at Cursor (x=7, y=5)
+2024/05/05 10:51:01 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoe' at Cursor (x=8, y=5)
+2024/05/05 10:51:02 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeu' at Cursor (x=9, y=5)
+2024/05/05 10:51:02 main.go:95: Inserting '\n' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu' at Cursor (x=10, y=5)
+2024/05/05 10:51:02 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+' at Cursor (x=0, y=6)
+2024/05/05 10:51:02 main.go:85: Inserting 'a' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+u' at Cursor (x=1, y=6)
+2024/05/05 10:51:02 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+ua' at Cursor (x=2, y=6)
+2024/05/05 10:51:02 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+uao' at Cursor (x=3, y=6)
+2024/05/05 10:51:02 main.go:85: Inserting 'o' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+uaou' at Cursor (x=4, y=6)
+2024/05/05 10:51:02 main.go:85: Inserting 'u' into rope 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+uaouo' at Cursor (x=5, y=6)
+2024/05/05 10:51:02 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+uaouo'
+2024/05/05 10:51:03 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+uaou'
+2024/05/05 10:51:03 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+uao'
+2024/05/05 10:51:03 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+ua'
+2024/05/05 10:51:03 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+u'
+2024/05/05 10:51:03 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu
+'
+2024/05/05 10:51:03 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeuu'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoeu'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuaoe'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeuao'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeua'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoeu'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uaoe'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+uao'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+ua'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+u'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu
+'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoeu'
+2024/05/05 10:51:04 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuoe'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeuo'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoeu'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuaoe'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeuao'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeua'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoeu'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouoe'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aouo'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+aou'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+ao'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+a'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu
+'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoeu'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuaoe'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeuao'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeua'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoaeu'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoae'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuoa'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeuo'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoeu'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+aoe'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+ao'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+a'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu
+'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoeu'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuaoe'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeuao'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeua'
+2024/05/05 10:51:05 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoeu'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuaoe'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeuao'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeua'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoeu'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuoe'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeuo'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoeu'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+aoe'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+ao'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+a'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae
+'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeuae'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeua'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoaeu'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoae'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuoa'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeuo'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoaeu'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoae'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuoa'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeuo'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoeu'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+aoe'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+ao'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+a'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou
+'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuou'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeuo'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeu'
+2024/05/05 10:51:06 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoe'
+2024/05/05 10:51:07 main.go:92: Deleting character. Rope is now:
+ 'uaoeuo'
+2024/05/05 10:51:07 main.go:92: Deleting character. Rope is now:
+ 'uaoeu'
+2024/05/05 10:51:07 main.go:92: Deleting character. Rope is now:
+ 'uaoe'
+2024/05/05 10:51:07 main.go:92: Deleting character. Rope is now:
+ 'uao'
+2024/05/05 10:51:07 main.go:92: Deleting character. Rope is now:
+ 'ua'
+2024/05/05 10:51:07 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 10:51:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 10:51:24 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:51:24 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:51:24 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 10:51:24 main.go:85: Inserting 'o' into rope 'ua' at Cursor (x=2, y=0)
+2024/05/05 10:51:24 main.go:85: Inserting 'e' into rope 'uao' at Cursor (x=3, y=0)
+2024/05/05 10:51:24 main.go:85: Inserting 'u' into rope 'uaoe' at Cursor (x=4, y=0)
+2024/05/05 10:51:25 main.go:85: Inserting 'a' into rope 'uaoeu' at Cursor (x=5, y=0)
+2024/05/05 10:51:25 main.go:85: Inserting 'o' into rope 'uaoeua' at Cursor (x=6, y=0)
+2024/05/05 10:51:25 main.go:85: Inserting 'e' into rope 'uaoeuao' at Cursor (x=7, y=0)
+2024/05/05 10:51:25 main.go:85: Inserting 'u' into rope 'uaoeuaoe' at Cursor (x=8, y=0)
+2024/05/05 10:51:25 main.go:95: Inserting '\n' into rope 'uaoeuaoeu' at Cursor (x=9, y=0)
+2024/05/05 10:51:25 main.go:85: Inserting 'u' into rope 'uaoeuaoeu
+' at Cursor (x=0, y=1)
+2024/05/05 10:51:25 main.go:85: Inserting 'o' into rope 'uaoeuaoeu
+u' at Cursor (x=1, y=1)
+2024/05/05 10:51:25 main.go:85: Inserting 'e' into rope 'uaoeuaoeu
+uo' at Cursor (x=2, y=1)
+2024/05/05 10:51:25 main.go:85: Inserting 'a' into rope 'uaoeuaoeu
+uoe' at Cursor (x=3, y=1)
+2024/05/05 10:51:25 main.go:85: Inserting 'u' into rope 'uaoeuaoeu
+uoea' at Cursor (x=4, y=1)
+2024/05/05 10:51:25 main.go:85: Inserting 'o' into rope 'uaoeuaoeu
+uoeau' at Cursor (x=5, y=1)
+2024/05/05 10:51:25 main.go:85: Inserting 'e' into rope 'uaoeuaoeu
+uoeauo' at Cursor (x=6, y=1)
+2024/05/05 10:51:25 main.go:85: Inserting 'u' into rope 'uaoeuaoeu
+uoeauoe' at Cursor (x=7, y=1)
+2024/05/05 10:51:31 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:51:32 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:51:32 main.go:85: Inserting 'o' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 10:51:32 main.go:85: Inserting 'a' into rope 'uo' at Cursor (x=2, y=0)
+2024/05/05 10:51:32 main.go:85: Inserting 'e' into rope 'uoa' at Cursor (x=3, y=0)
+2024/05/05 10:51:33 main.go:85: Inserting 'u' into rope 'uoae' at Cursor (x=4, y=0)
+2024/05/05 10:51:33 main.go:85: Inserting 'o' into rope 'uoaeu' at Cursor (x=5, y=0)
+2024/05/05 10:51:33 main.go:85: Inserting 'a' into rope 'uoaeuo' at Cursor (x=6, y=0)
+2024/05/05 10:51:33 main.go:85: Inserting 'u' into rope 'uoaeuoa' at Cursor (x=7, y=0)
+2024/05/05 10:51:33 main.go:85: Inserting 'o' into rope 'uoaeuoau' at Cursor (x=8, y=0)
+2024/05/05 10:51:33 main.go:95: Inserting '\n' into rope 'uoaeuoauo' at Cursor (x=9, y=0)
+2024/05/05 10:51:33 main.go:85: Inserting 'u' into rope 'uoaeuoauo
+' at Cursor (x=0, y=1)
+2024/05/05 10:51:33 main.go:85: Inserting 'o' into rope 'uoaeuoauo
+u' at Cursor (x=1, y=1)
+2024/05/05 10:51:33 main.go:85: Inserting 'e' into rope 'uoaeuoauo
+uo' at Cursor (x=2, y=1)
+2024/05/05 10:51:33 main.go:85: Inserting 'u' into rope 'uoaeuoauo
+uoe' at Cursor (x=3, y=1)
+2024/05/05 10:51:33 main.go:85: Inserting 'a' into rope 'uoaeuoauo
+uoeu' at Cursor (x=4, y=1)
+2024/05/05 10:51:33 main.go:85: Inserting 'o' into rope 'uoaeuoauo
+uoeua' at Cursor (x=5, y=1)
+2024/05/05 10:52:04 main.go:85: Inserting 'u' into rope 'uoaeuoauo
+uoeuao' at Cursor (x=11, y=0)
+2024/05/05 10:52:04 main.go:85: Inserting 'a' into rope 'uoaeuoauo
+uuoeuao' at Cursor (x=12, y=0)
+2024/05/05 10:52:04 main.go:85: Inserting 'o' into rope 'uoaeuoauo
+uuaoeuao' at Cursor (x=13, y=0)
+2024/05/05 10:52:04 main.go:85: Inserting 'e' into rope 'uoaeuoauo
+uuaooeuao' at Cursor (x=14, y=0)
+2024/05/05 10:52:04 main.go:85: Inserting 'u' into rope 'uoaeuoauo
+uuaoeoeuao' at Cursor (x=15, y=0)
+2024/05/05 10:52:04 main.go:85: Inserting 'a' into rope 'uoaeuoauo
+uuaoeuoeuao' at Cursor (x=16, y=0)
+2024/05/05 10:52:04 main.go:85: Inserting 'o' into rope 'uoaeuoauo
+uuaoeuaoeuao' at Cursor (x=17, y=0)
+2024/05/05 10:52:04 main.go:85: Inserting 'u' into rope 'uoaeuoauo
+uuaoeuaooeuao' at Cursor (x=18, y=0)
+2024/05/05 10:52:04 main.go:95: Inserting '\n' into rope 'uoaeuoauo
+uuaoeuaouoeuao' at Cursor (x=19, y=0)
+2024/05/05 10:52:04 main.go:85: Inserting 'u' into rope 'uoaeuoauo
+uuaoeuaou
+oeuao' at Cursor (x=0, y=1)
+2024/05/05 10:52:04 main.go:85: Inserting 'a' into rope 'uoaeuoauo
+uuuaoeuaou
+oeuao' at Cursor (x=1, y=1)
+2024/05/05 10:52:04 main.go:85: Inserting 'o' into rope 'uoaeuoauo
+uauuaoeuaou
+oeuao' at Cursor (x=2, y=1)
+2024/05/05 10:52:04 main.go:85: Inserting 'e' into rope 'uoaeuoauo
+uaouuaoeuaou
+oeuao' at Cursor (x=3, y=1)
+2024/05/05 10:52:05 main.go:85: Inserting 'u' into rope 'uoaeuoauo
+uaoeuuaoeuaou
+oeuao' at Cursor (x=4, y=1)
+2024/05/05 10:52:05 main.go:85: Inserting 'a' into rope 'uoaeuoauo
+uaoeuuuaoeuaou
+oeuao' at Cursor (x=5, y=1)
+2024/05/05 10:52:05 main.go:85: Inserting 'o' into rope 'uoaeuoauo
+uaoeuauuaoeuaou
+oeuao' at Cursor (x=6, y=1)
+2024/05/05 10:52:05 main.go:85: Inserting 'e' into rope 'uoaeuoauo
+uaoeuaouuaoeuaou
+oeuao' at Cursor (x=7, y=1)
+2024/05/05 10:52:05 main.go:85: Inserting 'u' into rope 'uoaeuoauo
+uaoeuaoeuuaoeuaou
+oeuao' at Cursor (x=8, y=1)
+2024/05/05 10:52:05 main.go:85: Inserting 'a' into rope 'uoaeuoauo
+uaoeuaoeuuuaoeuaou
+oeuao' at Cursor (x=9, y=1)
+2024/05/05 10:52:05 main.go:85: Inserting 'o' into rope 'uoaeuoauo
+uaoeuaoeuauuaoeuaou
+oeuao' at Cursor (x=10, y=1)
+2024/05/05 10:52:05 main.go:85: Inserting 'e' into rope 'uoaeuoauo
+uaoeuaoeuaouuaoeuaou
+oeuao' at Cursor (x=11, y=1)
+2024/05/05 10:52:06 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:52:06 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:52:07 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 10:52:07 main.go:85: Inserting 'o' into rope 'ua' at Cursor (x=2, y=0)
+2024/05/05 10:52:07 main.go:85: Inserting 'u' into rope 'uao' at Cursor (x=3, y=0)
+2024/05/05 10:52:07 main.go:85: Inserting 'a' into rope 'uaou' at Cursor (x=4, y=0)
+2024/05/05 10:52:07 main.go:85: Inserting 'u' into rope 'uaoua' at Cursor (x=5, y=0)
+2024/05/05 10:52:07 main.go:95: Inserting '\n' into rope 'uaouau' at Cursor (x=6, y=0)
+2024/05/05 10:52:07 main.go:85: Inserting 'u' into rope 'uaouau
+' at Cursor (x=0, y=1)
+2024/05/05 10:52:07 main.go:85: Inserting 'o' into rope 'uaouau
+u' at Cursor (x=1, y=1)
+2024/05/05 10:52:07 main.go:85: Inserting 'e' into rope 'uaouau
+uo' at Cursor (x=2, y=1)
+2024/05/05 10:52:07 main.go:85: Inserting 'u' into rope 'uaouau
+uoe' at Cursor (x=3, y=1)
+2024/05/05 10:52:07 main.go:85: Inserting 'a' into rope 'uaouau
+uoeu' at Cursor (x=4, y=1)
+2024/05/05 10:52:07 main.go:85: Inserting 'o' into rope 'uaouau
+uoeua' at Cursor (x=5, y=1)
+2024/05/05 10:52:07 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuao' at Cursor (x=6, y=1)
+2024/05/05 10:52:07 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoe' at Cursor (x=7, y=1)
+2024/05/05 10:52:08 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeu' at Cursor (x=8, y=1)
+2024/05/05 10:52:08 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeua' at Cursor (x=9, y=1)
+2024/05/05 10:52:08 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuao' at Cursor (x=10, y=1)
+2024/05/05 10:52:08 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoe' at Cursor (x=11, y=1)
+2024/05/05 10:52:08 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeu' at Cursor (x=12, y=1)
+2024/05/05 10:52:08 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuo' at Cursor (x=13, y=1)
+2024/05/05 10:52:08 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoe' at Cursor (x=14, y=1)
+2024/05/05 10:52:08 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu' at Cursor (x=15, y=1)
+2024/05/05 10:52:08 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+' at Cursor (x=0, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+u' at Cursor (x=1, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+ua' at Cursor (x=2, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uao' at Cursor (x=3, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoe' at Cursor (x=4, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeu' at Cursor (x=5, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeua' at Cursor (x=6, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuao' at Cursor (x=7, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoe' at Cursor (x=8, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeu' at Cursor (x=9, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuo' at Cursor (x=10, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoa' at Cursor (x=11, y=2)
+2024/05/05 10:52:08 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoae' at Cursor (x=12, y=2)
+2024/05/05 10:52:09 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu' at Cursor (x=13, y=2)
+2024/05/05 10:52:09 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+' at Cursor (x=0, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+u' at Cursor (x=1, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+ua' at Cursor (x=2, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uao' at Cursor (x=3, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoe' at Cursor (x=4, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeu' at Cursor (x=5, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeua' at Cursor (x=6, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuao' at Cursor (x=7, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoe' at Cursor (x=8, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeu' at Cursor (x=9, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeua' at Cursor (x=10, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuao' at Cursor (x=11, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoe' at Cursor (x=12, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeu' at Cursor (x=13, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuo' at Cursor (x=14, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoa' at Cursor (x=15, y=3)
+2024/05/05 10:52:09 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae' at Cursor (x=16, y=3)
+2024/05/05 10:52:09 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+' at Cursor (x=0, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+u' at Cursor (x=1, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+ua' at Cursor (x=2, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uao' at Cursor (x=3, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoe' at Cursor (x=4, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeu' at Cursor (x=5, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuo' at Cursor (x=6, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoa' at Cursor (x=7, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoau' at Cursor (x=8, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoaua' at Cursor (x=9, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauao' at Cursor (x=10, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoe' at Cursor (x=11, y=4)
+2024/05/05 10:52:10 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu' at Cursor (x=12, y=4)
+2024/05/05 10:52:10 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+' at Cursor (x=0, y=5)
+2024/05/05 10:52:10 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+o' at Cursor (x=1, y=5)
+2024/05/05 10:52:10 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oa' at Cursor (x=2, y=5)
+2024/05/05 10:52:10 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oae' at Cursor (x=3, y=5)
+2024/05/05 10:52:10 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeu' at Cursor (x=4, y=5)
+2024/05/05 10:52:10 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeua' at Cursor (x=5, y=5)
+2024/05/05 10:52:10 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuao' at Cursor (x=6, y=5)
+2024/05/05 10:52:10 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoe' at Cursor (x=7, y=5)
+2024/05/05 10:52:11 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeu' at Cursor (x=8, y=5)
+2024/05/05 10:52:11 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeua' at Cursor (x=9, y=5)
+2024/05/05 10:52:11 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuao' at Cursor (x=10, y=5)
+2024/05/05 10:52:11 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoe' at Cursor (x=11, y=5)
+2024/05/05 10:52:11 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeu' at Cursor (x=12, y=5)
+2024/05/05 10:52:11 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuo' at Cursor (x=13, y=5)
+2024/05/05 10:52:11 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoa' at Cursor (x=14, y=5)
+2024/05/05 10:52:11 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoau' at Cursor (x=15, y=5)
+2024/05/05 10:52:11 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue' at Cursor (x=16, y=5)
+2024/05/05 10:52:11 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+' at Cursor (x=0, y=6)
+2024/05/05 10:52:11 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+u' at Cursor (x=1, y=6)
+2024/05/05 10:52:11 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+ua' at Cursor (x=2, y=6)
+2024/05/05 10:52:11 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uao' at Cursor (x=3, y=6)
+2024/05/05 10:52:11 main.go:85: Inserting 'a' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaou' at Cursor (x=4, y=6)
+2024/05/05 10:52:11 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaoua' at Cursor (x=5, y=6)
+2024/05/05 10:52:11 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouao' at Cursor (x=6, y=6)
+2024/05/05 10:52:12 main.go:85: Inserting 'u' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoe' at Cursor (x=7, y=6)
+2024/05/05 10:52:12 main.go:85: Inserting 'o' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeu' at Cursor (x=8, y=6)
+2024/05/05 10:52:12 main.go:85: Inserting 'e' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuo' at Cursor (x=9, y=6)
+2024/05/05 10:52:12 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe' at Cursor (x=10, y=6)
+2024/05/05 10:52:12 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+' at Cursor (x=0, y=7)
+2024/05/05 10:52:12 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+' at Cursor (x=0, y=8)
+2024/05/05 10:52:12 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+' at Cursor (x=0, y=9)
+2024/05/05 10:52:12 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+' at Cursor (x=0, y=10)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+' at Cursor (x=0, y=11)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+' at Cursor (x=0, y=12)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+' at Cursor (x=0, y=13)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+' at Cursor (x=0, y=14)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=15)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=16)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=17)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=18)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=19)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=20)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=21)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=22)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=23)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=24)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=25)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=26)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=27)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=28)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=29)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=30)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=31)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=32)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=33)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=34)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=35)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=36)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=37)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=38)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=39)
+2024/05/05 10:52:13 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=40)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=41)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=42)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=43)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=44)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:14 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:15 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:15 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:15 main.go:95: Inserting '\n' into rope 'uaouau
+uoeuaoeuaoeuoeu
+uaoeuaoeuoaeu
+uaoeuaoeuaoeuoae
+uaoeuoauaoeu
+oaeuaoeuaoeuoaue
+uaouaoeuoe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=45)
+2024/05/05 10:52:29 main.go:248: Started program without any files. Created new rope.
+2024/05/05 10:52:30 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:52:30 main.go:85: Inserting 'o' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 10:52:30 main.go:85: Inserting 'e' into rope 'uo' at Cursor (x=2, y=0)
+2024/05/05 10:52:30 main.go:85: Inserting 'a' into rope 'uoe' at Cursor (x=3, y=0)
+2024/05/05 10:52:30 main.go:85: Inserting 'u' into rope 'uoea' at Cursor (x=4, y=0)
+2024/05/05 10:52:30 main.go:85: Inserting 'a' into rope 'uoeau' at Cursor (x=5, y=0)
+2024/05/05 10:52:30 main.go:85: Inserting 'o' into rope 'uoeaua' at Cursor (x=6, y=0)
+2024/05/05 10:52:30 main.go:85: Inserting 'e' into rope 'uoeauao' at Cursor (x=7, y=0)
+2024/05/05 10:52:30 main.go:85: Inserting 'u' into rope 'uoeauaoe' at Cursor (x=8, y=0)
+2024/05/05 10:52:30 main.go:95: Inserting '\n' into rope 'uoeauaoeu' at Cursor (x=9, y=0)
+2024/05/05 10:52:30 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+' at Cursor (x=0, y=1)
+2024/05/05 10:52:30 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+o' at Cursor (x=1, y=1)
+2024/05/05 10:52:30 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oe' at Cursor (x=2, y=1)
+2024/05/05 10:52:30 main.go:85: Inserting 'a' into rope 'uoeauaoeu
+oeu' at Cursor (x=3, y=1)
+2024/05/05 10:52:30 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeua' at Cursor (x=4, y=1)
+2024/05/05 10:52:30 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuao' at Cursor (x=5, y=1)
+2024/05/05 10:52:30 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoe' at Cursor (x=6, y=1)
+2024/05/05 10:52:31 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu' at Cursor (x=7, y=1)
+2024/05/05 10:52:31 main.go:85: Inserting 'a' into rope 'uoeauaoeu
+oeuaoeu
+' at Cursor (x=0, y=2)
+2024/05/05 10:52:31 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+a' at Cursor (x=1, y=2)
+2024/05/05 10:52:31 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+ao' at Cursor (x=2, y=2)
+2024/05/05 10:52:31 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoe' at Cursor (x=3, y=2)
+2024/05/05 10:52:31 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu' at Cursor (x=4, y=2)
+2024/05/05 10:52:31 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+' at Cursor (x=0, y=3)
+2024/05/05 10:52:31 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+' at Cursor (x=0, y=4)
+2024/05/05 10:52:31 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+' at Cursor (x=0, y=5)
+2024/05/05 10:52:31 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/05 10:52:32 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+' at Cursor (x=0, y=7)
+2024/05/05 10:52:32 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+' at Cursor (x=0, y=8)
+2024/05/05 10:52:32 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+' at Cursor (x=0, y=9)
+2024/05/05 10:52:32 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+' at Cursor (x=0, y=10)
+2024/05/05 10:52:32 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=11)
+2024/05/05 10:52:32 main.go:85: Inserting 'a' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+u' at Cursor (x=1, y=11)
+2024/05/05 10:52:32 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+ua' at Cursor (x=2, y=11)
+2024/05/05 10:52:32 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uao' at Cursor (x=3, y=11)
+2024/05/05 10:52:32 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoe' at Cursor (x=4, y=11)
+2024/05/05 10:52:32 main.go:85: Inserting 'a' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeu' at Cursor (x=5, y=11)
+2024/05/05 10:52:32 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeua' at Cursor (x=6, y=11)
+2024/05/05 10:52:32 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuao' at Cursor (x=7, y=11)
+2024/05/05 10:52:33 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoe' at Cursor (x=8, y=11)
+2024/05/05 10:52:33 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeu' at Cursor (x=9, y=11)
+2024/05/05 10:52:33 main.go:85: Inserting 'a' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuo' at Cursor (x=10, y=11)
+2024/05/05 10:52:33 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa' at Cursor (x=11, y=11)
+2024/05/05 10:52:33 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+' at Cursor (x=0, y=12)
+2024/05/05 10:52:33 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+u' at Cursor (x=1, y=12)
+2024/05/05 10:52:33 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uo' at Cursor (x=2, y=12)
+2024/05/05 10:52:33 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe' at Cursor (x=3, y=12)
+2024/05/05 10:52:33 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+' at Cursor (x=0, y=13)
+2024/05/05 10:52:33 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u' at Cursor (x=1, y=13)
+2024/05/05 10:52:33 main.go:85: Inserting 'a' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+' at Cursor (x=0, y=14)
+2024/05/05 10:52:33 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+a' at Cursor (x=1, y=14)
+2024/05/05 10:52:33 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+ao' at Cursor (x=2, y=14)
+2024/05/05 10:52:33 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe' at Cursor (x=3, y=14)
+2024/05/05 10:52:33 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+' at Cursor (x=0, y=15)
+2024/05/05 10:52:33 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+u' at Cursor (x=1, y=15)
+2024/05/05 10:52:33 main.go:85: Inserting 'a' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uo' at Cursor (x=2, y=15)
+2024/05/05 10:52:33 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoa' at Cursor (x=3, y=15)
+2024/05/05 10:52:33 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae' at Cursor (x=4, y=15)
+2024/05/05 10:52:33 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+' at Cursor (x=0, y=16)
+2024/05/05 10:52:33 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+u' at Cursor (x=1, y=16)
+2024/05/05 10:52:34 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo' at Cursor (x=2, y=16)
+2024/05/05 10:52:34 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+' at Cursor (x=0, y=17)
+2024/05/05 10:52:34 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+e' at Cursor (x=1, y=17)
+2024/05/05 10:52:34 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu' at Cursor (x=2, y=17)
+2024/05/05 10:52:34 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+' at Cursor (x=0, y=18)
+2024/05/05 10:52:34 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+o' at Cursor (x=1, y=18)
+2024/05/05 10:52:34 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oe' at Cursor (x=2, y=18)
+2024/05/05 10:52:34 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeu' at Cursor (x=3, y=18)
+2024/05/05 10:52:34 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuo' at Cursor (x=4, y=18)
+2024/05/05 10:52:34 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe' at Cursor (x=5, y=18)
+2024/05/05 10:52:34 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+' at Cursor (x=0, y=19)
+2024/05/05 10:52:34 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u' at Cursor (x=1, y=19)
+2024/05/05 10:52:34 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+' at Cursor (x=0, y=20)
+2024/05/05 10:52:34 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+o' at Cursor (x=1, y=20)
+2024/05/05 10:52:34 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oo' at Cursor (x=2, y=20)
+2024/05/05 10:52:34 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou' at Cursor (x=3, y=20)
+2024/05/05 10:52:34 main.go:85: Inserting 'a' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+' at Cursor (x=0, y=21)
+2024/05/05 10:52:34 main.go:95: Inserting '\n' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a' at Cursor (x=1, y=21)
+2024/05/05 10:52:34 main.go:85: Inserting 'o' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+' at Cursor (x=0, y=22)
+2024/05/05 10:52:34 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+o' at Cursor (x=1, y=22)
+2024/05/05 10:52:34 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+oe' at Cursor (x=2, y=22)
+2024/05/05 10:52:34 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+oeu' at Cursor (x=3, y=22)
+2024/05/05 10:52:34 main.go:85: Inserting 'e' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+oeuu' at Cursor (x=4, y=22)
+2024/05/05 10:52:35 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+oeuue' at Cursor (x=5, y=22)
+2024/05/05 10:52:35 main.go:85: Inserting 'u' into rope 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+oeuueu' at Cursor (x=6, y=22)
+2024/05/05 10:52:35 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+oeuueu'
+2024/05/05 10:52:35 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+oeuue'
+2024/05/05 10:52:35 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+oeuu'
+2024/05/05 10:52:35 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+oeu'
+2024/05/05 10:52:35 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+oe'
+2024/05/05 10:52:35 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+o'
+2024/05/05 10:52:35 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a
+'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+a'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou
+'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oou'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+oo'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+o'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u
+'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+u'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe
+'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuoe'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeuo'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oeu'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+oe'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+o'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu
+'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+eu'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+e'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo
+'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+uo'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+u'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae
+'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoae'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uoa'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+uo'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+u'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe
+'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+aoe'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+ao'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+a'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u
+'
+2024/05/05 10:52:36 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+u'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uoe'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+uo'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+u'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuoa'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeuo'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoeu'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuaoe'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeuao'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeua'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoeu'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uaoe'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+uao'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+ua'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+u'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+
+'
+2024/05/05 10:52:37 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+'
+2024/05/05 10:52:38 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+
+'
+2024/05/05 10:52:38 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+'
+2024/05/05 10:52:38 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu
+'
+2024/05/05 10:52:38 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoeu'
+2024/05/05 10:52:38 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+aoe'
+2024/05/05 10:52:38 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+ao'
+2024/05/05 10:52:38 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+a'
+2024/05/05 10:52:38 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu
+'
+2024/05/05 10:52:39 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoeu'
+2024/05/05 10:52:39 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuaoe'
+2024/05/05 10:52:39 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeuao'
+2024/05/05 10:52:39 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeua'
+2024/05/05 10:52:39 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oeu'
+2024/05/05 10:52:39 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+oe'
+2024/05/05 10:52:40 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+o'
+2024/05/05 10:52:40 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu
+'
+2024/05/05 10:52:40 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoeu'
+2024/05/05 10:52:40 main.go:92: Deleting character. Rope is now:
+ 'uoeauaoe'
+2024/05/05 10:52:40 main.go:92: Deleting character. Rope is now:
+ 'uoeauao'
+2024/05/05 10:52:40 main.go:92: Deleting character. Rope is now:
+ 'uoeaua'
+2024/05/05 10:52:41 main.go:92: Deleting character. Rope is now:
+ 'uoeau'
+2024/05/05 10:52:41 main.go:92: Deleting character. Rope is now:
+ 'uoea'
+2024/05/05 10:52:41 main.go:92: Deleting character. Rope is now:
+ 'uoe'
+2024/05/05 10:52:41 main.go:92: Deleting character. Rope is now:
+ 'uo'
+2024/05/05 10:52:41 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 10:52:42 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 10:52:42 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:52:43 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 10:52:43 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 10:52:43 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 10:52:43 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 10:52:43 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 10:52:43 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 10:52:44 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 10:52:44 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 10:52:44 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 10:52:44 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 10:52:44 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 10:59:47 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'o' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'e' into rope 'uo' at Cursor (x=2, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'a' into rope 'uoe' at Cursor (x=3, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'u' into rope 'uoea' at Cursor (x=4, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'a' into rope 'uoeau' at Cursor (x=5, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'o' into rope 'uoeaua' at Cursor (x=6, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'e' into rope 'uoeauao' at Cursor (x=7, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'u' into rope 'uoeauaoe' at Cursor (x=8, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'o' into rope 'uoeauaoeu' at Cursor (x=9, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'a' into rope 'uoeauaoeuo' at Cursor (x=10, y=0)
+2024/05/05 10:59:47 main.go:85: Inserting 'u' into rope 'uoeauaoeuoa' at Cursor (x=11, y=0)
+2024/05/05 10:59:48 main.go:95: Inserting '\n' into rope 'uoeauaoeuoau' at Cursor (x=12, y=0)
+2024/05/05 10:59:48 main.go:85: Inserting 'u' into rope 'uoeauaoeuoau
+' at Cursor (x=0, y=1)
+2024/05/05 10:59:48 main.go:85: Inserting 'a' into rope 'uoeauaoeuoau
+u' at Cursor (x=1, y=1)
+2024/05/05 10:59:48 main.go:85: Inserting 'o' into rope 'uoeauaoeuoau
+ua' at Cursor (x=2, y=1)
+2024/05/05 10:59:48 main.go:85: Inserting 'e' into rope 'uoeauaoeuoau
+uao' at Cursor (x=3, y=1)
+2024/05/05 10:59:48 main.go:85: Inserting 'u' into rope 'uoeauaoeuoau
+uaoe' at Cursor (x=4, y=1)
+2024/05/05 11:00:35 main.go:209: Started program without any files. Created new rope.
+2024/05/05 11:00:37 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:00:37 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 11:00:37 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 11:00:37 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 11:00:38 main.go:95: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/05 11:00:38 main.go:95: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/05 11:00:38 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/05 11:00:38 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+' at Cursor (x=0, y=7)
+2024/05/05 11:54:31 main.go:209: Started program without any files. Created new rope.
+2024/05/05 11:54:31 main.go:85: Inserting 'a' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:54:31 main.go:85: Inserting 'u' into rope 'a' at Cursor (x=1, y=0)
+2024/05/05 11:54:31 main.go:85: Inserting 'o' into rope 'au' at Cursor (x=2, y=0)
+2024/05/05 11:54:31 main.go:85: Inserting 'e' into rope 'auo' at Cursor (x=3, y=0)
+2024/05/05 11:54:31 main.go:85: Inserting 'u' into rope 'auoe' at Cursor (x=4, y=0)
+2024/05/05 11:54:32 main.go:85: Inserting 'a' into rope 'auoeu' at Cursor (x=5, y=0)
+2024/05/05 11:54:32 main.go:85: Inserting 'o' into rope 'auoeua' at Cursor (x=6, y=0)
+2024/05/05 11:54:32 main.go:85: Inserting 'e' into rope 'auoeuao' at Cursor (x=7, y=0)
+2024/05/05 11:54:32 main.go:85: Inserting 'u' into rope 'auoeuaoe' at Cursor (x=8, y=0)
+2024/05/05 11:54:32 main.go:85: Inserting 'a' into rope 'auoeuaoeu' at Cursor (x=9, y=0)
+2024/05/05 11:54:32 main.go:85: Inserting 'o' into rope 'auoeuaoeua' at Cursor (x=10, y=0)
+2024/05/05 11:54:32 main.go:85: Inserting 'u' into rope 'auoeuaoeuao' at Cursor (x=11, y=0)
+2024/05/05 11:54:32 main.go:85: Inserting 'e' into rope 'auoeuaoeuaou' at Cursor (x=12, y=0)
+2024/05/05 11:54:32 main.go:95: Inserting '\n' into rope 'auoeuaoeuaoue' at Cursor (x=13, y=0)
+2024/05/05 11:54:32 main.go:85: Inserting 'a' into rope 'auoeuaoeuaoue
+' at Cursor (x=0, y=1)
+2024/05/05 11:54:32 main.go:85: Inserting 'o' into rope 'auoeuaoeuaoue
+a' at Cursor (x=1, y=1)
+2024/05/05 11:54:32 main.go:85: Inserting 'e' into rope 'auoeuaoeuaoue
+ao' at Cursor (x=2, y=1)
+2024/05/05 11:54:32 main.go:85: Inserting 'u' into rope 'auoeuaoeuaoue
+aoe' at Cursor (x=3, y=1)
+2024/05/05 11:54:32 main.go:85: Inserting 'o' into rope 'auoeuaoeuaoue
+aoeu' at Cursor (x=4, y=1)
+2024/05/05 11:54:32 main.go:85: Inserting 'e' into rope 'auoeuaoeuaoue
+aoeuo' at Cursor (x=5, y=1)
+2024/05/05 11:54:32 main.go:85: Inserting 'u' into rope 'auoeuaoeuaoue
+aoeuoe' at Cursor (x=6, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'o' into rope 'auoeuaoeuaoue
+aoeuoeu' at Cursor (x=7, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'e' into rope 'auoeuaoeuaoue
+aoeuoeuo' at Cursor (x=8, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'a' into rope 'auoeuaoeuaoue
+aoeuoeuoe' at Cursor (x=9, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'u' into rope 'auoeuaoeuaoue
+aoeuoeuoea' at Cursor (x=10, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'a' into rope 'auoeuaoeuaoue
+aoeuoeuoeau' at Cursor (x=11, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'o' into rope 'auoeuaoeuaoue
+aoeuoeuoeaua' at Cursor (x=12, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'u' into rope 'auoeuaoeuaoue
+aoeuoeuoeauao' at Cursor (x=13, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'o' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaou' at Cursor (x=14, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'e' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouo' at Cursor (x=15, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'a' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoe' at Cursor (x=16, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'u' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoea' at Cursor (x=17, y=1)
+2024/05/05 11:54:33 main.go:95: Inserting '\n' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau' at Cursor (x=18, y=1)
+2024/05/05 11:54:33 main.go:85: Inserting 'u' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+' at Cursor (x=0, y=2)
+2024/05/05 11:54:33 main.go:85: Inserting 'a' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+u' at Cursor (x=1, y=2)
+2024/05/05 11:54:33 main.go:85: Inserting 'o' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+ua' at Cursor (x=2, y=2)
+2024/05/05 11:54:33 main.go:85: Inserting 'e' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uao' at Cursor (x=3, y=2)
+2024/05/05 11:54:33 main.go:85: Inserting 'u' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoe' at Cursor (x=4, y=2)
+2024/05/05 11:54:34 main.go:85: Inserting 'a' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeu' at Cursor (x=5, y=2)
+2024/05/05 11:54:34 main.go:85: Inserting 'o' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeua' at Cursor (x=6, y=2)
+2024/05/05 11:54:34 main.go:85: Inserting 'e' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuao' at Cursor (x=7, y=2)
+2024/05/05 11:54:34 main.go:85: Inserting 'u' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoe' at Cursor (x=8, y=2)
+2024/05/05 11:54:34 main.go:85: Inserting 'o' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeu' at Cursor (x=9, y=2)
+2024/05/05 11:54:34 main.go:85: Inserting 'a' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuo' at Cursor (x=10, y=2)
+2024/05/05 11:54:34 main.go:85: Inserting 'e' into rope 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoa' at Cursor (x=11, y=2)
+2024/05/05 11:54:34 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:34 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:34 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:34 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:34 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:34 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:34 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:35 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:35 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:35 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:35 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:35 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:35 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:35 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:36 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:36 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:36 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:36 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:36 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:36 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:37 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:38 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:38 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:38 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:54:38 main.go:92: Deleting character. Rope is now:
+ 'auoeuaoeuaoue
+aoeuoeuoeauaouoeau
+uaoeuaoeuoae'
+2024/05/05 11:55:34 main.go:209: Started program without any files. Created new rope.
+2024/05/05 11:55:35 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:55:35 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:55:35 main.go:85: Inserting 'u' into rope 'ua' at Cursor (x=2, y=0)
+2024/05/05 11:55:35 main.go:85: Inserting 'o' into rope 'uau' at Cursor (x=3, y=0)
+2024/05/05 11:55:35 main.go:85: Inserting 'e' into rope 'uauo' at Cursor (x=4, y=0)
+2024/05/05 11:55:35 main.go:85: Inserting 'u' into rope 'uauoe' at Cursor (x=5, y=0)
+2024/05/05 11:55:35 main.go:85: Inserting 'o' into rope 'uauoeu' at Cursor (x=6, y=0)
+2024/05/05 11:55:35 main.go:85: Inserting 'e' into rope 'uauoeuo' at Cursor (x=7, y=0)
+2024/05/05 11:55:36 main.go:92: Deleting character. Rope is now:
+ 'uauoeuoe'
+2024/05/05 11:55:36 main.go:92: Deleting character. Rope is now:
+ 'uauoeuo'
+2024/05/05 11:55:36 main.go:92: Deleting character. Rope is now:
+ 'uauoeu'
+2024/05/05 11:55:37 main.go:92: Deleting character. Rope is now:
+ 'uauoe'
+2024/05/05 11:55:37 main.go:92: Deleting character. Rope is now:
+ 'uauo'
+2024/05/05 11:55:45 main.go:209: Started program without any files. Created new rope.
+2024/05/05 11:55:45 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:55:45 main.go:85: Inserting 'u' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:55:45 main.go:85: Inserting 'u' into rope 'uu' at Cursor (x=2, y=0)
+2024/05/05 11:55:46 main.go:92: Deleting character. Rope is now:
+ 'uu'
+2024/05/05 11:55:46 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 11:55:46 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:47 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:47 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:48 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:48 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:48 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:48 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:48 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:48 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:55:48 main.go:85: Inserting 'o' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:55:48 main.go:85: Inserting 'a' into rope 'uo' at Cursor (x=2, y=0)
+2024/05/05 11:55:48 main.go:85: Inserting 'e' into rope 'uoa' at Cursor (x=3, y=0)
+2024/05/05 11:55:48 main.go:85: Inserting 'u' into rope 'uoae' at Cursor (x=4, y=0)
+2024/05/05 11:55:49 main.go:85: Inserting 'a' into rope 'uoaeu' at Cursor (x=5, y=0)
+2024/05/05 11:55:49 main.go:85: Inserting 'o' into rope 'uoaeua' at Cursor (x=6, y=0)
+2024/05/05 11:55:49 main.go:85: Inserting 'e' into rope 'uoaeuao' at Cursor (x=7, y=0)
+2024/05/05 11:55:49 main.go:85: Inserting 'u' into rope 'uoaeuaoe' at Cursor (x=8, y=0)
+2024/05/05 11:55:49 main.go:85: Inserting 'o' into rope 'uoaeuaoeu' at Cursor (x=9, y=0)
+2024/05/05 11:55:49 main.go:85: Inserting 'a' into rope 'uoaeuaoeuo' at Cursor (x=10, y=0)
+2024/05/05 11:55:49 main.go:85: Inserting 'e' into rope 'uoaeuaoeuoa' at Cursor (x=11, y=0)
+2024/05/05 11:55:49 main.go:85: Inserting 'u' into rope 'uoaeuaoeuoae' at Cursor (x=12, y=0)
+2024/05/05 11:55:49 main.go:85: Inserting 'o' into rope 'uoaeuaoeuoaeu' at Cursor (x=13, y=0)
+2024/05/05 11:55:49 main.go:85: Inserting 'e' into rope 'uoaeuaoeuoaeuo' at Cursor (x=14, y=0)
+2024/05/05 11:55:49 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoeuoaeuo'
+2024/05/05 11:55:49 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoeuoaeu'
+2024/05/05 11:55:49 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoeuoae'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoeuoa'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoeuo'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoeu'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoe'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'uoaeuao'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'uoaeua'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'uoaeu'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'uoae'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'uoa'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'uo'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:50 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:51 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:51 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:51 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:51 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:51 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:51 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:55:52 main.go:85: Inserting 'a' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:55:52 main.go:85: Inserting 'u' into rope 'a' at Cursor (x=1, y=0)
+2024/05/05 11:55:52 main.go:85: Inserting 'o' into rope 'au' at Cursor (x=2, y=0)
+2024/05/05 11:55:52 main.go:85: Inserting 'e' into rope 'auo' at Cursor (x=3, y=0)
+2024/05/05 11:55:52 main.go:85: Inserting 'u' into rope 'auoe' at Cursor (x=4, y=0)
+2024/05/05 11:55:52 main.go:85: Inserting 'u' into rope 'auoeu' at Cursor (x=5, y=0)
+2024/05/05 11:55:52 main.go:85: Inserting 'a' into rope 'auoeuu' at Cursor (x=6, y=0)
+2024/05/05 11:55:52 main.go:85: Inserting 'o' into rope 'auoeuua' at Cursor (x=7, y=0)
+2024/05/05 11:55:52 main.go:85: Inserting 'u' into rope 'auoeuuao' at Cursor (x=8, y=0)
+2024/05/05 11:55:52 main.go:95: Inserting '\n' into rope 'auoeuuaou' at Cursor (x=9, y=0)
+2024/05/05 11:55:52 main.go:85: Inserting 'u' into rope 'auoeuuaou
+' at Cursor (x=0, y=1)
+2024/05/05 11:55:52 main.go:85: Inserting 'o' into rope 'auoeuuaou
+u' at Cursor (x=1, y=1)
+2024/05/05 11:55:52 main.go:85: Inserting 'u' into rope 'auoeuuaou
+uo' at Cursor (x=2, y=1)
+2024/05/05 11:55:53 main.go:85: Inserting 'a' into rope 'auoeuuaou
+uou' at Cursor (x=3, y=1)
+2024/05/05 11:55:53 main.go:85: Inserting 'o' into rope 'auoeuuaou
+uoua' at Cursor (x=4, y=1)
+2024/05/05 11:55:53 main.go:85: Inserting 'e' into rope 'auoeuuaou
+uouao' at Cursor (x=5, y=1)
+2024/05/05 11:55:53 main.go:85: Inserting 'u' into rope 'auoeuuaou
+uouaoe' at Cursor (x=6, y=1)
+2024/05/05 11:55:53 main.go:85: Inserting 'a' into rope 'auoeuuaou
+uouaoeu' at Cursor (x=7, y=1)
+2024/05/05 11:55:53 main.go:85: Inserting 'o' into rope 'auoeuuaou
+uouaoeua' at Cursor (x=8, y=1)
+2024/05/05 11:55:53 main.go:85: Inserting 'e' into rope 'auoeuuaou
+uouaoeuao' at Cursor (x=9, y=1)
+2024/05/05 11:55:53 main.go:85: Inserting 'u' into rope 'auoeuuaou
+uouaoeuaoe' at Cursor (x=10, y=1)
+2024/05/05 11:55:53 main.go:95: Inserting '\n' into rope 'auoeuuaou
+uouaoeuaoeu' at Cursor (x=11, y=1)
+2024/05/05 11:55:53 main.go:85: Inserting 'u' into rope 'auoeuuaou
+uouaoeuaoeu
+' at Cursor (x=0, y=2)
+2024/05/05 11:55:53 main.go:85: Inserting 'o' into rope 'auoeuuaou
+uouaoeuaoeu
+u' at Cursor (x=1, y=2)
+2024/05/05 11:55:53 main.go:85: Inserting 'e' into rope 'auoeuuaou
+uouaoeuaoeu
+uo' at Cursor (x=2, y=2)
+2024/05/05 11:55:53 main.go:85: Inserting 'u' into rope 'auoeuuaou
+uouaoeuaoeu
+uoe' at Cursor (x=3, y=2)
+2024/05/05 11:55:53 main.go:92: Deleting character. Rope is now:
+ 'auoeuuaou
+uouaoeuaoeu
+uoe'
+2024/05/05 11:55:54 main.go:92: Deleting character. Rope is now:
+ 'auoeuuaou
+uouaoeuaoeu
+uo'
+2024/05/05 11:55:54 main.go:92: Deleting character. Rope is now:
+ 'auoeuuaou
+uouaoeuaoeu
+u'
+2024/05/05 11:55:54 main.go:92: Deleting character. Rope is now:
+ 'auoeuuaou
+uouaoeuaoeu
+'
+2024/05/05 11:55:54 main.go:92: Deleting character. Rope is now:
+ 'auoeuuaou
+uouaoeuaoeu'
+2024/05/05 11:55:59 main.go:209: Started program without any files. Created new rope.
+2024/05/05 11:55:59 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:55:59 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:55:59 main.go:85: Inserting 'o' into rope 'ua' at Cursor (x=2, y=0)
+2024/05/05 11:55:59 main.go:85: Inserting 'e' into rope 'uao' at Cursor (x=3, y=0)
+2024/05/05 11:55:59 main.go:85: Inserting 'u' into rope 'uaoe' at Cursor (x=4, y=0)
+2024/05/05 11:55:59 main.go:85: Inserting 'a' into rope 'uaoeu' at Cursor (x=5, y=0)
+2024/05/05 11:55:59 main.go:85: Inserting 'o' into rope 'uaoeua' at Cursor (x=6, y=0)
+2024/05/05 11:55:59 main.go:85: Inserting 'e' into rope 'uaoeuao' at Cursor (x=7, y=0)
+2024/05/05 11:56:00 main.go:95: Inserting '\n' into rope 'uaoeuaoe' at Cursor (x=8, y=0)
+2024/05/05 11:56:00 main.go:85: Inserting 'u' into rope 'uaoeuaoe
+' at Cursor (x=0, y=1)
+2024/05/05 11:56:00 main.go:85: Inserting 'a' into rope 'uaoeuaoe
+u' at Cursor (x=1, y=1)
+2024/05/05 11:56:00 main.go:85: Inserting 'o' into rope 'uaoeuaoe
+ua' at Cursor (x=2, y=1)
+2024/05/05 11:56:00 main.go:85: Inserting 'e' into rope 'uaoeuaoe
+uao' at Cursor (x=3, y=1)
+2024/05/05 11:56:00 main.go:85: Inserting 'u' into rope 'uaoeuaoe
+uaoe' at Cursor (x=4, y=1)
+2024/05/05 11:56:00 main.go:85: Inserting 'a' into rope 'uaoeuaoe
+uaoeu' at Cursor (x=5, y=1)
+2024/05/05 11:56:00 main.go:85: Inserting 'o' into rope 'uaoeuaoe
+uaoeua' at Cursor (x=6, y=1)
+2024/05/05 11:56:00 main.go:85: Inserting 'e' into rope 'uaoeuaoe
+uaoeuao' at Cursor (x=7, y=1)
+2024/05/05 11:56:00 main.go:85: Inserting 'u' into rope 'uaoeuaoe
+uaoeuaoe' at Cursor (x=8, y=1)
+2024/05/05 11:56:00 main.go:95: Inserting '\n' into rope 'uaoeuaoe
+uaoeuaoeu' at Cursor (x=9, y=1)
+2024/05/05 11:56:00 main.go:85: Inserting 'u' into rope 'uaoeuaoe
+uaoeuaoeu
+' at Cursor (x=0, y=2)
+2024/05/05 11:56:00 main.go:85: Inserting 'a' into rope 'uaoeuaoe
+uaoeuaoeu
+u' at Cursor (x=1, y=2)
+2024/05/05 11:56:00 main.go:85: Inserting 'o' into rope 'uaoeuaoe
+uaoeuaoeu
+ua' at Cursor (x=2, y=2)
+2024/05/05 11:56:00 main.go:85: Inserting 'u' into rope 'uaoeuaoe
+uaoeuaoeu
+uao' at Cursor (x=3, y=2)
+2024/05/05 11:56:00 main.go:85: Inserting 'e' into rope 'uaoeuaoe
+uaoeuaoeu
+uaou' at Cursor (x=4, y=2)
+2024/05/05 11:56:00 main.go:85: Inserting 'o' into rope 'uaoeuaoe
+uaoeuaoeu
+uaoue' at Cursor (x=5, y=2)
+2024/05/05 11:56:00 main.go:85: Inserting 'a' into rope 'uaoeuaoe
+uaoeuaoeu
+uaoueo' at Cursor (x=6, y=2)
+2024/05/05 11:56:01 main.go:85: Inserting 'u' into rope 'uaoeuaoe
+uaoeuaoeu
+uaoueoa' at Cursor (x=7, y=2)
+2024/05/05 11:56:01 main.go:92: Deleting character. Rope is now:
+ 'uaoeuaoe
+uaoeuaoeu
+uaoueoa'
+2024/05/05 11:56:01 main.go:92: Deleting character. Rope is now:
+ 'uaoeuaoe
+uaoeuaoeu
+uaoueo'
+2024/05/05 11:56:01 main.go:92: Deleting character. Rope is now:
+ 'uaoeuaoe
+uaoeuaoeu
+uaoue'
+2024/05/05 11:56:01 main.go:92: Deleting character. Rope is now:
+ 'uaoeuaoe
+uaoeuaoeu
+uaou'
+2024/05/05 11:56:01 main.go:92: Deleting character. Rope is now:
+ 'uaoeuaoe
+uaoeuaoeu
+uao'
+2024/05/05 11:56:01 main.go:92: Deleting character. Rope is now:
+ 'uaoeuaoe
+uaoeuaoeu
+ua'
+2024/05/05 11:56:01 main.go:92: Deleting character. Rope is now:
+ 'uaoeuaoe
+uaoeuaoeu
+u'
+2024/05/05 11:56:01 main.go:92: Deleting character. Rope is now:
+ 'uaoeuaoe
+uaoeuaoeu
+'
+2024/05/05 11:56:02 main.go:92: Deleting character. Rope is now:
+ 'uaoeuaoe
+uaoeuaoeu'
+2024/05/05 11:56:03 main.go:209: Started program without any files. Created new rope.
+2024/05/05 11:56:03 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:56:03 main.go:85: Inserting 'o' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:56:03 main.go:85: Inserting 'a' into rope 'uo' at Cursor (x=2, y=0)
+2024/05/05 11:56:03 main.go:85: Inserting 'e' into rope 'uoa' at Cursor (x=3, y=0)
+2024/05/05 11:56:03 main.go:85: Inserting 'u' into rope 'uoae' at Cursor (x=4, y=0)
+2024/05/05 11:56:03 main.go:85: Inserting 'a' into rope 'uoaeu' at Cursor (x=5, y=0)
+2024/05/05 11:56:03 main.go:85: Inserting 'o' into rope 'uoaeua' at Cursor (x=6, y=0)
+2024/05/05 11:56:04 main.go:85: Inserting 'e' into rope 'uoaeuao' at Cursor (x=7, y=0)
+2024/05/05 11:56:04 main.go:85: Inserting 'u' into rope 'uoaeuaoe' at Cursor (x=8, y=0)
+2024/05/05 11:56:04 main.go:85: Inserting 'a' into rope 'uoaeuaoeu' at Cursor (x=9, y=0)
+2024/05/05 11:56:04 main.go:85: Inserting 'o' into rope 'uoaeuaoeua' at Cursor (x=10, y=0)
+2024/05/05 11:56:04 main.go:85: Inserting 'e' into rope 'uoaeuaoeuao' at Cursor (x=11, y=0)
+2024/05/05 11:56:04 main.go:85: Inserting 'u' into rope 'uoaeuaoeuaoe' at Cursor (x=12, y=0)
+2024/05/05 11:56:04 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoeuaoe'
+2024/05/05 11:56:04 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoeuao'
+2024/05/05 11:56:04 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoeua'
+2024/05/05 11:56:04 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoeu'
+2024/05/05 11:56:04 main.go:92: Deleting character. Rope is now:
+ 'uoaeuaoe'
+2024/05/05 11:56:04 main.go:92: Deleting character. Rope is now:
+ 'uoaeuao'
+2024/05/05 11:56:04 main.go:92: Deleting character. Rope is now:
+ 'uoaeua'
+2024/05/05 11:56:04 main.go:92: Deleting character. Rope is now:
+ 'uoaeu'
+2024/05/05 11:56:04 main.go:92: Deleting character. Rope is now:
+ 'uoae'
+2024/05/05 11:56:05 main.go:92: Deleting character. Rope is now:
+ 'uoa'
+2024/05/05 11:56:05 main.go:92: Deleting character. Rope is now:
+ 'uo'
+2024/05/05 11:56:05 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 11:56:05 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:05 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:05 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:05 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:05 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:05 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:05 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:05 main.go:85: Inserting 'a' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:56:05 main.go:85: Inserting 'u' into rope 'a' at Cursor (x=1, y=0)
+2024/05/05 11:56:05 main.go:85: Inserting 'e' into rope 'au' at Cursor (x=2, y=0)
+2024/05/05 11:56:05 main.go:85: Inserting 'o' into rope 'aue' at Cursor (x=3, y=0)
+2024/05/05 11:56:05 main.go:85: Inserting 'u' into rope 'aueo' at Cursor (x=4, y=0)
+2024/05/05 11:56:05 main.go:85: Inserting 'u' into rope 'aueou' at Cursor (x=5, y=0)
+2024/05/05 11:56:06 main.go:85: Inserting 'u' into rope 'aueouu' at Cursor (x=6, y=0)
+2024/05/05 11:56:06 main.go:85: Inserting 'u' into rope 'aueouuu' at Cursor (x=7, y=0)
+2024/05/05 11:56:06 main.go:92: Deleting character. Rope is now:
+ 'aueouuu'
+2024/05/05 11:56:06 main.go:92: Deleting character. Rope is now:
+ 'aueouu'
+2024/05/05 11:56:06 main.go:92: Deleting character. Rope is now:
+ 'aueou'
+2024/05/05 11:56:06 main.go:92: Deleting character. Rope is now:
+ 'aueo'
+2024/05/05 11:56:06 main.go:92: Deleting character. Rope is now:
+ 'aue'
+2024/05/05 11:56:06 main.go:92: Deleting character. Rope is now:
+ 'au'
+2024/05/05 11:56:06 main.go:92: Deleting character. Rope is now:
+ 'a'
+2024/05/05 11:56:06 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:06 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:06 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:07 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:56:07 main.go:85: Inserting 'u' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:56:07 main.go:85: Inserting 'u' into rope 'uu' at Cursor (x=2, y=0)
+2024/05/05 11:56:07 main.go:92: Deleting character. Rope is now:
+ 'uu'
+2024/05/05 11:56:07 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 11:56:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:08 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:08 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:56:08 main.go:85: Inserting 'u' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:56:08 main.go:85: Inserting 'u' into rope 'uu' at Cursor (x=2, y=0)
+2024/05/05 11:56:08 main.go:85: Inserting 'u' into rope 'uuu' at Cursor (x=3, y=0)
+2024/05/05 11:56:08 main.go:92: Deleting character. Rope is now:
+ 'uuu'
+2024/05/05 11:56:09 main.go:92: Deleting character. Rope is now:
+ 'uu'
+2024/05/05 11:56:09 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 11:56:09 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:09 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:09 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:09 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:09 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:56:09 main.go:85: Inserting 'u' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:56:09 main.go:85: Inserting 'u' into rope 'uu' at Cursor (x=2, y=0)
+2024/05/05 11:56:09 main.go:85: Inserting 'u' into rope 'uuu' at Cursor (x=3, y=0)
+2024/05/05 11:56:10 main.go:85: Inserting 'u' into rope 'uuuu' at Cursor (x=4, y=0)
+2024/05/05 11:56:10 main.go:85: Inserting 'u' into rope 'uuuuu' at Cursor (x=5, y=0)
+2024/05/05 11:56:10 main.go:92: Deleting character. Rope is now:
+ 'uuuuu'
+2024/05/05 11:56:10 main.go:92: Deleting character. Rope is now:
+ 'uuuu'
+2024/05/05 11:56:10 main.go:92: Deleting character. Rope is now:
+ 'uuu'
+2024/05/05 11:56:10 main.go:92: Deleting character. Rope is now:
+ 'uu'
+2024/05/05 11:56:10 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 11:56:10 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:11 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:56:11 main.go:85: Inserting 'u' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:56:11 main.go:85: Inserting 'u' into rope 'uu' at Cursor (x=2, y=0)
+2024/05/05 11:56:11 main.go:85: Inserting 'u' into rope 'uuu' at Cursor (x=3, y=0)
+2024/05/05 11:56:11 main.go:85: Inserting 'u' into rope 'uuuu' at Cursor (x=4, y=0)
+2024/05/05 11:56:11 main.go:85: Inserting 'u' into rope 'uuuuu' at Cursor (x=5, y=0)
+2024/05/05 11:56:12 main.go:95: Inserting '\n' into rope 'uuuuuu' at Cursor (x=6, y=0)
+2024/05/05 11:56:12 main.go:85: Inserting 'u' into rope 'uuuuuu
+' at Cursor (x=0, y=1)
+2024/05/05 11:56:12 main.go:85: Inserting 'u' into rope 'uuuuuu
+u' at Cursor (x=1, y=1)
+2024/05/05 11:56:12 main.go:85: Inserting 'u' into rope 'uuuuuu
+uu' at Cursor (x=2, y=1)
+2024/05/05 11:56:12 main.go:92: Deleting character. Rope is now:
+ 'uuuuuu
+uu'
+2024/05/05 11:56:12 main.go:92: Deleting character. Rope is now:
+ 'uuuuuu
+u'
+2024/05/05 11:56:13 main.go:92: Deleting character. Rope is now:
+ 'uuuuuu
+'
+2024/05/05 11:56:13 main.go:92: Deleting character. Rope is now:
+ 'uuuuuu'
+2024/05/05 11:56:13 main.go:92: Deleting character. Rope is now:
+ 'uuuuu'
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ 'uuuu'
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ 'uuu'
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ 'uu'
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:14 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:56:14 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:56:15 main.go:85: Inserting 'u' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:56:15 main.go:85: Inserting 'u' into rope 'uu' at Cursor (x=2, y=0)
+2024/05/05 11:56:15 main.go:95: Inserting '\n' into rope 'uuu' at Cursor (x=3, y=0)
+2024/05/05 11:56:15 main.go:85: Inserting 'u' into rope 'uuu
+' at Cursor (x=0, y=1)
+2024/05/05 11:56:15 main.go:85: Inserting 'u' into rope 'uuu
+u' at Cursor (x=1, y=1)
+2024/05/05 11:56:15 main.go:92: Deleting character. Rope is now:
+ 'uuu
+u'
+2024/05/05 11:56:16 main.go:92: Deleting character. Rope is now:
+ 'uuu
+'
+2024/05/05 11:56:16 main.go:92: Deleting character. Rope is now:
+ 'uuu'
+2024/05/05 11:56:16 main.go:85: Inserting 'u' into rope 'uuu' at Cursor (x=3, y=0)
+2024/05/05 11:56:17 main.go:95: Inserting '\n' into rope 'uuuu' at Cursor (x=4, y=0)
+2024/05/05 11:56:17 main.go:85: Inserting 'u' into rope 'uuuu
+' at Cursor (x=0, y=1)
+2024/05/05 11:56:17 main.go:85: Inserting 'u' into rope 'uuuu
+u' at Cursor (x=1, y=1)
+2024/05/05 11:56:17 main.go:85: Inserting 'u' into rope 'uuuu
+uu' at Cursor (x=2, y=1)
+2024/05/05 11:56:17 main.go:95: Inserting '\n' into rope 'uuuu
+uuu' at Cursor (x=3, y=1)
+2024/05/05 11:56:17 main.go:85: Inserting 'u' into rope 'uuuu
+uuu
+' at Cursor (x=0, y=2)
+2024/05/05 11:56:17 main.go:85: Inserting 'u' into rope 'uuuu
+uuu
+u' at Cursor (x=1, y=2)
+2024/05/05 11:56:18 main.go:92: Deleting character. Rope is now:
+ 'uuuu
+uuu
+u'
+2024/05/05 11:56:18 main.go:92: Deleting character. Rope is now:
+ 'uuuu
+uuu
+'
+2024/05/05 11:56:18 main.go:92: Deleting character. Rope is now:
+ 'uuuu
+uuu'
+2024/05/05 11:57:07 main.go:209: Started program without any files. Created new rope.
+2024/05/05 11:57:08 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:57:08 main.go:85: Inserting 'o' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:57:08 main.go:85: Inserting 'e' into rope 'uo' at Cursor (x=2, y=0)
+2024/05/05 11:57:08 main.go:85: Inserting 'u' into rope 'uoe' at Cursor (x=3, y=0)
+2024/05/05 11:57:08 main.go:85: Inserting 'a' into rope 'uoeu' at Cursor (x=4, y=0)
+2024/05/05 11:57:08 main.go:85: Inserting 'o' into rope 'uoeua' at Cursor (x=5, y=0)
+2024/05/05 11:57:08 main.go:85: Inserting 'e' into rope 'uoeuao' at Cursor (x=6, y=0)
+2024/05/05 11:57:08 main.go:85: Inserting 'u' into rope 'uoeuaoe' at Cursor (x=7, y=0)
+2024/05/05 11:57:08 main.go:95: Inserting '\n' into rope 'uoeuaoeu' at Cursor (x=8, y=0)
+2024/05/05 11:57:08 main.go:85: Inserting 'a' into rope 'uoeuaoeu
+' at Cursor (x=0, y=1)
+2024/05/05 11:57:08 main.go:85: Inserting 'u' into rope 'uoeuaoeu
+a' at Cursor (x=1, y=1)
+2024/05/05 11:57:08 main.go:85: Inserting 'o' into rope 'uoeuaoeu
+au' at Cursor (x=2, y=1)
+2024/05/05 11:57:08 main.go:85: Inserting 'e' into rope 'uoeuaoeu
+auo' at Cursor (x=3, y=1)
+2024/05/05 11:57:09 main.go:85: Inserting 'u' into rope 'uoeuaoeu
+auoe' at Cursor (x=4, y=1)
+2024/05/05 11:57:09 main.go:92: Deleting character. Rope is now:
+ 'uoeuaoeu
+auoe'
+2024/05/05 11:57:09 main.go:92: Deleting character. Rope is now:
+ 'uoeuaoeu
+auo'
+2024/05/05 11:57:09 main.go:92: Deleting character. Rope is now:
+ 'uoeuaoeu
+au'
+2024/05/05 11:57:09 main.go:92: Deleting character. Rope is now:
+ 'uoeuaoeu
+a'
+2024/05/05 11:57:09 main.go:92: Deleting character. Rope is now:
+ 'uoeuaoeu
+'
+2024/05/05 11:57:10 main.go:92: Deleting character. Rope is now:
+ 'uoeuaoeu'
+2024/05/05 11:57:11 main.go:92: Deleting character. Rope is now:
+ 'uoeuaoe'
+2024/05/05 11:57:11 main.go:92: Deleting character. Rope is now:
+ 'uoeuao'
+2024/05/05 11:57:11 main.go:92: Deleting character. Rope is now:
+ 'uoeua'
+2024/05/05 11:57:12 main.go:92: Deleting character. Rope is now:
+ 'uoeu'
+2024/05/05 11:57:12 main.go:92: Deleting character. Rope is now:
+ 'uoe'
+2024/05/05 11:57:12 main.go:92: Deleting character. Rope is now:
+ 'uo'
+2024/05/05 11:57:12 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 11:57:12 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:57:12 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 11:58:22 main.go:209: Started program without any files. Created new rope.
+2024/05/05 11:58:22 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 11:58:22 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 11:58:22 main.go:85: Inserting 'o' into rope 'ua' at Cursor (x=2, y=0)
+2024/05/05 11:58:22 main.go:85: Inserting 'e' into rope 'uao' at Cursor (x=3, y=0)
+2024/05/05 11:58:23 main.go:85: Inserting 'u' into rope 'uaoe' at Cursor (x=4, y=0)
+2024/05/05 11:58:23 main.go:85: Inserting 'a' into rope 'uaoeu' at Cursor (x=5, y=0)
+2024/05/05 11:58:23 main.go:85: Inserting 'o' into rope 'uaoeua' at Cursor (x=6, y=0)
+2024/05/05 11:58:23 main.go:85: Inserting 'u' into rope 'uaoeuao' at Cursor (x=7, y=0)
+2024/05/05 11:58:23 main.go:95: Inserting '\n' into rope 'uaoeuaou' at Cursor (x=8, y=0)
+2024/05/05 11:58:23 main.go:85: Inserting 'u' into rope 'uaoeuaou
+' at Cursor (x=0, y=1)
+2024/05/05 11:58:23 main.go:85: Inserting 'o' into rope 'uaoeuaou
+u' at Cursor (x=1, y=1)
+2024/05/05 11:58:23 main.go:85: Inserting 'a' into rope 'uaoeuaou
+uo' at Cursor (x=2, y=1)
+2024/05/05 11:58:23 main.go:85: Inserting 'e' into rope 'uaoeuaou
+uoa' at Cursor (x=3, y=1)
+2024/05/05 11:58:23 main.go:85: Inserting 'u' into rope 'uaoeuaou
+uoae' at Cursor (x=4, y=1)
+2024/05/05 11:58:23 main.go:85: Inserting 'a' into rope 'uaoeuaou
+uoaeu' at Cursor (x=5, y=1)
+2024/05/05 11:58:23 main.go:85: Inserting 'o' into rope 'uaoeuaou
+uoaeua' at Cursor (x=6, y=1)
+2024/05/05 11:58:23 main.go:85: Inserting 'e' into rope 'uaoeuaou
+uoaeuao' at Cursor (x=7, y=1)
+2024/05/05 11:58:23 main.go:85: Inserting 'u' into rope 'uaoeuaou
+uoaeuaoe' at Cursor (x=8, y=1)
+2024/05/05 11:58:24 main.go:95: Inserting '\n' into rope 'uaoeuaou
+uoaeuaoeu' at Cursor (x=9, y=1)
+2024/05/05 11:58:24 main.go:92: Deleting character. Rope is now:
+ 'uaoeuaou
+uoaeuaoeu'

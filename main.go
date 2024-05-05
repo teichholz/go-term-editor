@@ -7,7 +7,8 @@ import (
 	"log"
 	Buffer "main/buffer"
 	Files "main/files"
-	"main/rope"
+	"main/layout"
+	BRope "main/rope3"
 	"os"
 
 	"github.com/gdamore/tcell/v2"
@@ -31,6 +32,7 @@ type Application struct {
 	cursor     *Cursor
 	BufferArea CursorArea
 	window     *Window
+	screen     tcell.Screen
 
 	log *log.Logger
 }
@@ -79,19 +81,19 @@ func (app *Application) handleInput(s tcell.Screen, ev tcell.Event) {
 		} else if ev.Key() == tcell.KeyCtrlL {
 			s.Sync()
 		} else if ev.Key() == tcell.KeyRune {
-			x, y := cursor.x - app.BufferArea.minX, cursor.y - app.BufferArea.minY
-			app.log.Printf("Inserting '%c' into rope '%v' at Cursor (x=%v, y=%v)", ev.Rune(), app.buffer.String(), x, y);
-			app.buffer.Buffer = app.buffer.InsertChar(y, x, ev.Rune());
+			x, y := cursor.x-app.BufferArea.minX, cursor.y-app.BufferArea.minY
+			app.log.Printf("Inserting '%c' into rope '%v' at Cursor (x=%v, y=%v)", ev.Rune(), app.buffer.String(), x, y)
+			app.buffer.Buffer = app.buffer.InsertChar(y, x, ev.Rune())
 			cursor.x++
 		} else if ev.Key() == tcell.KeyBackspace || ev.Key() == tcell.KeyBackspace2 {
-			x, y := cursor.x - app.BufferArea.minX, cursor.y - app.BufferArea.minY
+			x, y := cursor.x-app.BufferArea.minX, cursor.y-app.BufferArea.minY
 			app.buffer.Buffer = app.buffer.DeleteAt(y, x)
 			cursor.x--
-			app.log.Printf("Deleting character. Rope is now:\n '%v'", app.buffer.String());
+			app.log.Printf("Deleting character. Rope is now:\n '%v'", app.buffer.String())
 		} else if ev.Key() == tcell.KeyEnter {
-			x, y := cursor.x - app.BufferArea.minX, cursor.y - app.BufferArea.minY
-			app.log.Printf("Inserting '\\n' into rope '%v' at Cursor (x=%v, y=%v)", app.buffer.String(), x, y);
-			app.buffer.Buffer = app.buffer.InsertChar(y, x, '\n');
+			x, y := cursor.x-app.BufferArea.minX, cursor.y-app.BufferArea.minY
+			app.log.Printf("Inserting '\\n' into rope '%v' at Cursor (x=%v, y=%v)", app.buffer.String(), x, y)
+			app.buffer.Buffer = app.buffer.InsertChar(y, x, '\n')
 			cursor.x = app.BufferArea.minX
 			cursor.y++
 		}
@@ -101,31 +103,6 @@ func (app *Application) handleInput(s tcell.Screen, ev tcell.Event) {
 			cursor.x, cursor.y = x, y
 		}
 	}
-}
-
-func (app *Application) drawStatusBar(s tcell.Screen) CursorArea {
-	window := app.window
-	drawBox(s, 0, window.height-3, window.width-1, window.height-1, DefaultStyle, "Normal Mode")
-	return CursorArea{app.BufferArea.minX, app.BufferArea.maxX, app.BufferArea.minY, app.BufferArea.maxY - 3}
-}
-
-func (app *Application) drawLineNumbers(s tcell.Screen) CursorArea {
-	// erase existing line numbers
-	for i := 0; i < app.BufferArea.maxY; i++ {
-		drawText(s, 0, i, 4, i, DefaultStyle, " ")
-	}
-
-	// draw new correct ones
-	var lineCount int
-	if app.buffer.LineCount() == 0 {
-		lineCount = 1
-	} else {
-		lineCount = app.buffer.LineCount()
-	}
-	for i := 0; i < lineCount; i++ {
-		drawText(s, 0, i, 4, i, DefaultStyle, fmt.Sprintf("%v", i))
-	}
-	return CursorArea{app.BufferArea.minX + 4, app.BufferArea.maxX, app.BufferArea.minY, app.BufferArea.maxY}
 }
 
 func (app *Application) quit(s tcell.Screen) {
@@ -163,18 +140,35 @@ func NewLogger() *log.Logger {
 	return log.New(multi, "", log.LstdFlags|log.Lshortfile)
 }
 
-func (app *Application) eraseBuffer(s tcell.Screen) {
-	for i := app.BufferArea.minY; i < app.BufferArea.maxY; i++ {
-		for j := app.BufferArea.minX; j < app.BufferArea.maxX; j++ {
-			s.SetContent(j, i, ' ', nil, DefaultStyle)
-		}
+func (app *Application) lineNumberBox(dims layout.Dimensions) {
+	s := app.screen
+	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X + dims.Width, dims.Origin.Y + dims.Height
+	for i := ymin; i < ymax; i++ {
+		drawText(s, xmin, i, xmax, i, DefaultStyle, " ")
+	}
+
+	// draw new correct ones
+	var lineCount int
+	if app.buffer.LineCount() == 0 {
+		lineCount = 1
+	} else {
+		lineCount = app.buffer.LineCount()
+	}
+	for i := 0; i < lineCount; i++ {
+		pad := xmax - xmin
+		drawText(s, xmin, i, xmax, i, DefaultStyle, fmt.Sprintf("%*v", pad, i))
 	}
 }
-
-func (app *Application) redrawBuffer(s tcell.Screen) {
-	app.eraseBuffer(s)
-	drawText(s, app.BufferArea.minX, app.BufferArea.minY, app.BufferArea.maxX, app.BufferArea.maxY, DefaultStyle, app.buffer.String())
-	s.Show()
+func (app *Application) bufferBox(dims layout.Dimensions)     {
+	s := app.screen
+	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X + dims.Width, dims.Origin.Y + dims.Height
+	app.BufferArea = CursorArea{xmin, xmax, ymin, ymax}
+	drawText(s, xmin, ymin, xmax, ymax, DefaultStyle, app.buffer.String())
+}
+func (app *Application) statusLineBox(dims layout.Dimensions) {
+	s := app.screen
+	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X + dims.Width, dims.Origin.Y + dims.Height
+	drawBox(s, xmin, ymin, xmax-1, ymax, DefaultStyle, "Normal Mode")
 }
 
 func main() {
@@ -199,9 +193,10 @@ func main() {
 	application := &Application{
 		file:       nil,
 		cursor:     cursor,
-		buffer:     Buffer.ExtendedBuffer{Buffer: rope.NewString("")},
+		buffer:     Buffer.ExtendedBuffer{Buffer: BRope.NewRopeString("")},
 		window:     window,
 		BufferArea: cursorArea,
+		screen:     s,
 		log:        log,
 	}
 
@@ -209,8 +204,8 @@ func main() {
 	file := flag.Arg(0)
 
 	if file == "" {
-		rope := rope.NewString("")
-		application.buffer.Buffer = &rope
+		rope := BRope.NewRopeString("")
+		application.buffer.Buffer = rope
 		log.Print("Started program without any files. Created new rope.")
 	} else {
 		application.file = &file
@@ -223,19 +218,30 @@ func main() {
 		application.buffer.Buffer = rope
 	}
 
-
 	// You have to catch panics in a defer, clean up, and
 	// re-raise them - otherwise your application can
 	// die without leaving any diagnostic trace.
 	defer application.quit(s)
 
+	flex := layout.Flex{
+		Dir: layout.Y,
+		Items: []layout.FlexItem{
+			{Size: 0.95, Box: layout.EmptyBox, Flex: &layout.Flex{
+				Dir: layout.X,
+				Items: []layout.FlexItem{
+					{Size: 0.05, Box: application.lineNumberBox, Flex: nil},
+					{Size: 0.95, Box: application.bufferBox, Flex: nil},
+				},
+			}},
+			{Size: 0.05, Box: application.statusLineBox, Flex: nil},
+		},
+	}
+
 	// Event loop
 	for {
 		window.update(s.Size())
-		application.BufferArea = cursorArea
-		application.BufferArea = application.drawStatusBar(s)
-		application.BufferArea = application.drawLineNumbers(s)
-		application.redrawBuffer(s)
+		s.Clear()
+		flex.StartLayouting(window.width, window.height)
 
 		// Clamp cursor position and move move cursor up and down if necessary
 		application.clampCursor()

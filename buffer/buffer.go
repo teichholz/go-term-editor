@@ -2,7 +2,7 @@ package Buffer
 
 import (
 	"io"
-	"main/rope"
+	BRope "main/rope3"
 	Util "main/util"
 )
 
@@ -16,24 +16,23 @@ type Text interface {
 
 type Buffer[C Text] interface {
 	Text
-	WriteChar(pos int, c rune) C
+	Edit(iv BRope.Interval, rope C) C
+	GetLine(y int) []rune
 	OffsetOfLine(row int) (pos int)
 	LineOfOffset(offset int) (row int)
-	DeleteChar(pos int) C
 	Length() int
-	String() string
-	GetLine(y int) string
 	LineCount() int
+	String() string
 }
 
 type ExtendedBuffer struct {
-	Buffer[rope.Rope]
+	Buffer[BRope.Rope]
 }
 
 func (buf ExtendedBuffer) LastNonWhitespaceChar(row int) int {
 	line := buf.GetLine(row)
 	for i := len(line) - 1; i >= 0; i-- {
-		if rune(line[i]) != 0 && !Util.IsWhitespace(rune(line[i])) {
+		if line[i] != 0 && !Util.IsWhitespace(line[i]) {
 			return i
 		}
 	}
@@ -41,16 +40,18 @@ func (buf ExtendedBuffer) LastNonWhitespaceChar(row int) int {
 	return 0
 }
 
-func (buf ExtendedBuffer) AppendChar(c rune) rope.Rope {
-	return buf.Buffer.WriteChar(buf.Buffer.Length(), c)
+func (buf ExtendedBuffer) AppendChar(c rune) BRope.Rope {
+	return buf.Buffer.Edit(BRope.IV(buf.Length(), buf.Length()), BRope.NewRope([]rune{c}))
 }
 
-func (buf ExtendedBuffer) InsertChar(row, col int, c rune) rope.Rope {
+func (buf ExtendedBuffer) InsertChar(row, col int, c rune) BRope.Rope {
 	offsetUntilRow := buf.Buffer.OffsetOfLine(row)
-	return buf.Buffer.WriteChar(offsetUntilRow+col, c)
+	i := offsetUntilRow + col
+	return buf.Buffer.Edit(BRope.IV(i, i), BRope.NewRope([]rune{c}))
 }
 
-func (buf ExtendedBuffer) DeleteAt(row, col int) rope.Rope {
+func (buf ExtendedBuffer) DeleteAt(row, col int) BRope.Rope {
 	offsetUntilRow := buf.Buffer.OffsetOfLine(row)
-	return buf.Buffer.DeleteChar(offsetUntilRow+col)
+	i := offsetUntilRow + col
+	return buf.Buffer.Edit(BRope.IV(i-1, i), BRope.NewRope([]rune{}))
 }

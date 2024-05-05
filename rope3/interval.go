@@ -22,6 +22,10 @@ type Interval struct {
 	Lo, Hi int
 }
 
+func IV(lo, hi int) Interval {
+	return Interval{lo, hi}
+}
+
 func (i Interval) Len() int {
 	return i.Hi - i.Lo
 }
@@ -31,7 +35,7 @@ func (i Interval) IsEmpty() bool {
 }
 
 
-func (i Interval) union(o Interval) Interval {
+func (i Interval) Union(o Interval) Interval {
 	if i.IsEmpty() { return o }
 	if o.IsEmpty() { return i }
 	return Interval{min(i.Lo, o.Lo), max(i.Hi, o.Hi)}

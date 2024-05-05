@@ -2,9 +2,10 @@ package BRope
 
 import "slices"
 
-// TreeBuilder A stack of partially built trees. These are kept in order of
-// strictly descending height, and all vectors have a length less
+// TreeBuilder A stack of partially built trees.
+// These are kept in order of strictly descending height, and all vectors have a length less
 // than MAX_CHILDREN and greater than zero.
+// Each vector contains nodes of the same height.
 //
 // In addition, there is a balancing invariant: for each vector
 // of length greater than one, all elements satisfy `is_ok_child`.
@@ -31,75 +32,58 @@ func (t *TreeBuilder) Push(toInsert Node) {
 			toInsert = concat(t.Pop(), toInsert)
 		case h1 > h2:
 			t.stack = append(t.stack, []Node{toInsert})
-			break
+			return
 		case h1 == h2:
 			// TODO rewrite using tos pointer?
 			// tos = top of stack = last layer = last index of slice
-			tos := t.stack[len(t.stack)-1]
-			lastLayerLastNode := tos[len(tos)-1]
+			tos := &t.stack[len(t.stack)-1]
+			lastLayerLastNode := (*tos)[len(*tos)-1]
 			if lastLayerLastNode.isOkChild() && toInsert.isOkChild() {
-			    // simply append
-				t.stack[len(t.stack)-1] = append(tos, toInsert)
+				// simply append
+				*tos = append(*tos, toInsert)
 			} else if toInsert.Height() == 0 {
-				// TODO this won't work, this might create an internal node
-				// t.stack[len(t.stack) - 1][len(tos) - 1] = mergeLeaves(lastLayerLastNode, toInsert)
-
 				// efficiently merge leaf nodes
+				// cut off last node
+				*tos = (*tos)[:len(*tos)-1]
 				leaf1 := lastLayerLastNode.getLeaf()
 				leaf2 := toInsert.getLeaf()
 				if leaf1.Len()+leaf2.Len() <= MAX_LEAF {
-					// TODO currently always copy for safety. Later one could use context on write to also mutate in place, if only one referen to node
-					newRunes := slices.Concat(slices.Clone(leaf1.Runes()), slices.Clone(leaf2.Runes()))
+					newRunes := slices.Concat(leaf1.Runes(), leaf2.Runes())
 					newLeaf := StringLeaf{newRunes}
-					tos[len(tos)] = NodeFromLeaf(newLeaf)
+					*tos = append(*tos, NodeFromLeaf(newLeaf))
 				} else {
 					space := MAX_LEAF - leaf1.Len()
-					nv := slices.Concat(slices.Clone(leaf1.Runes()), slices.Clone(leaf2.Runes()[:space]))
-					new1 := StringLeaf{nv}
-					new2 := StringLeaf{slices.Clone(leaf2.Runes()[space:])}
-					tos[len(tos)] = NodeFromLeaf(new1)
-					t.stack[len(t.stack)] = append(tos, NodeFromLeaf(new2))
+					left := StringLeaf{slices.Concat(leaf1.Runes(), leaf2.Runes()[:space])}
+					right := StringLeaf{leaf2.Runes()[space:]}
+					*tos = append(*tos, NodeFromLeaf(left))
+					*tos = append(*tos, NodeFromLeaf(right))
 				}
 			} else {
 				// not ok, not leafs. Try to make ok
-				var last Node
-				// pop off
-				last, tos = tos[len(tos) - 1], tos[:len(tos)-1]
-				children1 := last.getChildren()
+				// cut off last node
+				*tos = (*tos)[:len(*tos)-1]
+				children1 := lastLayerLastNode.getChildren()
 				children2 := toInsert.getChildren()
 				nChildren := len(children1) + len(children2)
 				if nChildren <= MAX_CHILDREN {
 					node := NodeFromNodes(slices.Concat(children1, children2))
-				    // simply append
-					t.stack[len(t.stack)-1] = append(tos, node)
+					*tos = append(*tos, node)
 				} else {
-					splitpoint := min(MAX_CHILDREN, nChildren - MIN_CHILDREN)
+					splitpoint := min(MAX_CHILDREN, nChildren-MIN_CHILDREN)
 					all := slices.Concat(children1, children2)
-					// TODO is this safe?
 					left := NodeFromNodes(slices.Clone(all[:splitpoint]))
 					right := NodeFromNodes(slices.Clone(all[splitpoint:]))
-				    // simply append
-					t.stack[len(t.stack)-1] = append(tos, left)
-					t.stack[len(t.stack)-1] = append(tos, right)
+					*tos = append(*tos, left)
+					*tos = append(*tos, right)
 				}
 			}
-			tos = t.stack[len(t.stack) - 1]
-			if len(tos) < MAX_CHILDREN {
-				break
+			if len(*tos) < MAX_CHILDREN {
+				return
 			}
 			toInsert = t.Pop()
 		}
 
 	}
-}
-
-func (t *TreeBuilder) PushString(str string) {
-	if len(str) <= MIN_LEAF {
-		t.Push(NewString([]rune(str)))
-		return
-	}
-	remaining := str
-	
 }
 
 func (t *TreeBuilder) PushSlice(node Node, iv Interval) {
@@ -151,6 +135,7 @@ func (t *TreeBuilder) Build() Node {
 	if len(t.stack) == 0 {
 		panic("Empty stack")
 	} else {
+		// TODO Push is buggy, stack contains: f, foo, foobar
 		lastNode := t.Pop()
 		for len(t.stack) > 0 {
 			lastNode = concat(t.Pop(), lastNode)
@@ -164,10 +149,12 @@ func (t *TreeBuilder) Pop() Node {
 	if l == 0 {
 		panic("Empty stack")
 	}
-	nodes := t.stack[l-1]
-	if len(nodes) == 1 {
-		return nodes[0]
+	tos := t.stack[l-1]
+	t.stack = t.stack[:l-1]
+	if len(tos) == 1 {
+		return tos[0]
 	} else {
-		return NodeFromNodes(nodes)
+		// Invarinace enforced by Push
+		return NodeFromNodes(tos)
 	}
 }
