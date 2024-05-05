@@ -354,8 +354,9 @@ type Rope = Node
 
 // Invariance (Inverse): OffsetOfLine(LineOfOffset(offset)) == offset
 // line [0, inf)
+// \n \n \n \n \n
 func (r Rope) OffsetOfLine(line int) int {
-	maxLine := r.NodeInfo.newlines + 1
+	maxLine := r.NodeInfo.newlines
 	if line > maxLine {
 		// maybe return error value if offset is not contained in the rope
 		return r.NodeInfo.len
@@ -423,11 +424,13 @@ func (r Rope) LineOfOffset(offset int) int {
 	return lines + newlines
 }
 
+// lines are separated by '\n', so '\n' is not part of the line
 func (r Rope) GetLine(line int) []rune {
-	if (line < 0 || line > r.LineCount()) { panic("GetLine: line must be in [0, linecount]") }
+	if line < 0 || line > r.NodeInfo.newlines { return []rune{} }
 
 	offset := r.OffsetOfLine(line)
-	offset2 := r.OffsetOfLine(line+1)
+	offset2 := r.OffsetOfLine(line+1)-1
+	if line == r.NodeInfo.newlines { offset2 += 1 }
 	b := NewTreeBuilder()
 	b.PushSlice(r, IV(offset, offset2))
 

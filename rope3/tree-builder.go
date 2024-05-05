@@ -133,7 +133,7 @@ func (t *TreeBuilder) PushLeafSlice(leaf Leaf, iv Interval) {
 // on the builder, in order.
 func (t *TreeBuilder) Build() Node {
 	if len(t.stack) == 0 {
-		panic("Empty stack")
+		return EmptyRope()
 	} else {
 		// TODO Push is buggy, stack contains: f, foo, foobar
 		lastNode := t.Pop()

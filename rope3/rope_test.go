@@ -13,6 +13,12 @@ func expectString(expected string, actual fmt.Stringer, t *testing.T) {
 	}
 }
 
+func expectRunes(expected []rune, actual []rune, t *testing.T) {
+	if string(expected) != string(actual) {
+		t.Fatalf("expected '%v', got '%v'\nstacktrace: %s", expected, actual, debug.Stack())
+	}
+}
+
 func expectInt(a, b int, t *testing.T) {
 	if a != b {
 		t.Fatalf("expected %v, got %v\nstacktrace: %s", a, b, debug.Stack())
@@ -44,6 +50,18 @@ func TestLineOffsets(t *testing.T) {
 	expectInt(4, rope4.OffsetOfLine(1), t)
 }
 
+func TestLineOffsets2(t *testing.T) {
+	rope := NewRopeString("\n\n\n")
+	expectInt(0, rope.OffsetOfLine(0), t)
+	expectInt(0, rope.LineOfOffset(0), t)
+	expectInt(1, rope.OffsetOfLine(1), t)
+	expectInt(1, rope.LineOfOffset(1), t)
+	expectInt(2, rope.OffsetOfLine(2), t)
+	expectInt(2, rope.LineOfOffset(2), t)
+	expectInt(3, rope.OffsetOfLine(3), t)
+	expectInt(2, rope.LineOfOffset(2), t)
+}
+
 func TestReplace(t *testing.T) {
 	rope := NewRope([]rune("foobaz"))
 
@@ -67,6 +85,29 @@ func TestInsert(t *testing.T) {
 	newrope := rope.Edit(Interval{1, 1}, toInsert)
 
 	expectString("foobar", newrope, t)
+}
+
+func TestGetLine(t *testing.T) {
+	r := NewRopeString("\n\n\n")
+	l := r.GetLine(0)
+	expectRunes([]rune{}, l, t)
+	l1 := r.GetLine(1)
+	expectRunes([]rune{}, l1, t)
+	l2 := r.GetLine(2)
+	expectRunes([]rune{}, l2, t)
+	l3 := r.GetLine(3)
+	expectRunes([]rune{}, l3, t)
+	// out of bounds
+	l4 := r.GetLine(4)
+	expectRunes([]rune{}, l4, t)
+}
+
+func TestGetLine2(t *testing.T) {
+	r := NewRopeString("foo\nbar\nbaz")
+	l := r.GetLine(0)
+	expectRunes([]rune("foo"), l, t)
+	l1 := r.GetLine(2)
+	expectRunes([]rune("baz"), l1, t)
 }
 
 func TestWhatAreStrings(t *testing.T) {

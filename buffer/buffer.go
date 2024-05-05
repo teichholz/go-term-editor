@@ -3,7 +3,6 @@ package Buffer
 import (
 	"io"
 	BRope "main/rope3"
-	Util "main/util"
 )
 
 // undo: history of ropes
@@ -29,15 +28,10 @@ type ExtendedBuffer struct {
 	Buffer[BRope.Rope]
 }
 
-func (buf ExtendedBuffer) LastNonWhitespaceChar(row int) int {
+func (buf ExtendedBuffer) LastCharInRow(row int) (col int) {
 	line := buf.GetLine(row)
-	for i := len(line) - 1; i >= 0; i-- {
-		if line[i] != 0 && !Util.IsWhitespace(line[i]) {
-			return i
-		}
-	}
-
-	return 0
+	col = len(line) - 1
+	return
 }
 
 func (buf ExtendedBuffer) AppendChar(c rune) BRope.Rope {

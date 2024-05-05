@@ -47,7 +47,7 @@ func (app *Application) clampCursor() {
 	// move cursor to end of previous line
 	if cursor.x < app.BufferArea.minX && cursor.y > app.BufferArea.minY {
 		cursor.y--
-		cursor.x = app.BufferArea.minX + app.buffer.LastNonWhitespaceChar(cursor.y) + 1
+		cursor.x = app.BufferArea.minX + app.buffer.LastCharInRow(cursor.y) + 1
 	}
 
 	// keep cursor in left and right bounds

@@ -12349,3 +12349,2074 @@ uoaeuaoeu' at Cursor (x=9, y=1)
 2024/05/05 11:58:24 main.go:92: Deleting character. Rope is now:
  'uaoeuaou
 uoaeuaoeu'
+2024/05/05 12:01:05 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:01:06 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:01:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:01:08 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:01:08 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:01:08 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:01:08 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:01:09 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:01:09 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:02:36 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:02:36 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:02:36 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:02:36 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:02:38 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:02:39 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:02:39 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:03:24 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:03:25 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:03:25 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:03:54 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:03:55 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:03:55 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:07:29 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:07:29 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:07:29 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:07:29 main.go:85: Inserting 'o' into rope 'ua' at Cursor (x=2, y=0)
+2024/05/05 12:07:29 main.go:85: Inserting 'e' into rope 'uao' at Cursor (x=3, y=0)
+2024/05/05 12:07:29 main.go:85: Inserting 'u' into rope 'uaoe' at Cursor (x=4, y=0)
+2024/05/05 12:07:29 main.go:85: Inserting 'a' into rope 'uaoeu' at Cursor (x=5, y=0)
+2024/05/05 12:07:29 main.go:85: Inserting 'u' into rope 'uaoeua' at Cursor (x=6, y=0)
+2024/05/05 12:07:29 main.go:95: Inserting '\n' into rope 'uaoeuau' at Cursor (x=7, y=0)
+2024/05/05 12:07:30 main.go:85: Inserting 'u' into rope 'uaoeuau
+' at Cursor (x=0, y=1)
+2024/05/05 12:07:30 main.go:85: Inserting 'a' into rope 'uaoeuau
+u' at Cursor (x=1, y=1)
+2024/05/05 12:07:30 main.go:85: Inserting 'o' into rope 'uaoeuau
+ua' at Cursor (x=2, y=1)
+2024/05/05 12:07:30 main.go:85: Inserting 'e' into rope 'uaoeuau
+uao' at Cursor (x=3, y=1)
+2024/05/05 12:07:30 main.go:85: Inserting 'u' into rope 'uaoeuau
+uaoe' at Cursor (x=4, y=1)
+2024/05/05 12:07:30 main.go:85: Inserting 'a' into rope 'uaoeuau
+uaoeu' at Cursor (x=5, y=1)
+2024/05/05 12:07:30 main.go:85: Inserting 'o' into rope 'uaoeuau
+uaoeua' at Cursor (x=6, y=1)
+2024/05/05 12:07:30 main.go:85: Inserting 'e' into rope 'uaoeuau
+uaoeuao' at Cursor (x=7, y=1)
+2024/05/05 12:07:30 main.go:85: Inserting 'u' into rope 'uaoeuau
+uaoeuaoe' at Cursor (x=8, y=1)
+2024/05/05 12:07:30 main.go:95: Inserting '\n' into rope 'uaoeuau
+uaoeuaoeu' at Cursor (x=9, y=1)
+2024/05/05 12:07:30 main.go:85: Inserting 'a' into rope 'uaoeuau
+uaoeuaoeu
+' at Cursor (x=0, y=2)
+2024/05/05 12:07:30 main.go:85: Inserting 'u' into rope 'uaoeuau
+uaoeuaoeu
+a' at Cursor (x=1, y=2)
+2024/05/05 12:07:31 main.go:85: Inserting 'o' into rope 'uaoeuau
+uaoeuaoeu
+au' at Cursor (x=2, y=2)
+2024/05/05 12:07:31 main.go:85: Inserting 'e' into rope 'uaoeuau
+uaoeuaoeu
+auo' at Cursor (x=3, y=2)
+2024/05/05 12:07:31 main.go:85: Inserting 'u' into rope 'uaoeuau
+uaoeuaoeu
+auoe' at Cursor (x=4, y=2)
+2024/05/05 12:07:31 main.go:85: Inserting 'o' into rope 'uaoeuau
+uaoeuaoeu
+auoeu' at Cursor (x=5, y=2)
+2024/05/05 12:07:31 main.go:85: Inserting 'e' into rope 'uaoeuau
+uaoeuaoeu
+auoeuo' at Cursor (x=6, y=2)
+2024/05/05 12:07:31 main.go:85: Inserting 'u' into rope 'uaoeuau
+uaoeuaoeu
+auoeuoe' at Cursor (x=7, y=2)
+2024/05/05 12:07:31 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuaoeu
+auoeuoe'
+2024/05/05 12:07:31 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuaoeu
+auoeuo'
+2024/05/05 12:07:31 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuaoeu
+auoeu'
+2024/05/05 12:07:31 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuaoeu
+auoe'
+2024/05/05 12:07:31 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuaoeu
+auo'
+2024/05/05 12:07:32 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuaoeu
+au'
+2024/05/05 12:07:32 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuaoeu
+a'
+2024/05/05 12:07:32 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuaoeu
+'
+2024/05/05 12:07:32 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuaoeu'
+2024/05/05 12:07:33 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuaoe'
+2024/05/05 12:07:33 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeuao'
+2024/05/05 12:07:33 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeua'
+2024/05/05 12:07:33 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoeu'
+2024/05/05 12:07:33 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uaoe'
+2024/05/05 12:07:33 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+uao'
+2024/05/05 12:07:33 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+ua'
+2024/05/05 12:07:33 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+u'
+2024/05/05 12:07:33 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau
+'
+2024/05/05 12:07:34 main.go:92: Deleting character. Rope is now:
+ 'uaoeuau'
+2024/05/05 12:07:34 main.go:92: Deleting character. Rope is now:
+ 'uaoeua'
+2024/05/05 12:07:34 main.go:92: Deleting character. Rope is now:
+ 'uaoeu'
+2024/05/05 12:07:35 main.go:92: Deleting character. Rope is now:
+ 'uaoe'
+2024/05/05 12:07:35 main.go:92: Deleting character. Rope is now:
+ 'uao'
+2024/05/05 12:07:35 main.go:92: Deleting character. Rope is now:
+ 'ua'
+2024/05/05 12:07:35 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:07:35 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:07:35 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:07:35 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:07:36 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:07:36 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:07:36 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:07:36 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:07:36 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:07:37 main.go:95: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/05 12:07:37 main.go:95: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/05 12:07:37 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/05 12:07:37 main.go:95: Inserting '\n' into rope '
+
+
+
+
+
+
+' at Cursor (x=0, y=7)
+2024/05/05 12:07:37 main.go:92: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+'
+2024/05/05 12:10:14 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:10:14 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:10:15 main.go:85: Inserting 'u' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:10:15 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:10:15 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:10:15 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:10:16 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:10:16 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:10:16 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:10:16 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:10:17 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:10:18 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:10:18 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:10:18 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:10:18 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:10:18 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:10:20 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:10:20 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:10:21 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:10:21 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:10:22 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:10:22 main.go:95: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/05 12:10:23 main.go:92: Deleting character. Rope is now:
+ '
+
+
+
+'
+2024/05/05 12:10:23 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:10:23 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:10:25 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:10:25 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:10:26 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:10:26 main.go:85: Inserting 'o' into rope 'ua' at Cursor (x=2, y=0)
+2024/05/05 12:10:26 main.go:85: Inserting 'e' into rope 'uao' at Cursor (x=3, y=0)
+2024/05/05 12:10:26 main.go:85: Inserting 'u' into rope 'uaoe' at Cursor (x=4, y=0)
+2024/05/05 12:10:26 main.go:85: Inserting 'a' into rope 'uaoeu' at Cursor (x=5, y=0)
+2024/05/05 12:10:26 main.go:85: Inserting 'o' into rope 'uaoeua' at Cursor (x=6, y=0)
+2024/05/05 12:10:26 main.go:85: Inserting 'e' into rope 'uaoeuao' at Cursor (x=7, y=0)
+2024/05/05 12:10:26 main.go:92: Deleting character. Rope is now:
+ 'uaoeuao'
+2024/05/05 12:10:26 main.go:92: Deleting character. Rope is now:
+ 'uaoeua'
+2024/05/05 12:10:26 main.go:92: Deleting character. Rope is now:
+ 'uaoeu'
+2024/05/05 12:10:26 main.go:92: Deleting character. Rope is now:
+ 'uaoe'
+2024/05/05 12:10:26 main.go:92: Deleting character. Rope is now:
+ 'uao'
+2024/05/05 12:10:26 main.go:92: Deleting character. Rope is now:
+ 'ua'
+2024/05/05 12:10:26 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:10:26 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:10:27 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:10:27 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:10:27 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:10:27 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:10:27 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:10:27 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:10:27 main.go:85: Inserting 'u' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:10:27 main.go:85: Inserting 'a' into rope '
+u' at Cursor (x=1, y=1)
+2024/05/05 12:10:27 main.go:85: Inserting 'o' into rope '
+ua' at Cursor (x=2, y=1)
+2024/05/05 12:10:27 main.go:85: Inserting 'e' into rope '
+uao' at Cursor (x=3, y=1)
+2024/05/05 12:10:28 main.go:85: Inserting 'u' into rope '
+uaoe' at Cursor (x=4, y=1)
+2024/05/05 12:10:28 main.go:85: Inserting 'a' into rope '
+uaoeu' at Cursor (x=5, y=1)
+2024/05/05 12:10:28 main.go:85: Inserting 'o' into rope '
+uaoeua' at Cursor (x=6, y=1)
+2024/05/05 12:10:28 main.go:85: Inserting 'e' into rope '
+uaoeuao' at Cursor (x=7, y=1)
+2024/05/05 12:10:28 main.go:85: Inserting 'u' into rope '
+uaoeuaoe' at Cursor (x=8, y=1)
+2024/05/05 12:10:28 main.go:95: Inserting '\n' into rope '
+uaoeuaoeu' at Cursor (x=9, y=1)
+2024/05/05 12:10:28 main.go:85: Inserting 'a' into rope '
+uaoeuaoeu
+' at Cursor (x=0, y=2)
+2024/05/05 12:10:28 main.go:85: Inserting 'o' into rope '
+uaoeuaoeu
+a' at Cursor (x=1, y=2)
+2024/05/05 12:10:28 main.go:85: Inserting 'e' into rope '
+uaoeuaoeu
+ao' at Cursor (x=2, y=2)
+2024/05/05 12:10:28 main.go:85: Inserting 'u' into rope '
+uaoeuaoeu
+aoe' at Cursor (x=3, y=2)
+2024/05/05 12:10:28 main.go:85: Inserting 'o' into rope '
+uaoeuaoeu
+aoeu' at Cursor (x=4, y=2)
+2024/05/05 12:10:28 main.go:85: Inserting 'e' into rope '
+uaoeuaoeu
+aoeuo' at Cursor (x=5, y=2)
+2024/05/05 12:10:28 main.go:85: Inserting 'u' into rope '
+uaoeuaoeu
+aoeuoe' at Cursor (x=6, y=2)
+2024/05/05 12:10:28 main.go:85: Inserting 'o' into rope '
+uaoeuaoeu
+aoeuoeu' at Cursor (x=7, y=2)
+2024/05/05 12:10:28 main.go:85: Inserting 'a' into rope '
+uaoeuaoeu
+aoeuoeuo' at Cursor (x=8, y=2)
+2024/05/05 12:10:28 main.go:85: Inserting 'e' into rope '
+uaoeuaoeu
+aoeuoeuoa' at Cursor (x=9, y=2)
+2024/05/05 12:10:29 main.go:85: Inserting 'u' into rope '
+uaoeuaoeu
+aoeuoeuoae' at Cursor (x=10, y=2)
+2024/05/05 12:10:29 main.go:95: Inserting '\n' into rope '
+uaoeuaoeu
+aoeuoeuoaeu' at Cursor (x=11, y=2)
+2024/05/05 12:10:29 main.go:85: Inserting 'a' into rope '
+uaoeuaoeu
+aoeuoeuoaeu
+' at Cursor (x=0, y=3)
+2024/05/05 12:10:29 main.go:85: Inserting 'u' into rope '
+uaoeuaoeu
+aoeuoeuoaeu
+a' at Cursor (x=1, y=3)
+2024/05/05 12:10:29 main.go:85: Inserting 'o' into rope '
+uaoeuaoeu
+aoeuoeuoaeu
+au' at Cursor (x=2, y=3)
+2024/05/05 12:10:29 main.go:85: Inserting 'e' into rope '
+uaoeuaoeu
+aoeuoeuoaeu
+auo' at Cursor (x=3, y=3)
+2024/05/05 12:10:29 main.go:85: Inserting 'u' into rope '
+uaoeuaoeu
+aoeuoeuoaeu
+auoe' at Cursor (x=4, y=3)
+2024/05/05 12:10:29 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoeuoaeu
+auoe'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoeuoaeu
+auo'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoeuoaeu
+au'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoeuoaeu
+a'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoeuoaeu
+'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoeuoaeu'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoeuoae'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoeuoa'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoeuo'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoeu'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuoe'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeuo'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoeu'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+aoe'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+ao'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+a'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu
+'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoeu'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuaoe'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeuao'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeua'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoeu'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uaoe'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+uao'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+ua'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+u'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:10:30 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:10:32 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:10:32 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:10:32 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:10:32 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:10:33 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:10:41 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:10:42 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:10:42 main.go:95: Inserting '\n' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:10:42 main.go:85: Inserting 'u' into rope 'u
+' at Cursor (x=0, y=1)
+2024/05/05 12:10:42 main.go:95: Inserting '\n' into rope 'u
+u' at Cursor (x=1, y=1)
+2024/05/05 12:10:43 main.go:95: Inserting '\n' into rope 'u
+u
+' at Cursor (x=0, y=2)
+2024/05/05 12:10:43 main.go:95: Inserting '\n' into rope 'u
+u
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:10:43 main.go:95: Inserting '\n' into rope 'u
+u
+
+
+' at Cursor (x=0, y=4)
+2024/05/05 12:10:43 main.go:95: Inserting '\n' into rope 'u
+u
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/05 12:10:43 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+
+
+
+'
+2024/05/05 12:11:06 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:11:06 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:11:06 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:11:06 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:11:07 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:11:59 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:11:59 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:12:00 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:12:00 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:12:00 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:13:43 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:13:44 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:13:44 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:13:44 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:13:45 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:13:51 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:13:51 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:13:52 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:13:53 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:13:53 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:13:53 main.go:95: Inserting '\n' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:13:53 main.go:85: Inserting 'u' into rope 'u
+' at Cursor (x=0, y=1)
+2024/05/05 12:13:53 main.go:95: Inserting '\n' into rope 'u
+u' at Cursor (x=1, y=1)
+2024/05/05 12:13:53 main.go:85: Inserting 'u' into rope 'u
+u
+' at Cursor (x=0, y=2)
+2024/05/05 12:13:54 main.go:95: Inserting '\n' into rope 'u
+u
+u' at Cursor (x=1, y=2)
+2024/05/05 12:13:54 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+u'
+2024/05/05 12:13:54 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+'
+2024/05/05 12:13:55 main.go:92: Deleting character. Rope is now:
+ 'u
+u'
+2024/05/05 12:13:55 main.go:92: Deleting character. Rope is now:
+ 'u
+'
+2024/05/05 12:13:55 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:13:55 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:13:56 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:13:56 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:13:56 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:13:56 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:13:58 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:13:58 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:13:58 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:15:06 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:15:07 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:15:08 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:15:10 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:15:14 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:15:15 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:15:17 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:15:26 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:43:29 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:43:30 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:43:30 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:43:30 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:43:30 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:43:30 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:43:31 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:43:31 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:43:31 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:32 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:32 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:32 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:43:33 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:33 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:33 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:43:34 main.go:95: Inserting '\n' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:43:34 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:43:35 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:35 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:43:35 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:43:35 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:43:35 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:43:36 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:43:37 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:43:37 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:43:38 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:43:38 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:43:38 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:43:38 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:38 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:38 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:39 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:43:39 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:43:39 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:43:39 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:43:39 main.go:95: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/05 12:43:40 main.go:95: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/05 12:43:45 main.go:92: Deleting character. Rope is now:
+ '
+
+
+
+
+'
+2024/05/05 12:43:47 main.go:92: Deleting character. Rope is now:
+ '
+
+
+
+
+'
+2024/05/05 12:43:48 main.go:92: Deleting character. Rope is now:
+ '
+
+
+
+'
+2024/05/05 12:43:48 main.go:92: Deleting character. Rope is now:
+ '
+
+
+
+'
+2024/05/05 12:43:49 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:43:50 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:43:50 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:43:51 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:43:51 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:43:51 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:43:53 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:55 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:43:56 main.go:85: Inserting ' ' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:43:56 main.go:85: Inserting ' ' into rope ' ' at Cursor (x=1, y=0)
+2024/05/05 12:43:56 main.go:85: Inserting ' ' into rope '  ' at Cursor (x=2, y=0)
+2024/05/05 12:43:56 main.go:85: Inserting ' ' into rope '   ' at Cursor (x=3, y=0)
+2024/05/05 12:43:56 main.go:95: Inserting '\n' into rope '    ' at Cursor (x=4, y=0)
+2024/05/05 12:43:57 main.go:92: Deleting character. Rope is now:
+ '    '
+2024/05/05 12:43:57 main.go:92: Deleting character. Rope is now:
+ '   '
+2024/05/05 12:43:58 main.go:92: Deleting character. Rope is now:
+ '   '
+2024/05/05 12:43:58 main.go:95: Inserting '\n' into rope '   ' at Cursor (x=0, y=0)
+2024/05/05 12:43:58 main.go:95: Inserting '\n' into rope '
+   ' at Cursor (x=0, y=1)
+2024/05/05 12:43:58 main.go:95: Inserting '\n' into rope '
+
+   ' at Cursor (x=0, y=2)
+2024/05/05 12:43:59 main.go:95: Inserting '\n' into rope '
+
+
+   ' at Cursor (x=0, y=3)
+2024/05/05 12:43:59 main.go:92: Deleting character. Rope is now:
+ '
+
+
+   '
+2024/05/05 12:43:59 main.go:92: Deleting character. Rope is now:
+ '
+
+
+  '
+2024/05/05 12:43:59 main.go:92: Deleting character. Rope is now:
+ '
+
+  '
+2024/05/05 12:43:59 main.go:92: Deleting character. Rope is now:
+ '
+
+ '
+2024/05/05 12:44:00 main.go:92: Deleting character. Rope is now:
+ '
+ '
+2024/05/05 12:44:00 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:44:00 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:44:01 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:44:02 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:44:02 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:44:02 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:44:02 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:44:03 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope ' ' at Cursor (x=1, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '  ' at Cursor (x=2, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '   ' at Cursor (x=3, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '    ' at Cursor (x=4, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '     ' at Cursor (x=5, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '      ' at Cursor (x=6, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '       ' at Cursor (x=7, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '        ' at Cursor (x=8, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '         ' at Cursor (x=9, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '          ' at Cursor (x=10, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '           ' at Cursor (x=11, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '            ' at Cursor (x=12, y=0)
+2024/05/05 12:44:04 main.go:85: Inserting ' ' into rope '             ' at Cursor (x=13, y=0)
+2024/05/05 12:44:05 main.go:85: Inserting ' ' into rope '              ' at Cursor (x=14, y=0)
+2024/05/05 12:44:05 main.go:85: Inserting ' ' into rope '               ' at Cursor (x=15, y=0)
+2024/05/05 12:44:05 main.go:85: Inserting ' ' into rope '                ' at Cursor (x=16, y=0)
+2024/05/05 12:44:05 main.go:85: Inserting ' ' into rope '                 ' at Cursor (x=17, y=0)
+2024/05/05 12:44:05 main.go:85: Inserting ' ' into rope '                  ' at Cursor (x=18, y=0)
+2024/05/05 12:44:05 main.go:85: Inserting ' ' into rope '                   ' at Cursor (x=19, y=0)
+2024/05/05 12:44:05 main.go:85: Inserting ' ' into rope '                    ' at Cursor (x=20, y=0)
+2024/05/05 12:44:05 main.go:85: Inserting ' ' into rope '                     ' at Cursor (x=21, y=0)
+2024/05/05 12:44:05 main.go:85: Inserting ' ' into rope '                      ' at Cursor (x=22, y=0)
+2024/05/05 12:44:05 main.go:85: Inserting ' ' into rope '                       ' at Cursor (x=23, y=0)
+2024/05/05 12:44:07 main.go:95: Inserting '\n' into rope '                        ' at Cursor (x=24, y=0)
+2024/05/05 12:45:46 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:47:09 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:47:10 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:47:10 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:47:11 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:47:11 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:47:11 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:47:11 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:47:11 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:47:12 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:47:12 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:47:13 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:47:13 main.go:95: Inserting '\n' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:47:13 main.go:85: Inserting 'u' into rope 'u
+' at Cursor (x=0, y=1)
+2024/05/05 12:47:13 main.go:95: Inserting '\n' into rope 'u
+u' at Cursor (x=1, y=1)
+2024/05/05 12:47:14 main.go:92: Deleting character. Rope is now:
+ 'u
+u'
+2024/05/05 12:47:14 main.go:92: Deleting character. Rope is now:
+ 'u
+'
+2024/05/05 12:47:15 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:47:17 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:47:53 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:47:53 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:47:53 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:47:54 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:47:54 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:47:54 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:47:54 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:47:55 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:47:55 main.go:85: Inserting 'u' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:47:55 main.go:85: Inserting 'u' into rope 'uu' at Cursor (x=2, y=0)
+2024/05/05 12:47:55 main.go:85: Inserting 'u' into rope 'uuu' at Cursor (x=3, y=0)
+2024/05/05 12:47:55 main.go:85: Inserting 'u' into rope 'uuuu' at Cursor (x=4, y=0)
+2024/05/05 12:47:56 main.go:92: Deleting character. Rope is now:
+ 'uuuu'
+2024/05/05 12:47:56 main.go:92: Deleting character. Rope is now:
+ 'uuu'
+2024/05/05 12:47:56 main.go:92: Deleting character. Rope is now:
+ 'uu'
+2024/05/05 12:47:56 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:47:56 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:47:57 main.go:85: Inserting ' ' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:47:57 main.go:85: Inserting ' ' into rope ' ' at Cursor (x=1, y=0)
+2024/05/05 12:47:57 main.go:85: Inserting ' ' into rope '  ' at Cursor (x=2, y=0)
+2024/05/05 12:47:57 main.go:85: Inserting ' ' into rope '   ' at Cursor (x=3, y=0)
+2024/05/05 12:47:57 main.go:85: Inserting ' ' into rope '    ' at Cursor (x=4, y=0)
+2024/05/05 12:47:57 main.go:85: Inserting ' ' into rope '     ' at Cursor (x=5, y=0)
+2024/05/05 12:47:58 main.go:95: Inserting '\n' into rope '      ' at Cursor (x=6, y=0)
+2024/05/05 12:47:58 main.go:92: Deleting character. Rope is now:
+ '      '
+2024/05/05 12:47:59 main.go:92: Deleting character. Rope is now:
+ '     '
+2024/05/05 12:48:01 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:48:02 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:48:02 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:48:02 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:48:02 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:48:02 main.go:95: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/05 12:48:03 main.go:92: Deleting character. Rope is now:
+ '
+
+
+
+'
+2024/05/05 12:48:03 main.go:92: Deleting character. Rope is now:
+ '
+
+
+
+'
+2024/05/05 12:48:03 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:48:03 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:48:04 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:48:04 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:48:04 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:48:04 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:48:04 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:48:04 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:48:04 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:48:04 main.go:85: Inserting ' ' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope ' ' at Cursor (x=1, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '  ' at Cursor (x=2, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '   ' at Cursor (x=3, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '    ' at Cursor (x=4, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '     ' at Cursor (x=5, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '      ' at Cursor (x=6, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '       ' at Cursor (x=7, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '        ' at Cursor (x=8, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '         ' at Cursor (x=9, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '          ' at Cursor (x=10, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '           ' at Cursor (x=11, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '            ' at Cursor (x=12, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '             ' at Cursor (x=13, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '              ' at Cursor (x=14, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '               ' at Cursor (x=15, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '                ' at Cursor (x=16, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '                 ' at Cursor (x=17, y=0)
+2024/05/05 12:48:05 main.go:85: Inserting ' ' into rope '                  ' at Cursor (x=18, y=0)
+2024/05/05 12:48:06 main.go:85: Inserting ' ' into rope '                   ' at Cursor (x=19, y=0)
+2024/05/05 12:48:06 main.go:95: Inserting '\n' into rope '                    ' at Cursor (x=20, y=0)
+2024/05/05 12:48:06 main.go:92: Deleting character. Rope is now:
+ '                    '
+2024/05/05 12:48:07 main.go:92: Deleting character. Rope is now:
+ '                   '
+2024/05/05 12:49:22 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:49:22 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:49:22 main.go:85: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:49:22 main.go:85: Inserting 'o' into rope 'ua' at Cursor (x=2, y=0)
+2024/05/05 12:49:22 main.go:85: Inserting 'e' into rope 'uao' at Cursor (x=3, y=0)
+2024/05/05 12:49:22 main.go:85: Inserting 'u' into rope 'uaoe' at Cursor (x=4, y=0)
+2024/05/05 12:49:22 main.go:85: Inserting 'o' into rope 'uaoeu' at Cursor (x=5, y=0)
+2024/05/05 12:49:22 main.go:85: Inserting 'e' into rope 'uaoeuo' at Cursor (x=6, y=0)
+2024/05/05 12:49:23 main.go:85: Inserting 'u' into rope 'uaoeuoe' at Cursor (x=7, y=0)
+2024/05/05 12:49:23 main.go:95: Inserting '\n' into rope 'uaoeuoeu' at Cursor (x=8, y=0)
+2024/05/05 12:49:23 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeu'
+2024/05/05 12:49:25 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoeu'
+2024/05/05 12:49:26 main.go:92: Deleting character. Rope is now:
+ 'uaoeuoe'
+2024/05/05 12:49:26 main.go:92: Deleting character. Rope is now:
+ 'uaoeuo'
+2024/05/05 12:49:26 main.go:92: Deleting character. Rope is now:
+ 'uaoeu'
+2024/05/05 12:49:27 main.go:92: Deleting character. Rope is now:
+ 'uaoe'
+2024/05/05 12:49:27 main.go:92: Deleting character. Rope is now:
+ 'uao'
+2024/05/05 12:49:27 main.go:92: Deleting character. Rope is now:
+ 'ua'
+2024/05/05 12:49:27 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:49:27 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:49:27 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:49:27 main.go:85: Inserting ' ' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:49:27 main.go:85: Inserting ' ' into rope ' ' at Cursor (x=1, y=0)
+2024/05/05 12:49:27 main.go:85: Inserting ' ' into rope '  ' at Cursor (x=2, y=0)
+2024/05/05 12:49:27 main.go:85: Inserting ' ' into rope '   ' at Cursor (x=3, y=0)
+2024/05/05 12:49:27 main.go:85: Inserting ' ' into rope '    ' at Cursor (x=4, y=0)
+2024/05/05 12:49:27 main.go:85: Inserting ' ' into rope '     ' at Cursor (x=5, y=0)
+2024/05/05 12:49:28 main.go:85: Inserting ' ' into rope '      ' at Cursor (x=6, y=0)
+2024/05/05 12:49:28 main.go:85: Inserting ' ' into rope '       ' at Cursor (x=7, y=0)
+2024/05/05 12:49:28 main.go:85: Inserting ' ' into rope '        ' at Cursor (x=8, y=0)
+2024/05/05 12:49:28 main.go:85: Inserting ' ' into rope '         ' at Cursor (x=9, y=0)
+2024/05/05 12:49:28 main.go:95: Inserting '\n' into rope '          ' at Cursor (x=10, y=0)
+2024/05/05 12:49:28 main.go:92: Deleting character. Rope is now:
+ '          '
+2024/05/05 12:49:29 main.go:92: Deleting character. Rope is now:
+ '          '
+2024/05/05 12:49:29 main.go:92: Deleting character. Rope is now:
+ '         '
+2024/05/05 12:49:29 main.go:92: Deleting character. Rope is now:
+ '        '
+2024/05/05 12:49:29 main.go:92: Deleting character. Rope is now:
+ '       '
+2024/05/05 12:49:30 main.go:92: Deleting character. Rope is now:
+ '      '
+2024/05/05 12:49:30 main.go:92: Deleting character. Rope is now:
+ '     '
+2024/05/05 12:49:30 main.go:92: Deleting character. Rope is now:
+ '    '
+2024/05/05 12:49:30 main.go:92: Deleting character. Rope is now:
+ '   '
+2024/05/05 12:49:30 main.go:92: Deleting character. Rope is now:
+ '  '
+2024/05/05 12:49:30 main.go:92: Deleting character. Rope is now:
+ ' '
+2024/05/05 12:49:30 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:49:30 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:49:30 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:49:30 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:49:30 main.go:95: Inserting '\n' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:49:30 main.go:85: Inserting 'u' into rope 'u
+' at Cursor (x=0, y=1)
+2024/05/05 12:49:30 main.go:95: Inserting '\n' into rope 'u
+u' at Cursor (x=1, y=1)
+2024/05/05 12:49:30 main.go:85: Inserting 'u' into rope 'u
+u
+' at Cursor (x=0, y=2)
+2024/05/05 12:49:31 main.go:95: Inserting '\n' into rope 'u
+u
+u' at Cursor (x=1, y=2)
+2024/05/05 12:49:31 main.go:85: Inserting 'u' into rope 'u
+u
+u
+' at Cursor (x=0, y=3)
+2024/05/05 12:49:31 main.go:95: Inserting '\n' into rope 'u
+u
+u
+u' at Cursor (x=1, y=3)
+2024/05/05 12:49:31 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+u
+u'
+2024/05/05 12:49:32 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+u
+u'
+2024/05/05 12:49:32 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+u
+'
+2024/05/05 12:49:32 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+u'
+2024/05/05 12:49:32 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+u'
+2024/05/05 12:49:33 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+'
+2024/05/05 12:49:33 main.go:92: Deleting character. Rope is now:
+ 'u
+u'
+2024/05/05 12:49:33 main.go:92: Deleting character. Rope is now:
+ 'u
+u'
+2024/05/05 12:49:33 main.go:92: Deleting character. Rope is now:
+ 'u
+'
+2024/05/05 12:49:33 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:49:33 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:49:35 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:53:47 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:53:48 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:53:48 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:53:48 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:53:49 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:53:49 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:53:49 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:53:49 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:53:49 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:53:49 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:53:49 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:53:50 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:53:50 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:53:50 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:53:50 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:53:50 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:53:51 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:53:51 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:53:51 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:53:51 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:53:51 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:53:51 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:53:52 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:53:52 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:53:52 main.go:85: Inserting 'u' into rope '' at Cursor (x=1, y=0)
+2024/05/05 12:53:52 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:53:52 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:53:52 main.go:85: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:53:53 main.go:95: Inserting '\n' into rope 'u' at Cursor (x=1, y=0)
+2024/05/05 12:53:53 main.go:85: Inserting 'u' into rope 'u
+' at Cursor (x=0, y=1)
+2024/05/05 12:53:53 main.go:95: Inserting '\n' into rope 'u
+u' at Cursor (x=1, y=1)
+2024/05/05 12:53:53 main.go:85: Inserting 'u' into rope 'u
+u
+' at Cursor (x=0, y=2)
+2024/05/05 12:53:53 main.go:95: Inserting '\n' into rope 'u
+u
+u' at Cursor (x=1, y=2)
+2024/05/05 12:53:53 main.go:85: Inserting 'u' into rope 'u
+u
+u
+' at Cursor (x=0, y=3)
+2024/05/05 12:53:54 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+u
+'
+2024/05/05 12:53:54 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+u'
+2024/05/05 12:53:54 main.go:92: Deleting character. Rope is now:
+ 'u
+u
+'
+2024/05/05 12:53:55 main.go:92: Deleting character. Rope is now:
+ 'u
+u'
+2024/05/05 12:53:55 main.go:92: Deleting character. Rope is now:
+ 'u
+'
+2024/05/05 12:53:56 main.go:92: Deleting character. Rope is now:
+ 'u'
+2024/05/05 12:53:58 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:53:58 main.go:85: Inserting ' ' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:53:58 main.go:85: Inserting ' ' into rope ' ' at Cursor (x=1, y=0)
+2024/05/05 12:53:58 main.go:85: Inserting ' ' into rope '  ' at Cursor (x=2, y=0)
+2024/05/05 12:53:59 main.go:95: Inserting '\n' into rope '   ' at Cursor (x=3, y=0)
+2024/05/05 12:53:59 main.go:92: Deleting character. Rope is now:
+ '   '
+2024/05/05 12:54:00 main.go:92: Deleting character. Rope is now:
+ '  '
+2024/05/05 12:54:00 main.go:92: Deleting character. Rope is now:
+ ' '
+2024/05/05 12:54:00 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:00 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:01 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:54:01 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:54:01 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:54:01 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:54:01 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:54:02 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:54:02 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:54:02 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:54:02 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:54:02 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:54:02 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:03 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:03 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:03 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:04 main.go:85: Inserting ' ' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:54:04 main.go:85: Inserting ' ' into rope ' ' at Cursor (x=1, y=0)
+2024/05/05 12:54:04 main.go:85: Inserting ' ' into rope '  ' at Cursor (x=2, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '   ' at Cursor (x=3, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '    ' at Cursor (x=4, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '     ' at Cursor (x=5, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '      ' at Cursor (x=6, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '       ' at Cursor (x=7, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '        ' at Cursor (x=8, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '         ' at Cursor (x=9, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '          ' at Cursor (x=10, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '           ' at Cursor (x=11, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '            ' at Cursor (x=12, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '             ' at Cursor (x=13, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '              ' at Cursor (x=14, y=0)
+2024/05/05 12:54:05 main.go:85: Inserting ' ' into rope '               ' at Cursor (x=15, y=0)
+2024/05/05 12:54:05 main.go:95: Inserting '\n' into rope '                ' at Cursor (x=16, y=0)
+2024/05/05 12:54:06 main.go:92: Deleting character. Rope is now:
+ '                '
+2024/05/05 12:54:06 main.go:92: Deleting character. Rope is now:
+ '               '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '              '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '             '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '            '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '           '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '          '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '         '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '        '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '       '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '      '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '     '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '    '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '   '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ '  '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ ' '
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:07 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:08 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:08 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:08 main.go:85: Inserting 'a' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:54:08 main.go:95: Inserting '\n' into rope 'a' at Cursor (x=1, y=0)
+2024/05/05 12:54:08 main.go:85: Inserting 'a' into rope 'a
+' at Cursor (x=0, y=1)
+2024/05/05 12:54:08 main.go:95: Inserting '\n' into rope 'a
+a' at Cursor (x=1, y=1)
+2024/05/05 12:54:08 main.go:85: Inserting 'a' into rope 'a
+a
+' at Cursor (x=0, y=2)
+2024/05/05 12:54:08 main.go:85: Inserting 'a' into rope 'a
+a
+a' at Cursor (x=1, y=2)
+2024/05/05 12:54:08 main.go:95: Inserting '\n' into rope 'a
+a
+aa' at Cursor (x=2, y=2)
+2024/05/05 12:54:08 main.go:95: Inserting '\n' into rope 'a
+a
+aa
+' at Cursor (x=0, y=3)
+2024/05/05 12:54:08 main.go:85: Inserting 'a' into rope 'a
+a
+aa
+
+' at Cursor (x=0, y=4)
+2024/05/05 12:54:09 main.go:95: Inserting '\n' into rope 'a
+a
+aa
+
+a' at Cursor (x=1, y=4)
+2024/05/05 12:54:09 main.go:85: Inserting 'a' into rope 'a
+a
+aa
+
+a
+' at Cursor (x=0, y=5)
+2024/05/05 12:54:09 main.go:95: Inserting '\n' into rope 'a
+a
+aa
+
+a
+a' at Cursor (x=1, y=5)
+2024/05/05 12:54:09 main.go:85: Inserting 'a' into rope 'a
+a
+aa
+
+a
+a
+' at Cursor (x=0, y=6)
+2024/05/05 12:54:09 main.go:95: Inserting '\n' into rope 'a
+a
+aa
+
+a
+a
+a' at Cursor (x=1, y=6)
+2024/05/05 12:54:09 main.go:85: Inserting 'a' into rope 'a
+a
+aa
+
+a
+a
+a
+' at Cursor (x=0, y=7)
+2024/05/05 12:54:09 main.go:95: Inserting '\n' into rope 'a
+a
+aa
+
+a
+a
+a
+a' at Cursor (x=1, y=7)
+2024/05/05 12:54:09 main.go:85: Inserting 'a' into rope 'a
+a
+aa
+
+a
+a
+a
+a
+' at Cursor (x=0, y=8)
+2024/05/05 12:54:09 main.go:95: Inserting '\n' into rope 'a
+a
+aa
+
+a
+a
+a
+a
+a' at Cursor (x=1, y=8)
+2024/05/05 12:54:09 main.go:85: Inserting 'a' into rope 'a
+a
+aa
+
+a
+a
+a
+a
+a
+' at Cursor (x=0, y=9)
+2024/05/05 12:54:09 main.go:95: Inserting '\n' into rope 'a
+a
+aa
+
+a
+a
+a
+a
+a
+a' at Cursor (x=1, y=9)
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a
+a
+a
+a
+a
+a'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a
+a
+a
+a
+a
+'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a
+a
+a
+a
+a'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a
+a
+a
+a
+'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a
+a
+a
+a'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a
+a
+a
+'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a
+a
+a'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a
+a
+'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a
+a'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a
+'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+a'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+
+'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa
+'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+aa'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+'
+2024/05/05 12:54:10 main.go:92: Deleting character. Rope is now:
+ 'a
+a'
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ 'a
+'
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ 'a'
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:54:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:55:09 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:55:10 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:55:10 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:55:10 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:55:10 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:55:10 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:55:11 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:55:11 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:55:11 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:55:11 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:55:11 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:55:11 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:55:12 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:57:07 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:57:08 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:57:08 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:57:08 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:57:08 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:57:09 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:57:09 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:57:09 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:57:09 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:57:09 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:57:10 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:57:10 main.go:85: Inserting 'a' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:57:10 main.go:95: Inserting '\n' into rope 'a' at Cursor (x=1, y=0)
+2024/05/05 12:57:10 main.go:85: Inserting 'a' into rope 'a
+' at Cursor (x=0, y=1)
+2024/05/05 12:57:10 main.go:95: Inserting '\n' into rope 'a
+a' at Cursor (x=1, y=1)
+2024/05/05 12:57:10 main.go:85: Inserting 'a' into rope 'a
+a
+' at Cursor (x=0, y=2)
+2024/05/05 12:57:11 main.go:95: Inserting '\n' into rope 'a
+a
+a' at Cursor (x=1, y=2)
+2024/05/05 12:57:11 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a'
+2024/05/05 12:57:11 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a'
+2024/05/05 12:57:11 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+'
+2024/05/05 12:57:11 main.go:92: Deleting character. Rope is now:
+ 'a
+a'
+2024/05/05 12:57:12 main.go:92: Deleting character. Rope is now:
+ 'a
+a'
+2024/05/05 12:57:12 main.go:92: Deleting character. Rope is now:
+ 'a
+'
+2024/05/05 12:57:12 main.go:92: Deleting character. Rope is now:
+ 'a'
+2024/05/05 12:57:12 main.go:92: Deleting character. Rope is now:
+ 'a'
+2024/05/05 12:57:13 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:57:24 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:57:24 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:57:24 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:57:25 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:57:25 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:57:25 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:57:25 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:57:26 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:57:26 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:57:26 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:57:26 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:57:26 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:57:26 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:57:27 main.go:85: Inserting 'a' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:57:27 main.go:95: Inserting '\n' into rope 'a' at Cursor (x=1, y=0)
+2024/05/05 12:57:27 main.go:85: Inserting 'a' into rope 'a
+' at Cursor (x=0, y=1)
+2024/05/05 12:57:27 main.go:95: Inserting '\n' into rope 'a
+a' at Cursor (x=1, y=1)
+2024/05/05 12:57:27 main.go:85: Inserting 'a' into rope 'a
+a
+' at Cursor (x=0, y=2)
+2024/05/05 12:57:28 main.go:95: Inserting '\n' into rope 'a
+a
+a' at Cursor (x=1, y=2)
+2024/05/05 12:57:28 main.go:85: Inserting 'a' into rope 'a
+a
+a
+' at Cursor (x=0, y=3)
+2024/05/05 12:57:28 main.go:95: Inserting '\n' into rope 'a
+a
+a
+a' at Cursor (x=1, y=3)
+2024/05/05 12:57:28 main.go:85: Inserting 'a' into rope 'a
+a
+a
+a
+' at Cursor (x=0, y=4)
+2024/05/05 12:57:28 main.go:95: Inserting '\n' into rope 'a
+a
+a
+a
+a' at Cursor (x=1, y=4)
+2024/05/05 12:57:28 main.go:85: Inserting 'a' into rope 'a
+a
+a
+a
+a
+' at Cursor (x=0, y=5)
+2024/05/05 12:57:29 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a
+a
+a
+'
+2024/05/05 12:57:29 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a
+a
+a'
+2024/05/05 12:57:30 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a
+a
+a'
+2024/05/05 12:57:30 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a
+a
+'
+2024/05/05 12:57:30 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a
+a'
+2024/05/05 12:57:31 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a
+a'
+2024/05/05 12:57:31 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a
+'
+2024/05/05 12:57:31 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a'
+2024/05/05 12:57:31 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a'
+2024/05/05 12:57:31 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+'
+2024/05/05 12:57:31 main.go:92: Deleting character. Rope is now:
+ 'a
+a'
+2024/05/05 12:57:32 main.go:92: Deleting character. Rope is now:
+ 'a
+a'
+2024/05/05 12:57:32 main.go:92: Deleting character. Rope is now:
+ 'a
+'
+2024/05/05 12:57:32 main.go:92: Deleting character. Rope is now:
+ 'a'
+2024/05/05 12:57:32 main.go:92: Deleting character. Rope is now:
+ 'a'
+2024/05/05 12:57:33 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:57:33 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:57:33 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:57:34 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:57:34 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:57:34 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:57:34 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:57:34 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:58:22 main.go:209: Started program without any files. Created new rope.
+2024/05/05 12:58:22 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:58:22 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:58:22 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:58:23 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:58:23 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:58:23 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:58:23 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:58:24 main.go:95: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:58:24 main.go:95: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/05 12:58:24 main.go:95: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/05 12:58:24 main.go:95: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/05 12:58:24 main.go:92: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/05 12:58:24 main.go:92: Deleting character. Rope is now:
+ '
+
+'
+2024/05/05 12:58:25 main.go:92: Deleting character. Rope is now:
+ '
+'
+2024/05/05 12:58:25 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:58:25 main.go:85: Inserting 'a' into rope '' at Cursor (x=0, y=0)
+2024/05/05 12:58:25 main.go:95: Inserting '\n' into rope 'a' at Cursor (x=1, y=0)
+2024/05/05 12:58:25 main.go:85: Inserting 'a' into rope 'a
+' at Cursor (x=0, y=1)
+2024/05/05 12:58:25 main.go:95: Inserting '\n' into rope 'a
+a' at Cursor (x=1, y=1)
+2024/05/05 12:58:25 main.go:85: Inserting 'a' into rope 'a
+a
+' at Cursor (x=0, y=2)
+2024/05/05 12:58:26 main.go:95: Inserting '\n' into rope 'a
+a
+a' at Cursor (x=1, y=2)
+2024/05/05 12:58:26 main.go:85: Inserting 'a' into rope 'a
+a
+a
+' at Cursor (x=0, y=3)
+2024/05/05 12:58:26 main.go:95: Inserting '\n' into rope 'a
+a
+a
+a' at Cursor (x=1, y=3)
+2024/05/05 12:58:26 main.go:85: Inserting 'a' into rope 'a
+a
+a
+a
+' at Cursor (x=0, y=4)
+2024/05/05 12:58:26 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a
+a
+'
+2024/05/05 12:58:27 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a
+a'
+2024/05/05 12:58:27 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a
+'
+2024/05/05 12:58:27 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+a'
+2024/05/05 12:58:27 main.go:92: Deleting character. Rope is now:
+ 'a
+a
+'
+2024/05/05 12:58:27 main.go:92: Deleting character. Rope is now:
+ 'a
+a'
+2024/05/05 12:58:28 main.go:92: Deleting character. Rope is now:
+ 'a
+'
+2024/05/05 12:58:28 main.go:92: Deleting character. Rope is now:
+ 'a'
+2024/05/05 12:58:28 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:58:28 main.go:92: Deleting character. Rope is now:
+ ''
+2024/05/05 12:58:28 main.go:92: Deleting character. Rope is now:
+ ''
