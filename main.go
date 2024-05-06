@@ -6,7 +6,6 @@ import (
 	"io"
 	"log"
 	BRope "main/brope"
-	Buffer "main/buffer"
 	Files "main/files"
 	"main/layout"
 	"os"
@@ -28,7 +27,7 @@ type CursorArea struct {
 
 type Application struct {
 	file       *string
-	buffer     Buffer.ExtendedBuffer
+	rope       BRope.Rope
 	cursor     *Cursor
 	BufferArea CursorArea
 	window     *Window
@@ -47,7 +46,7 @@ func (app *Application) clampCursor() {
 	// move cursor to end of previous line
 	if cursor.x < app.BufferArea.minX && cursor.y > app.BufferArea.minY {
 		cursor.y--
-		cursor.x = app.BufferArea.minX + app.buffer.LastCharInRow(cursor.y) + 1
+		cursor.x = app.BufferArea.minX + app.rope.LastCharInRow(cursor.y) + 1
 	}
 
 	// keep cursor in left and right bounds
@@ -82,18 +81,18 @@ func (app *Application) handleInput(s tcell.Screen, ev tcell.Event) {
 			s.Sync()
 		} else if ev.Key() == tcell.KeyRune {
 			x, y := cursor.x-app.BufferArea.minX, cursor.y-app.BufferArea.minY
-			app.log.Printf("Inserting '%c' into rope '%v' at Cursor (x=%v, y=%v)", ev.Rune(), app.buffer.String(), x, y)
-			app.buffer.Buffer = app.buffer.InsertChar(y, x, ev.Rune())
+			app.log.Printf("Inserting '%c' into rope '%v' at Cursor (x=%v, y=%v)", ev.Rune(), app.rope.String(), x, y)
+			app.rope = app.rope.InsertChar(y, x, ev.Rune())
 			cursor.x++
 		} else if ev.Key() == tcell.KeyBackspace || ev.Key() == tcell.KeyBackspace2 {
 			x, y := cursor.x-app.BufferArea.minX, cursor.y-app.BufferArea.minY
-			app.buffer.Buffer = app.buffer.DeleteAt(y, x)
+			app.rope = app.rope.DeleteAt(y, x)
 			cursor.x--
-			app.log.Printf("Deleting character. Rope is now:\n '%v'", app.buffer.String())
+			app.log.Printf("Deleting character. Rope is now:\n '%v'", app.rope.String())
 		} else if ev.Key() == tcell.KeyEnter {
 			x, y := cursor.x-app.BufferArea.minX, cursor.y-app.BufferArea.minY
-			app.log.Printf("Inserting '\\n' into rope '%v' at Cursor (x=%v, y=%v)", app.buffer.String(), x, y)
-			app.buffer.Buffer = app.buffer.InsertChar(y, x, '\n')
+			app.log.Printf("Inserting '\\n' into rope '%v' at Cursor (x=%v, y=%v)", app.rope.String(), x, y)
+			app.rope = app.rope.InsertChar(y, x, '\n')
 			cursor.x = app.BufferArea.minX
 			cursor.y++
 		}
@@ -110,11 +109,11 @@ func (app *Application) quit(s tcell.Screen) {
 	s.Fini()
 
 	file := *app.file
-	err := Files.Write(file, app.buffer.Buffer)
+	err := Files.Write(file, app.rope)
 	if err != nil {
 		log.Fatalf("%+v", err)
 	}
-	app.log.Printf("Wrote rope to file %v:\n'%v'", file, app.buffer)
+	app.log.Printf("Wrote rope to file %v:\n'%v'", file, app.rope)
 
 	if maybePanic != nil {
 		panic(maybePanic)
@@ -142,32 +141,32 @@ func NewLogger() *log.Logger {
 
 func (app *Application) lineNumberBox(dims layout.Dimensions) {
 	s := app.screen
-	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X + dims.Width, dims.Origin.Y + dims.Height
+	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X+dims.Width, dims.Origin.Y+dims.Height
 	for i := ymin; i < ymax; i++ {
 		drawText(s, xmin, i, xmax, i, DefaultStyle, " ")
 	}
 
 	// draw new correct ones
 	var lineCount int
-	if app.buffer.LineCount() == 0 {
+	if app.rope.LineCount() == 0 {
 		lineCount = 1
 	} else {
-		lineCount = app.buffer.LineCount()
+		lineCount = app.rope.LineCount()
 	}
 	for i := 0; i < lineCount; i++ {
 		pad := xmax - xmin
 		drawText(s, xmin, i, xmax, i, DefaultStyle, fmt.Sprintf("%*v", pad, i))
 	}
 }
-func (app *Application) bufferBox(dims layout.Dimensions)     {
+func (app *Application) bufferBox(dims layout.Dimensions) {
 	s := app.screen
-	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X + dims.Width, dims.Origin.Y + dims.Height
+	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X+dims.Width, dims.Origin.Y+dims.Height
 	app.BufferArea = CursorArea{xmin, xmax, ymin, ymax}
-	drawText(s, xmin, ymin, xmax, ymax, DefaultStyle, app.buffer.String())
+	drawText(s, xmin, ymin, xmax, ymax, DefaultStyle, app.rope.String())
 }
 func (app *Application) statusLineBox(dims layout.Dimensions) {
 	s := app.screen
-	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X + dims.Width, dims.Origin.Y + dims.Height
+	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X+dims.Width, dims.Origin.Y+dims.Height
 	drawBox(s, xmin, ymin, xmax-1, ymax, DefaultStyle, "Normal Mode")
 }
 
@@ -193,7 +192,7 @@ func main() {
 	application := &Application{
 		file:       nil,
 		cursor:     cursor,
-		buffer:     Buffer.ExtendedBuffer{Buffer: BRope.NewRopeString("")},
+		rope:       BRope.NewRopeString(""),
 		window:     window,
 		BufferArea: cursorArea,
 		screen:     s,
@@ -205,7 +204,7 @@ func main() {
 
 	if file == "" {
 		rope := BRope.NewRopeString("")
-		application.buffer.Buffer = rope
+		application.rope = rope
 		log.Print("Started program without any files. Created new rope.")
 	} else {
 		application.file = &file
@@ -215,7 +214,7 @@ func main() {
 			log.Fatalf("%+v", err)
 		}
 		log.Printf("Read rope from file %v:\n'%v'", file, rope)
-		application.buffer.Buffer = rope
+		application.rope = rope
 	}
 
 	// You have to catch panics in a defer, clean up, and
@@ -246,9 +245,6 @@ func main() {
 		// Clamp cursor position and move move cursor up and down if necessary
 		application.clampCursor()
 		s.ShowCursor(cursor.x, cursor.y)
-
-		// drawText(s, 2, window.height-7, window.width-1, window.height-1, DefaultStyle, application.buffer.Runes())
-		// log.Printf("Rope: %v", application.rope)
 
 		// Update screen
 		s.Show()
