@@ -17,10 +17,8 @@ var confName string = "config.json"
 var confFile string
 
 type EditorConfig struct {
-	LineNumbers string `json:"lineNumbers"`
+	RelativeLineNumbers bool `json:"relativeLineNumbers"`
 	TrimFiles   bool   `json:"trimFiles"`
-	FontSize    int    `json:"fontSize"`
-	FontFamily  string `json:"fontFamily"`
 }
 
 type Config struct {
@@ -44,6 +42,8 @@ func (cfg *Config) Init() {
 
 	cfg.writeConfigIfMissing()
 
+	var editorConfig EditorConfig
+	cfg.EditorConfig = &editorConfig
 	cfg.readConfigIntoMemory()
 }
 
@@ -88,13 +88,15 @@ func (cfg *Config) rereadConfigOnFileChange() {
 				cfg.readConfigIntoMemory()
 			}
 		case err := <-watcher.Errors:
-			panic(err)
+			cfg.log.Fatalf("Error watching config file: %v", err)
 		}
 	}
 }
 
 func (cfg *Config) Cleanup() {
-	cfg.watcher.Close()
+	if cfg.watcher != nil {
+		cfg.watcher.Close()
+	}
 }
 
 func (cfg *Config) readConfigIntoMemory() {
@@ -102,5 +104,8 @@ func (cfg *Config) readConfigIntoMemory() {
 	if err != nil {
 		cfg.log.Fatalf("Could not read config file into memory: %v", err)
 	}
-	json.Unmarshal(configContent, cfg.EditorConfig)
+	uerr := json.Unmarshal(configContent, cfg.EditorConfig)
+	if uerr != nil {
+		cfg.log.Fatalf("Could not unmarshal config file: %v", uerr)
+	}
 }

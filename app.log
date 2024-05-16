@@ -20685,3 +20685,1180 @@ u'
 2024/05/16 17:05:08 main.go:214: Started program without any files. Created new rope.
 2024/05/16 17:05:16 main.go:214: Started program without any files. Created new rope.
 2024/05/16 17:11:09 main.go:217: Started program without any files. Created new rope.
+2024/05/16 17:36:00 main.go:237: Started program without any files. Created new rope.
+2024/05/16 17:36:01 main.go:79: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/16 17:36:02 main.go:79: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/16 17:36:02 main.go:79: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/16 17:36:02 main.go:79: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/16 17:36:02 main.go:79: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/16 17:36:02 main.go:79: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/16 17:36:03 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/16 17:36:03 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+' at Cursor (x=0, y=7)
+2024/05/16 17:36:03 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+' at Cursor (x=0, y=8)
+2024/05/16 17:36:03 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=9)
+2024/05/16 17:36:03 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=10)
+2024/05/16 17:36:03 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=11)
+2024/05/16 17:36:03 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=12)
+2024/05/16 17:36:04 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=13)
+2024/05/16 17:36:04 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=14)
+2024/05/16 17:36:04 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=15)
+2024/05/16 17:36:04 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=16)
+2024/05/16 17:36:05 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=17)
+2024/05/16 17:36:05 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=18)
+2024/05/16 17:36:06 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=19)
+2024/05/16 17:36:06 main.go:69: Inserting 'u' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=20)
+2024/05/16 17:36:06 main.go:69: Inserting 'u' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u' at Cursor (x=1, y=20)
+2024/05/16 17:36:06 main.go:69: Inserting 'u' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uu' at Cursor (x=2, y=20)
+2024/05/16 17:36:07 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uuu' at Cursor (x=3, y=20)
+2024/05/16 17:36:07 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uuu'
+2024/05/16 17:36:07 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uu'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:08 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+
+'
+2024/05/16 17:36:09 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+'
+2024/05/16 17:36:09 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+'
+2024/05/16 17:36:09 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+'
+2024/05/16 17:36:09 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+'
+2024/05/16 17:36:09 main.go:76: Deleting character. Rope is now:
+ '
+
+
+'
+2024/05/16 17:36:09 main.go:76: Deleting character. Rope is now:
+ '
+
+'
+2024/05/16 17:36:10 main.go:76: Deleting character. Rope is now:
+ '
+'
+2024/05/16 17:36:10 main.go:76: Deleting character. Rope is now:
+ ''
+2024/05/16 17:36:10 main.go:76: Deleting character. Rope is now:
+ ''
+2024/05/16 17:36:10 main.go:76: Deleting character. Rope is now:
+ ''
+2024/05/16 17:36:57 main.go:237: Started program without any files. Created new rope.
+2024/05/16 17:36:58 main.go:79: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/16 17:36:59 main.go:79: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/16 17:36:59 main.go:79: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/16 17:36:59 main.go:79: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/16 17:36:59 main.go:79: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/16 17:37:00 main.go:79: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/16 17:37:00 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/16 17:37:00 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+' at Cursor (x=0, y=7)
+2024/05/16 17:37:00 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+' at Cursor (x=0, y=8)
+2024/05/16 17:37:01 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=9)
+2024/05/16 17:38:28 main.go:238: Started program without any files. Created new rope.
+2024/05/16 17:38:29 main.go:79: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/16 17:38:29 main.go:79: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/16 17:38:29 main.go:79: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/16 17:38:30 main.go:79: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/16 17:38:30 main.go:79: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/16 17:38:30 main.go:79: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/16 17:38:30 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/16 17:38:30 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+' at Cursor (x=0, y=7)
+2024/05/16 17:38:30 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+' at Cursor (x=0, y=8)
+2024/05/16 17:39:00 main.go:238: Started program without any files. Created new rope.
+2024/05/16 17:39:00 main.go:79: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/16 17:39:00 main.go:79: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/16 17:39:01 main.go:79: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/16 17:39:01 main.go:79: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/16 17:39:01 main.go:79: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/16 17:39:01 main.go:79: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/16 17:39:01 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/16 17:39:01 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+' at Cursor (x=0, y=7)
+2024/05/16 17:41:01 main.go:238: Started program without any files. Created new rope.
+2024/05/16 17:41:29 main.go:238: Started program without any files. Created new rope.
+2024/05/16 17:41:30 main.go:79: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/16 17:41:30 main.go:79: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/16 17:41:30 main.go:79: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/16 17:41:30 main.go:79: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/16 17:41:30 main.go:79: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/16 17:41:30 main.go:79: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/16 17:41:31 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/16 17:41:31 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+' at Cursor (x=0, y=7)
+2024/05/16 17:41:31 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+' at Cursor (x=0, y=8)
+2024/05/16 17:41:31 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=9)
+2024/05/16 17:41:31 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+
+
+
+
+' at Cursor (x=0, y=10)
+2024/05/16 17:43:36 main.go:235: Started program without any files. Created new rope.
+2024/05/16 17:43:38 main.go:235: Started program without any files. Created new rope.
+2024/05/16 17:44:03 main.go:235: Started program without any files. Created new rope.
+2024/05/16 17:44:37 main.go:235: Started program without any files. Created new rope.
+2024/05/16 17:45:44 main.go:237: Started program without any files. Created new rope.
+2024/05/16 17:45:47 main.go:237: Started program without any files. Created new rope.
+2024/05/16 17:46:52 main.go:237: Started program without any files. Created new rope.
+2024/05/16 17:46:52 main.go:137: Config: &{0x140003b4000 <nil> <nil>}
+2024/05/16 17:47:34 config.go:107: Could not unmarshal config file: invalid character '/' looking for beginning of value
+2024/05/16 17:48:29 config.go:107: Could not unmarshal config file: invalid character '/' looking for beginning of object key string
+2024/05/16 17:49:19 config.go:107: Could not unmarshal config file: invalid character '/' looking for beginning of object key string
+2024/05/16 17:49:46 config.go:107: Could not unmarshal config file: json: Unmarshal(nil *config.EditorConfig)
+2024/05/16 17:50:45 main.go:237: Started program without any files. Created new rope.
+2024/05/16 17:50:45 main.go:137: Config: &{0x14000382000 <nil> 0x1400000e128}
+2024/05/16 17:50:45 main.go:137: Config: &{0x14000382000 <nil> 0x1400000e128}
+2024/05/16 17:51:00 main.go:79: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/16 17:51:00 main.go:137: Config: &{0x14000382000 <nil> 0x1400000e128}
+2024/05/16 17:51:00 main.go:79: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/16 17:51:00 main.go:137: Config: &{0x14000382000 <nil> 0x1400000e128}
+2024/05/16 17:51:01 main.go:79: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/16 17:51:01 main.go:137: Config: &{0x14000382000 <nil> 0x1400000e128}
+2024/05/16 17:51:01 main.go:79: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/16 17:51:01 main.go:137: Config: &{0x14000382000 <nil> 0x1400000e128}
+2024/05/16 17:51:01 main.go:79: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/16 17:51:01 main.go:137: Config: &{0x14000382000 <nil> 0x1400000e128}
+2024/05/16 17:51:16 main.go:237: Started program without any files. Created new rope.
+2024/05/16 17:51:16 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:16 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:17 main.go:79: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/16 17:51:17 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:17 main.go:79: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/16 17:51:17 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:17 main.go:79: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/16 17:51:17 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:17 main.go:79: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/16 17:51:17 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:17 main.go:79: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/16 17:51:17 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:17 main.go:79: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/16 17:51:17 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:17 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/16 17:51:17 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:18 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:18 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:18 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:18 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:18 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:18 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:19 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:19 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:19 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:19 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:19 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:20 main.go:137: Config: &{0x140000ae000 <nil> 0x140000a4078}
+2024/05/16 17:51:30 main.go:237: Started program without any files. Created new rope.
+2024/05/16 17:51:30 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:30 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:31 main.go:79: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/16 17:51:31 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:31 main.go:79: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/16 17:51:31 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:31 main.go:79: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/16 17:51:31 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:31 main.go:79: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/16 17:51:31 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:31 main.go:79: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/16 17:51:31 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:31 main.go:79: Inserting '\n' into rope '
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/16 17:51:31 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:31 main.go:79: Inserting '\n' into rope '
+
+
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/16 17:51:31 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:32 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:32 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:32 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:32 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:37 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:38 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:38 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:38 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:38 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:39 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:39 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:39 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:39 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:39 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:39 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:40 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:40 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:40 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:40 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:40 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:41 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:41 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:41 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:41 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:41 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:41 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:41 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:41 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:42 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:43 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:44 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:45 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:45 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:49 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:49 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:50 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:50 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:50 main.go:69: Inserting 'u' into rope '
+
+
+
+
+
+
+' at Cursor (x=0, y=2)
+2024/05/16 17:51:50 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:50 main.go:69: Inserting 'o' into rope '
+
+u
+
+
+
+
+' at Cursor (x=1, y=2)
+2024/05/16 17:51:50 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:50 main.go:69: Inserting 'e' into rope '
+
+uo
+
+
+
+
+' at Cursor (x=2, y=2)
+2024/05/16 17:51:50 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:50 main.go:69: Inserting 'a' into rope '
+
+uoe
+
+
+
+
+' at Cursor (x=3, y=2)
+2024/05/16 17:51:50 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:50 main.go:69: Inserting 'u' into rope '
+
+uoea
+
+
+
+
+' at Cursor (x=4, y=2)
+2024/05/16 17:51:50 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:50 main.go:69: Inserting 'o' into rope '
+
+uoeau
+
+
+
+
+' at Cursor (x=5, y=2)
+2024/05/16 17:51:50 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:50 main.go:69: Inserting 'e' into rope '
+
+uoeauo
+
+
+
+
+' at Cursor (x=6, y=2)
+2024/05/16 17:51:50 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:51 main.go:69: Inserting 'u' into rope '
+
+uoeauoe
+
+
+
+
+' at Cursor (x=7, y=2)
+2024/05/16 17:51:51 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:51 main.go:76: Deleting character. Rope is now:
+ '
+
+uoeauoe
+
+
+
+
+'
+2024/05/16 17:51:51 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:51 main.go:76: Deleting character. Rope is now:
+ '
+
+uoeauo
+
+
+
+
+'
+2024/05/16 17:51:51 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:51 main.go:76: Deleting character. Rope is now:
+ '
+
+uoeau
+
+
+
+
+'
+2024/05/16 17:51:51 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:51 main.go:76: Deleting character. Rope is now:
+ '
+
+uoea
+
+
+
+
+'
+2024/05/16 17:51:51 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:51 main.go:76: Deleting character. Rope is now:
+ '
+
+uoe
+
+
+
+
+'
+2024/05/16 17:51:51 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:51 main.go:76: Deleting character. Rope is now:
+ '
+
+uo
+
+
+
+
+'
+2024/05/16 17:51:51 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:51 main.go:76: Deleting character. Rope is now:
+ '
+
+u
+
+
+
+
+'
+2024/05/16 17:51:51 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:52 main.go:76: Deleting character. Rope is now:
+ '
+
+
+
+
+
+
+'
+2024/05/16 17:51:52 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:52 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:52 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:52 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:52 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:51:53 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 17:53:11 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}

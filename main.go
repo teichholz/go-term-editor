@@ -31,7 +31,7 @@ type Application struct {
 	file       *string
 	rope       BRope.Rope
 	cursor     *Cursor
-	config	   *config.Config
+	config     *config.Config
 	BufferArea CursorArea
 	window     *Window
 	screen     tcell.Screen
@@ -131,16 +131,34 @@ func (app *Application) lineNumberBox(dims layout.Dimensions) {
 		drawText(s, xmin, i, xmax, i, DefaultStyle, " ")
 	}
 
-	// draw new correct ones
-	var lineCount int
-	if app.rope.LineCount() == 0 {
-		lineCount = 1
-	} else {
-		lineCount = app.rope.LineCount()
-	}
-	for i := 0; i < lineCount; i++ {
-		pad := xmax - xmin
-		drawText(s, xmin, i, xmax, i, DefaultStyle, fmt.Sprintf("%*v", pad, i))
+	pad := xmax - xmin
+
+	// TODO check this vaule
+	//app.log.Printf("Config: %v", app.config)
+	if !app.config.EditorConfig.RelativeLineNumbers {
+		var lineCount int
+		if app.rope.LineCount() == 0 {
+			lineCount = 1
+		} else {
+			lineCount = app.rope.LineCount()
+		}
+		for i := 0; i < lineCount; i++ {
+			drawText(s, xmin, i, xmax, i, DefaultStyle, fmt.Sprintf("%*v", pad, i))
+		}
+	} else{
+		var lineCount int
+		if app.rope.LineCount() == 0 {
+			lineCount = 1
+		} else {
+			lineCount = app.rope.LineCount()
+		}
+		for top := 0; top < app.cursor.y; top++ {
+			drawText(s, xmin, top, xmax, top, LightStyle, fmt.Sprintf("%*v", pad, app.cursor.y-top))
+		}
+		drawText(s, xmin, app.cursor.y, xmax, app.cursor.y, DefaultStyle, fmt.Sprintf("%*v", pad, app.cursor.y))
+		for bottom := app.cursor.y+1; bottom < lineCount; bottom++ {
+			drawText(s, xmin, bottom, xmax, bottom, LightStyle, fmt.Sprintf("%*v", pad, bottom-app.cursor.y))
+		}
 	}
 }
 func (app *Application) bufferBox(dims layout.Dimensions) {

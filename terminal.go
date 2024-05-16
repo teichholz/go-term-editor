@@ -3,6 +3,7 @@ package main
 import "github.com/gdamore/tcell/v2"
 
 var DefaultStyle = tcell.StyleDefault.Background(tcell.ColorReset).Foreground(tcell.ColorReset)
+var LightStyle = tcell.StyleDefault.Background(tcell.ColorReset).Foreground(tcell.ColorLightGray)
 
 func drawText(s tcell.Screen, x1, y1, x2, y2 int, style tcell.Style, text string) {
 	row := y1
