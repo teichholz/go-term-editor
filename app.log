@@ -21862,3 +21862,602 @@ u
 2024/05/16 17:51:52 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
 2024/05/16 17:51:53 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
 2024/05/16 17:53:11 main.go:137: Config: &{0x140001144e0 <nil> 0x140001167e8}
+2024/05/16 19:02:21 main.go:237: Started program without any files. Created new rope.
+2024/05/16 19:02:25 main.go:79: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/16 19:02:40 main.go:79: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/16 19:05:04 main.go:237: Started program without any files. Created new rope.
+2024/05/16 19:06:25 main.go:237: Started program without any files. Created new rope.
+2024/05/16 19:06:56 main.go:79: Inserting '\n' into rope '' at Cursor (x=0, y=0)
+2024/05/16 19:06:57 main.go:79: Inserting '\n' into rope '
+' at Cursor (x=0, y=1)
+2024/05/16 19:06:57 main.go:79: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=2)
+2024/05/16 19:06:57 main.go:79: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=3)
+2024/05/16 19:06:57 main.go:79: Inserting '\n' into rope '
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/16 19:08:56 main.go:237: Started program without any files. Created new rope.
+2024/05/16 19:09:02 config.go:89: Config file event: CREATE        "/Users/t.eichholz/.goditor/config.json~"
+2024/05/16 19:09:02 config.go:89: Config file event: RENAME        "/Users/t.eichholz/.goditor/config.json"
+2024/05/16 19:09:02 config.go:89: Config file event: REMOVE        "/Users/t.eichholz/.goditor/config.json~"
+2024/05/16 19:09:02 config.go:89: Config file event: CREATE        "/Users/t.eichholz/.goditor/config.json"
+2024/05/16 19:10:13 main.go:237: Started program without any files. Created new rope.
+2024/05/16 19:10:44 main.go:237: Started program without any files. Created new rope.
+2024/05/16 19:10:49 config.go:89: Event: CREATE        "/Users/t.eichholz/.goditor/config.json~"
+Name%!(EXTRA string=/Users/t.eichholz/.goditor/config.json~)
+2024/05/16 19:10:49 config.go:89: Event: RENAME        "/Users/t.eichholz/.goditor/config.json"
+Name%!(EXTRA string=/Users/t.eichholz/.goditor/config.json)
+2024/05/16 19:10:49 config.go:89: Event: REMOVE        "/Users/t.eichholz/.goditor/config.json~"
+Name%!(EXTRA string=/Users/t.eichholz/.goditor/config.json~)
+2024/05/16 19:10:49 config.go:89: Event: CREATE        "/Users/t.eichholz/.goditor/config.json"
+Name%!(EXTRA string=/Users/t.eichholz/.goditor/config.json)
+2024/05/16 19:13:09 main.go:237: Started program without any files. Created new rope.
+2024/05/16 19:13:14 config.go:90: Event: CREATE        "/Users/t.eichholz/.goditor/config.json~"
+Name%!(EXTRA string=/Users/t.eichholz/.goditor/config.json~)
+2024/05/16 19:13:14 config.go:92: Config file changed, reloading
+2024/05/16 19:13:14 config.go:90: Event: RENAME        "/Users/t.eichholz/.goditor/config.json"
+Name%!(EXTRA string=/Users/t.eichholz/.goditor/config.json)
+2024/05/16 19:13:14 config.go:90: Event: CREATE        "/Users/t.eichholz/.goditor/config.json"
+Name%!(EXTRA string=/Users/t.eichholz/.goditor/config.json)
+2024/05/16 19:13:14 config.go:92: Config file changed, reloading
+2024/05/16 19:13:14 config.go:90: Event: REMOVE        "/Users/t.eichholz/.goditor/config.json~"
+Name%!(EXTRA string=/Users/t.eichholz/.goditor/config.json~)
+2024/05/16 19:13:46 main.go:237: Started program without any files. Created new rope.
+2024/05/16 19:13:51 config.go:90: Name /Users/t.eichholz/.goditor/config.json~
+2024/05/16 19:13:51 config.go:92: Config file changed, reloading
+2024/05/16 19:13:51 config.go:90: Name /Users/t.eichholz/.goditor/config.json
+2024/05/16 19:13:51 config.go:90: Name /Users/t.eichholz/.goditor/config.json~
+2024/05/16 19:13:51 config.go:90: Name /Users/t.eichholz/.goditor/config.json
+2024/05/16 19:13:51 config.go:92: Config file changed, reloading
+2024/05/16 19:14:34 main.go:237: Started program without any files. Created new rope.
+2024/05/16 19:14:37 config.go:89: Name /Users/t.eichholz/.goditor/config.json~
+2024/05/16 19:14:37 config.go:89: Name /Users/t.eichholz/.goditor/config.json
+2024/05/16 19:14:37 config.go:89: Name /Users/t.eichholz/.goditor/config.json~
+2024/05/16 19:14:37 config.go:89: Name /Users/t.eichholz/.goditor/config.json
+2024/05/16 19:14:37 config.go:91: Config file changed, reloading
+2024/05/16 19:41:40 main.go:243: Started program without any files. Created new rope.
+2024/05/16 20:40:03 main.go:319: Started program without any files. Created new rope.
+2024/05/16 20:40:03 main.go:108: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/16 20:40:03 main.go:108: Inserting 'a' into rope 'u' at Cursor (x=1, y=0)
+2024/05/16 20:40:03 main.go:108: Inserting 'o' into rope 'ua' at Cursor (x=2, y=0)
+2024/05/16 20:40:03 main.go:108: Inserting 'e' into rope 'uao' at Cursor (x=3, y=0)
+2024/05/16 20:40:03 main.go:108: Inserting 'u' into rope 'uaoe' at Cursor (x=4, y=0)
+2024/05/16 20:40:03 main.go:118: Inserting '\n' into rope 'uaoeu' at Cursor (x=5, y=0)
+2024/05/16 20:40:03 main.go:108: Inserting 'u' into rope 'uaoeu
+' at Cursor (x=0, y=1)
+2024/05/16 20:40:04 main.go:108: Inserting 'a' into rope 'uaoeu
+u' at Cursor (x=1, y=1)
+2024/05/16 20:40:04 main.go:108: Inserting 'o' into rope 'uaoeu
+ua' at Cursor (x=2, y=1)
+2024/05/16 20:40:04 main.go:108: Inserting 'u' into rope 'uaoeu
+uao' at Cursor (x=3, y=1)
+2024/05/16 20:40:04 main.go:108: Inserting 'a' into rope 'uaoeu
+uaou' at Cursor (x=4, y=1)
+2024/05/16 20:40:04 main.go:108: Inserting 'o' into rope 'uaoeu
+uaoua' at Cursor (x=5, y=1)
+2024/05/16 20:40:04 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouao' at Cursor (x=6, y=1)
+2024/05/16 20:40:04 main.go:108: Inserting 'e' into rope 'uaoeu
+uaouaou' at Cursor (x=7, y=1)
+2024/05/16 20:40:04 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoue' at Cursor (x=8, y=1)
+2024/05/16 20:40:04 main.go:118: Inserting '\n' into rope 'uaoeu
+uaouaoueu' at Cursor (x=9, y=1)
+2024/05/16 20:40:04 main.go:108: Inserting 'a' into rope 'uaoeu
+uaouaoueu
+' at Cursor (x=0, y=2)
+2024/05/16 20:40:04 main.go:108: Inserting 'o' into rope 'uaoeu
+uaouaoueu
+a' at Cursor (x=1, y=2)
+2024/05/16 20:40:04 main.go:108: Inserting 'e' into rope 'uaoeu
+uaouaoueu
+ao' at Cursor (x=2, y=2)
+2024/05/16 20:40:04 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoueu
+aoe' at Cursor (x=3, y=2)
+2024/05/16 20:40:04 main.go:108: Inserting 'a' into rope 'uaoeu
+uaouaoueu
+aoeu' at Cursor (x=4, y=2)
+2024/05/16 20:40:04 main.go:108: Inserting 'o' into rope 'uaoeu
+uaouaoueu
+aoeua' at Cursor (x=5, y=2)
+2024/05/16 20:40:05 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoueu
+aoeuao' at Cursor (x=6, y=2)
+2024/05/16 20:40:05 main.go:108: Inserting 'o' into rope 'uaoeu
+uaouaoueu
+aoeuaou' at Cursor (x=7, y=2)
+2024/05/16 20:40:05 main.go:108: Inserting 'e' into rope 'uaoeu
+uaouaoueu
+aoeuaouo' at Cursor (x=8, y=2)
+2024/05/16 20:40:05 main.go:118: Inserting '\n' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe' at Cursor (x=9, y=2)
+2024/05/16 20:40:05 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+' at Cursor (x=0, y=3)
+2024/05/16 20:40:05 main.go:108: Inserting 'o' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+u' at Cursor (x=1, y=3)
+2024/05/16 20:40:05 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uo' at Cursor (x=2, y=3)
+2024/05/16 20:40:05 main.go:108: Inserting 'o' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uou' at Cursor (x=3, y=3)
+2024/05/16 20:40:05 main.go:118: Inserting '\n' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo' at Cursor (x=4, y=3)
+2024/05/16 20:40:05 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+' at Cursor (x=0, y=4)
+2024/05/16 20:40:05 main.go:108: Inserting 'a' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+u' at Cursor (x=1, y=4)
+2024/05/16 20:40:05 main.go:108: Inserting 'o' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+ua' at Cursor (x=2, y=4)
+2024/05/16 20:40:05 main.go:108: Inserting 'e' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uao' at Cursor (x=3, y=4)
+2024/05/16 20:40:05 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoe' at Cursor (x=4, y=4)
+2024/05/16 20:40:06 main.go:108: Inserting 'a' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeu' at Cursor (x=5, y=4)
+2024/05/16 20:40:06 main.go:108: Inserting 'o' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeua' at Cursor (x=6, y=4)
+2024/05/16 20:40:06 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuao' at Cursor (x=7, y=4)
+2024/05/16 20:40:06 main.go:118: Inserting '\n' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou' at Cursor (x=8, y=4)
+2024/05/16 20:40:06 main.go:108: Inserting 'a' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou
+' at Cursor (x=0, y=5)
+2024/05/16 20:40:06 main.go:108: Inserting 'o' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou
+a' at Cursor (x=1, y=5)
+2024/05/16 20:40:06 main.go:108: Inserting 'e' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou
+ao' at Cursor (x=2, y=5)
+2024/05/16 20:40:06 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou
+aoe' at Cursor (x=3, y=5)
+2024/05/16 20:40:06 main.go:108: Inserting 'o' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou
+aoeu' at Cursor (x=4, y=5)
+2024/05/16 20:40:06 main.go:108: Inserting 'a' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou
+aoeuo' at Cursor (x=5, y=5)
+2024/05/16 20:40:06 main.go:108: Inserting 'e' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou
+aoeuoa' at Cursor (x=6, y=5)
+2024/05/16 20:40:06 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou
+aoeuoae' at Cursor (x=7, y=5)
+2024/05/16 20:40:07 main.go:108: Inserting 'u' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou
+aoeuoaeu' at Cursor (x=8, y=5)
+2024/05/16 20:40:24 main.go:118: Inserting '\n' into rope 'uaoeu
+uaouaoueu
+aoeuaouoe
+uouo
+uaoeuaou
+aoeuoaeuu' at Cursor (x=0, y=45)
+2024/05/16 20:40:26 main.go:319: Started program without any files. Created new rope.
+2024/05/16 20:40:28 main.go:118: Inserting '\n' into rope '' at Cursor (x=0, y=45)
+2024/05/16 20:40:28 main.go:118: Inserting '\n' into rope '
+' at Cursor (x=0, y=45)
+2024/05/16 20:40:29 main.go:118: Inserting '\n' into rope '
+
+' at Cursor (x=0, y=45)
+2024/05/16 20:40:29 main.go:118: Inserting '\n' into rope '
+
+
+' at Cursor (x=0, y=45)
+2024/05/16 20:41:51 main.go:320: Started program without any files. Created new rope.
+2024/05/16 20:42:01 main.go:365: Sadly there is no help yet.
+2024/05/16 20:42:52 main.go:320: Started program without any files. Created new rope.
+2024/05/16 20:43:44 main.go:321: Started program without any files. Created new rope.
+2024/05/16 20:43:50 main.go:108: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/16 20:43:50 main.go:108: Inserting 'o' into rope 'u' at Cursor (x=1, y=0)
+2024/05/16 20:43:50 main.go:108: Inserting 'a' into rope 'uo' at Cursor (x=2, y=0)
+2024/05/16 20:43:50 main.go:108: Inserting 'u' into rope 'uoa' at Cursor (x=3, y=0)
+2024/05/16 20:43:50 main.go:118: Inserting '\n' into rope 'uoau' at Cursor (x=4, y=0)
+2024/05/16 20:43:50 main.go:118: Inserting '\n' into rope 'uoau
+' at Cursor (x=0, y=1)
+2024/05/16 20:43:50 main.go:118: Inserting '\n' into rope 'uoau
+
+' at Cursor (x=0, y=2)
+2024/05/16 20:43:50 main.go:118: Inserting '\n' into rope 'uoau
+
+
+' at Cursor (x=0, y=3)
+2024/05/16 20:43:51 main.go:118: Inserting '\n' into rope 'uoau
+
+
+
+' at Cursor (x=0, y=4)
+2024/05/16 20:43:51 main.go:118: Inserting '\n' into rope 'uoau
+
+
+
+
+' at Cursor (x=0, y=5)
+2024/05/16 20:43:51 main.go:118: Inserting '\n' into rope 'uoau
+
+
+
+
+
+' at Cursor (x=0, y=6)
+2024/05/16 20:43:51 main.go:118: Inserting '\n' into rope 'uoau
+
+
+
+
+
+
+' at Cursor (x=0, y=7)
+2024/05/16 20:43:51 main.go:108: Inserting 'u' into rope 'uoau
+
+
+
+
+
+
+
+' at Cursor (x=0, y=8)
+2024/05/16 20:43:51 main.go:108: Inserting 'a' into rope 'uoau
+
+
+
+
+
+
+
+u' at Cursor (x=1, y=8)
+2024/05/16 20:43:51 main.go:108: Inserting 'e' into rope 'uoau
+
+
+
+
+
+
+
+ua' at Cursor (x=2, y=8)
+2024/05/16 20:43:52 main.go:108: Inserting 'o' into rope 'uoau
+
+
+
+
+
+
+
+uae' at Cursor (x=3, y=8)
+2024/05/16 20:43:52 main.go:108: Inserting 'u' into rope 'uoau
+
+
+
+
+
+
+
+uaeo' at Cursor (x=4, y=8)
+2024/05/16 20:43:52 main.go:108: Inserting 'o' into rope 'uoau
+
+
+
+
+
+
+
+uaeou' at Cursor (x=5, y=8)
+2024/05/16 20:43:52 main.go:108: Inserting 'u' into rope 'uoau
+
+
+
+
+
+
+
+uaeouo' at Cursor (x=6, y=8)
+2024/05/16 20:43:52 main.go:118: Inserting '\n' into rope 'uoau
+
+
+
+
+
+
+
+uaeouou' at Cursor (x=7, y=8)
+2024/05/16 20:43:52 main.go:118: Inserting '\n' into rope 'uoau
+
+
+
+
+
+
+
+uaeouou
+' at Cursor (x=0, y=9)
+2024/05/16 20:43:52 main.go:118: Inserting '\n' into rope 'uoau
+
+
+
+
+
+
+
+uaeouou
+
+' at Cursor (x=0, y=10)
+2024/05/16 20:43:52 main.go:118: Inserting '\n' into rope 'uoau
+
+
+
+
+
+
+
+uaeouou
+
+
+' at Cursor (x=0, y=11)
+2024/05/16 20:43:53 main.go:118: Inserting '\n' into rope 'uoau
+
+
+
+
+
+
+
+uaeouou
+
+
+
+' at Cursor (x=0, y=12)
+2024/05/16 20:44:02 main.go:321: Started program without any files. Created new rope.
+2024/05/16 20:44:05 main.go:108: Inserting 'u' into rope '' at Cursor (x=0, y=0)
+2024/05/16 20:44:05 main.go:108: Inserting 'o' into rope 'u' at Cursor (x=1, y=0)
+2024/05/16 20:44:05 main.go:108: Inserting 'e' into rope 'uo' at Cursor (x=2, y=0)
+2024/05/16 20:44:05 main.go:108: Inserting 'a' into rope 'uoe' at Cursor (x=3, y=0)
+2024/05/16 20:44:05 main.go:108: Inserting 'u' into rope 'uoea' at Cursor (x=4, y=0)
+2024/05/16 20:44:16 main.go:366: Sadly there is no help yet.
+2024/05/16 20:44:27 main.go:321: Started program without any files. Created new rope.
+2024/05/16 20:44:47 main.go:323: Started program without any files. Created new rope.
+2024/05/16 20:45:44 main.go:321: Started program without any files. Created new rope.
+2024/05/16 20:45:56 main.go:321: Started program without any files. Created new rope.
+2024/05/16 20:45:57 main.go:108: Inserting 'Q' into rope '' at Cursor (x=0, y=0)
+2024/05/16 20:46:17 main.go:321: Started program without any files. Created new rope.
+2024/05/16 20:46:57 main.go:321: Started program without any files. Created new rope.
+2024/05/16 20:48:09 main.go:321: Started program without any files. Created new rope.
+2024/05/16 20:48:11 main.go:366: Sadly there is no help yet.
+2024/05/16 20:48:12 main.go:366: Sadly there is no help yet.
+2024/05/16 20:48:14 main.go:366: Sadly there is no help yet.
+2024/05/16 20:48:15 main.go:366: Sadly there is no help yet.
+2024/05/16 20:48:16 main.go:366: Sadly there is no help yet.
+2024/05/16 20:48:17 main.go:366: Sadly there is no help yet.
+2024/05/16 20:48:21 main.go:366: Sadly there is no help yet.
+2024/05/16 20:48:22 main.go:366: Sadly there is no help yet.
+2024/05/16 20:50:22 main.go:334: Started program without any files. Created new rope.
+2024/05/16 20:51:00 main.go:337: Started program without any files. Created new rope.
+2024/05/16 20:51:01 main.go:122: Deleting character. Rope is now:
+ ''
+2024/05/16 20:52:00 main.go:338: Started program without any files. Created new rope.
+2024/05/16 20:52:59 main.go:383: Sadly there is no help yet.
+2024/05/16 20:53:31 main.go:383: Sadly there is no help yet.
+2024/05/16 20:53:33 main.go:115: Inserting 'k' into rope '' at Cursor (x=60, y=8)
+2024/05/16 20:53:33 main.go:115: Inserting 'k' into rope 'k' at Cursor (x=61, y=8)
+2024/05/16 20:53:33 main.go:115: Inserting 'k' into rope 'kk' at Cursor (x=62, y=8)
+2024/05/16 20:53:33 main.go:115: Inserting 'j' into rope 'kkk' at Cursor (x=63, y=8)
+2024/05/16 20:53:34 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:34 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:34 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:34 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:35 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:36 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:37 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkkj'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kkk'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'kk'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ 'k'
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ ''
+2024/05/16 20:53:38 main.go:122: Deleting character. Rope is now:
+ ''
+2024/05/16 20:54:26 main.go:338: Started program without any files. Created new rope.
+2024/05/16 20:54:51 main.go:339: Started program without any files. Created new rope.
+2024/05/16 20:54:56 main.go:339: Started program without any files. Created new rope.
+2024/05/16 20:54:59 main.go:339: Started program without any files. Created new rope.
+2024/05/16 20:55:08 main.go:339: Started program without any files. Created new rope.
+2024/05/16 20:56:57 main.go:342: Started program without any files. Created new rope.
+2024/05/16 20:56:59 main.go:342: Started program without any files. Created new rope.
+2024/05/16 21:23:10 main.go:342: Started program without any files. Created new rope.
+2024/05/16 21:25:14 main.go:346: Started program without any files. Created new rope.
+2024/05/16 21:42:39 main.go:349: Started program without any files. Created new rope.
+2024/05/16 21:42:48 main.go:349: Started program without any files. Created new rope.

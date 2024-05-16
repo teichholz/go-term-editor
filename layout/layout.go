@@ -189,12 +189,12 @@ func (a *AutoId) ID() (id int) {
 var ai AutoId
 type FlexItem struct {
 	id int
-	Box  Box
+	Box  LayoutBox
 	Flex *Flex
 	Size Constraint
 }
 
-func FlexItemBox(box Box, size Constraint, flex *Flex) FlexItem {
+func FlexItemBox(box LayoutBox, size Constraint, flex *Flex) FlexItem {
 	return FlexItem{id: ai.ID(), Box: box, Size: size, Flex: flex}
 }
 
@@ -249,6 +249,6 @@ type Dimensions struct {
 }
 
 // Should they be content aware?
-type Box func(Dimensions)
+type LayoutBox func(Dimensions)
 
 func EmptyBox(Dimensions) {}

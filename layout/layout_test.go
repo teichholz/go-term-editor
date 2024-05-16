@@ -84,3 +84,19 @@ func TestSimplexBoxRegularForm(t *testing.T) {
 
 	// lp.Convert(c, G, h)
 }
+
+type s struct {
+	name string
+}
+
+func TestPtr(t *testing.T) {
+	te := s{name: "test"}
+	fmt.Printf("Name is %s\n", te.name)
+	fmt.Printf("Address of s: %p, Address of s.name: %p\n", &te, &te.name)
+	te.name = "test2"
+	fmt.Printf("Name is %s\n", te.name)
+	fmt.Printf("Address of s: %p, Address of s.name: %p\n", &te, &te.name)
+	te.name = "test3"
+	fmt.Printf("Name is %s\n", te.name)
+	fmt.Printf("Address of s: %p, Address of s.name: %p\n", &te, &te.name)
+}

@@ -45,6 +45,8 @@ func (cfg *Config) Init() {
 	var editorConfig EditorConfig
 	cfg.EditorConfig = &editorConfig
 	cfg.readConfigIntoMemory()
+
+	go cfg.rereadConfigOnFileChange()
 }
 
 func (cfg *Config) writeConfigIfMissing() {
@@ -74,7 +76,7 @@ func (cfg *Config) rereadConfigOnFileChange() {
 	if err != nil {
 		cfg.log.Fatalf("Could not create file watcher: %v", err)
 	}
-	// defer watcher.Close()
+	defer watcher.Close()
 
 	err = watcher.Add(confDir)
 	if err != nil {
@@ -84,11 +86,13 @@ func (cfg *Config) rereadConfigOnFileChange() {
 	for {
 		select {
 		case event := <-watcher.Events:
-			if event.Has(fsnotify.Write) {
+			if event.Has(fsnotify.Create) && event.Name == confFile {
+				cfg.log.Printf("Config file changed, reloading")
 				cfg.readConfigIntoMemory()
 			}
 		case err := <-watcher.Errors:
-			cfg.log.Fatalf("Error watching config file: %v", err)
+			cfg.log.Printf("Error watching config file: %v", err)
+			return;
 		}
 	}
 }
