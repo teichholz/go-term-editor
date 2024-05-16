@@ -19,7 +19,7 @@ func (c *Commands) Exec(command string) {
 	if cmd := c.findCommandByLongestPrefix(command); cmd != nil {
 		cmd()
 	} else {
-		log.Printf("Command %s not found\n", command)
+		c.log.Printf("Command %s not found\n", command)
 	}
 }
 

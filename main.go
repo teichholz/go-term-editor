@@ -51,15 +51,18 @@ const (
 )
 
 type Application struct {
+	// TODO refactor this into multiple buffers
 	file   string
 	rope   BRope.Rope
 	cursor *Cursor
 	config *config.Config
 
+	// TODO refactor this into area type
 	currentCommand string
 	commandArea    CommandArea
 	commands       *commands.Commands
 
+	// TODO refactor this into sink type
 	currentSink      sink
 	currentInputSink InputSink
 
@@ -296,7 +299,7 @@ func (app *Application) statusLineBox(dims layout.Dimensions) {
 		// Cursor needs to consider 'Cmd: ' prefx
 		drawText(s, xmin+1, ymin+1, xmax-1, ymax-1, DefaultStyle, prefix+app.currentCommand)
 	}
-	app.commandArea = CommandArea{Origin{xmin + offset, ymin + 1}, Origin{xmax - 1, ymax - 1}}
+	app.commandArea = CommandArea{Origin{xmin + offset, ymin + 1}, Origin{xmax - 1, ymax - 7}}
 }
 
 func main() {
@@ -339,6 +342,10 @@ func main() {
 
 	commands.Register("help", application.helpCmd)
 	commands.Register("quit", application.quitCmd)
+	commands.Register("write", application.writeCmd)
+	commands.Register("read", application.readCmd)
+	commands.Register("hsplit", application.hsplitCmd)
+	commands.Register("files", application.filesCmd)
 
 	flag.Parse()
 	file := flag.Arg(0)
@@ -396,4 +403,23 @@ func (app *Application) helpCmd() {
 
 func (app *Application) quitCmd() {
 	app.isAlive = false
+}
+
+func (app *Application) writeCmd() {
+	err := Files.Write(app.file, app.rope)
+	if err != nil {
+		app.log.Fatalf("Could not write buffer content to file: %v", err)
+	}
+}
+
+func (app *Application) readCmd() {
+	app.log.Printf("read command not implemented yet.")
+}
+
+func (app *Application) hsplitCmd() {
+	app.log.Printf("hsplit command not implemented yet.")
+}
+
+func (app *Application) filesCmd() {
+	app.log.Printf("files command not implemented yet.")
 }
