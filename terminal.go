@@ -26,6 +26,28 @@ func drawText(s tcell.Screen, x1, y1, x2, y2 int, style tcell.Style, text string
 	}
 }
 
+func drawRunes(s tcell.Screen, x1, y1, x2, y2 int, style tcell.Style, runes []rune) {
+	row := y1
+	col := x1
+	for _, r := range runes {
+		if (r == '\n') {
+			row++
+			col = x1
+			continue
+		}
+
+		s.SetContent(col, row, r, nil, style)
+		col++
+		if col >= x2 {
+			row++
+			col = x1
+		}
+		if row > y2 {
+			break
+		}
+	}
+}
+
 func drawBox(s tcell.Screen, x1, y1, x2, y2 int, style tcell.Style, text string) {
 	if y2 < y1 {
 		y1, y2 = y2, y1

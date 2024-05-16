@@ -33,10 +33,11 @@ type Leaf interface {
 	Slice(Interval) Leaf
 	Interval() Interval
 	Copy() Leaf
-}
 
+}
+type Runes []rune
 type StringLeaf struct {
-	vec []rune
+	vec Runes
 }
 
 func (s StringLeaf) Len() int {
@@ -87,6 +88,7 @@ type NodeBody struct {
 	height, len int
 	NodeInfo
 	NodeVal
+	cow *copyOnWriteContext
 }
 
 type NodeInfo struct {
@@ -121,8 +123,9 @@ type LeafNodeVal struct {
 
 func (LeafNodeVal) isNode() {}
 
+type Nodes []Node
 type InternalNodeVal struct {
-	nodes []Node
+	nodes Nodes
 }
 
 func (InternalNodeVal) isNode() {}
@@ -131,7 +134,7 @@ func NodeFromLeaf(leaf Leaf) Node {
 	info := NodeInfo{}
 	len := leaf.Len()
 	info.compute(leaf)
-	return Node{&NodeBody{0, len, info, LeafNodeVal{leaf}}}
+	return Node{&NodeBody{0, len, info, LeafNodeVal{leaf}, nil}}
 }
 
 // Invariance: 1 <= len(nodes) <= MAX_CHILDREN
@@ -148,13 +151,14 @@ func NodeFromNodes(nodes []Node) Node {
 		if height != n.height {
 			panic("Invariance: All nodes are same height")
 		}
-		if !n.isLeaf() && !n.isOkChild() {
+		// Leafs have to be at least MIN_LEAF, so caller code will need to prefer to merge leafs before creating internal nodes
+		if !n.isOkChild() {
 			panic("Invariance: All nodes must satisfy isOkChild")
 		}
 		len += n.len
 		info.accumulate(n.NodeInfo)
 	}
-	return Node{&NodeBody{height + 1, len, info, InternalNodeVal{nodes}}}
+	return Node{&NodeBody{height + 1, len, info, InternalNodeVal{nodes}, nil}}
 }
 
 func (n Node) Len() int {

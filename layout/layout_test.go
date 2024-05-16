@@ -9,26 +9,31 @@ import (
 	"gonum.org/v1/gonum/optimize/convex/lp"
 )
 
-func TestLayout(t *testing.T) {
+func TestLayoutRel(t *testing.T) {
 	emptybuffercontainer := func(dim Dimensions) { fmt.Println("emptybuffercontainer", dim) }
 	statusline := func(dim Dimensions) { fmt.Println("statusline", dim) }
 	linenumbers := func(dim Dimensions) { fmt.Println("linenumbers", dim) }
 	buffer := func(dim Dimensions) { fmt.Println("buffer", dim) }
 
-	flex := Flex{
-		Dir: Y,
-		Items: []FlexItem{
-			{Size: 0.5, Box: emptybuffercontainer, Flex: &Flex{
-				Dir: X,
-				Items: []FlexItem{
-					{Size: 0.5, Box: linenumbers, Flex: nil},
-					{Size: 0.5, Box: buffer, Flex: nil},
-				},
-			}},
-			{Size: 0.5, Box: statusline, Flex: nil},
-		},
-	}
+	flex := Column(
+		FlexItemBox(emptybuffercontainer, Exact(Rel(0.5)),
+			Row(
+				FlexItemBox(linenumbers, Exact(Rel(0.5)), nil),
+				FlexItemBox(buffer, Exact(Rel(0.5)), nil),
+			)),
+		FlexItemBox(statusline, Exact(Rel(0.5)), nil))
 
+	flex.StartLayouting(200, 200)
+}
+
+func TestLayoutAbs(t *testing.T) {
+	linenumbers := func(dim Dimensions) { fmt.Println("linenumbers", dim) }
+	buffer := func(dim Dimensions) { fmt.Println("buffer", dim) }
+
+	flex := Row(
+		FlexItemBox(linenumbers, Exact(Abs(3)), nil),
+		FlexItemBox(buffer, Max(Rel(1)), nil),
+	)
 	flex.StartLayouting(200, 200)
 }
 

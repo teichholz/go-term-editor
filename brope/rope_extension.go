@@ -18,7 +18,7 @@ func (n Rope) String() string {
 }
 
 // Unsafe operation, gives a mutable view of the rope content
-func (n Rope) runes() []rune {
+func (n Rope) Runes() []rune {
 	if n.isLeaf() {
 		return n.getLeaf().Runes()
 	}
@@ -26,7 +26,7 @@ func (n Rope) runes() []rune {
 	children := n.getChildren()
 	rs := []rune{}
 	for _, child := range children {
-		rs = slices.Concat(rs, child.runes())
+		rs = slices.Concat(rs, child.Runes())
 	}
 	return rs
 }
@@ -113,7 +113,7 @@ func (r Rope) GetLine(line int) []rune {
 	b := NewTreeBuilder()
 	b.PushSlice(r, IV(offset, offset2))
 
-	return b.Build().runes()
+	return b.Build().Runes()
 }
 
 func (r Rope) Length() int {

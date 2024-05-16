@@ -6,8 +6,10 @@ import (
 	"io"
 	"log"
 	BRope "main/brope"
+	"main/config"
 	Files "main/files"
 	"main/layout"
+	. "main/layout"
 	"os"
 
 	"github.com/gdamore/tcell/v2"
@@ -29,6 +31,7 @@ type Application struct {
 	file       *string
 	rope       BRope.Rope
 	cursor     *Cursor
+	config	   *config.Config
 	BufferArea CursorArea
 	window     *Window
 	screen     tcell.Screen
@@ -38,24 +41,6 @@ type Application struct {
 
 func (win *Window) update(width, height int) {
 	win.width, win.height = width, height
-}
-
-func (app *Application) clampCursor() {
-	cursor := app.cursor
-
-	// move cursor to end of previous line
-	if cursor.x < app.BufferArea.minX && cursor.y > app.BufferArea.minY {
-		cursor.y--
-		cursor.x = app.BufferArea.minX + app.rope.LastCharInRow(cursor.y) + 1
-	}
-
-	// keep cursor in left and right bounds
-	cursor.x = max(cursor.x, app.BufferArea.minX)
-	cursor.x = min(cursor.x, app.BufferArea.maxX)
-
-	// keep cursor in top and bottom bounds
-	cursor.y = max(cursor.y, app.BufferArea.minY)
-	cursor.y = min(cursor.y, app.BufferArea.maxY)
 }
 
 func (app *Application) handleInput(s tcell.Screen, ev tcell.Event) {
@@ -161,13 +146,35 @@ func (app *Application) lineNumberBox(dims layout.Dimensions) {
 func (app *Application) bufferBox(dims layout.Dimensions) {
 	s := app.screen
 	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X+dims.Width, dims.Origin.Y+dims.Height
+	drawRunes(s, xmin, ymin, xmax, ymax, DefaultStyle, app.rope.Runes())
+
 	app.BufferArea = CursorArea{xmin, xmax, ymin, ymax}
-	drawText(s, xmin, ymin, xmax, ymax, DefaultStyle, app.rope.String())
+	app.clampCursor()
 }
+
+func (app *Application) clampCursor() {
+	cursor := app.cursor
+
+	// move cursor to end of previous line
+	if cursor.x < app.BufferArea.minX && cursor.y > app.BufferArea.minY {
+		cursor.y--
+		cursor.x = app.BufferArea.minX + app.rope.LastCharInRow(cursor.y) + 1
+	}
+
+	// keep cursor in left and right bounds
+	cursor.x = max(cursor.x, app.BufferArea.minX)
+	cursor.x = min(cursor.x, app.BufferArea.maxX)
+
+	// keep cursor in top and bottom bounds
+	cursor.y = max(cursor.y, app.BufferArea.minY)
+	cursor.y = min(cursor.y, app.BufferArea.maxY)
+}
+
 func (app *Application) statusLineBox(dims layout.Dimensions) {
 	s := app.screen
 	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X+dims.Width, dims.Origin.Y+dims.Height
-	drawBox(s, xmin, ymin, xmax-1, ymax, DefaultStyle, "Normal Mode")
+	// app.log.Printf("Drawing status line box at (%v, %v) to (%v, %v)", xmin, ymin, xmax, ymax)
+	drawBox(s, xmin, ymin, xmax-1, ymax-1, DefaultStyle, "Normal Mode")
 }
 
 func main() {
@@ -189,9 +196,13 @@ func main() {
 	cursor := &Cursor{x: 0, y: 0}
 	cursorArea := CursorArea{0, window.width - 1, 0, window.height - 1}
 	log := NewLogger()
+	config := config.NewConfig(log)
+	config.Init()
+	defer config.Cleanup()
 	application := &Application{
 		file:       nil,
 		cursor:     cursor,
+		config:     config,
 		rope:       BRope.NewRopeString(""),
 		window:     window,
 		BufferArea: cursorArea,
@@ -222,28 +233,20 @@ func main() {
 	// die without leaving any diagnostic trace.
 	defer application.quit(s)
 
-	flex := layout.Flex{
-		Dir: layout.Y,
-		Items: []layout.FlexItem{
-			{Size: 0.95, Box: layout.EmptyBox, Flex: &layout.Flex{
-				Dir: layout.X,
-				Items: []layout.FlexItem{
-					{Size: 0.05, Box: application.lineNumberBox, Flex: nil},
-					{Size: 0.95, Box: application.bufferBox, Flex: nil},
-				},
-			}},
-			{Size: 0.05, Box: application.statusLineBox, Flex: nil},
-		},
-	}
+	layout := Column(
+		FlexItemBox(EmptyBox, Max(Rel(1)), Row(
+			FlexItemBox(application.lineNumberBox, Exact(Abs(3)), nil),
+			FlexItemBox(application.bufferBox, Max(Rel(1)), nil),
+		)),
+		FlexItemBox(application.statusLineBox, Exact(Abs(3)), nil),
+	)
 
 	// Event loop
 	for {
 		window.update(s.Size())
 		s.Clear()
-		flex.StartLayouting(window.width, window.height)
+		layout.StartLayouting(window.width, window.height)
 
-		// Clamp cursor position and move move cursor up and down if necessary
-		application.clampCursor()
 		s.ShowCursor(cursor.x, cursor.y)
 
 		// Update screen

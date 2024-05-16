@@ -1,0 +1,11 @@
+// Go editor configuration. Delete this file to create a new default configuration.
+{
+  // absolute | relative
+  "lineNumbers": "absolute",
+  // true | false
+  "trimFiles": true,
+  // [0, Inf)
+  "fontSize": 12,
+  // Installed font family
+  "fontFamily": "Jetbrains Mono"
+}
