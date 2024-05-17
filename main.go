@@ -226,9 +226,6 @@ func (app *Application) lineNumberBox(dims layout.Dimensions) {
 		}
 
 		pad := xmax - xmin
-
-		// TODO check this vaule
-		//app.log.Printf("Config: %v", app.config)
 		if !app.config.EditorConfig.RelativeLineNumbers {
 			var lineCount int
 			if app.rope.LineCount() == 0 {

@@ -56,7 +56,6 @@ func (f Flex) LayoutVertical(c context) {
 	// 2. equally distribute remaining space to all items. If min size is not met, cancel that box layout and redistribute
 	// 3. distribute remaining space to items, stopping if max size is met
 
-
 	// only render items whose min size is actually met
 	smallestPossibleSize := height / len(f.Items)
 	itemsToLayout := filter(f.Items, func(i int, item FlexItem) bool { return item.Size.Min.toAbs(height)  <= smallestPossibleSize })
@@ -242,13 +241,11 @@ type context struct {
 	curDimensions Dimensions
 }
 
-// Resolve dimensions for a box
+// Resolved dimensions for a box
 type Dimensions struct {
 	Origin        Point // TL corner
 	Width, Height int
 }
 
-// Should they be content aware?
 type LayoutBox func(Dimensions)
-
 func EmptyBox(Dimensions) {}
