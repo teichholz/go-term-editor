@@ -3,11 +3,14 @@ package layout
 import (
 	"fmt"
 	"log"
+	"os"
 	"testing"
 
 	"gonum.org/v1/gonum/mat"
 	"gonum.org/v1/gonum/optimize/convex/lp"
 )
+
+var layouter *Layouter = NewLayouter(log.New(os.Stdout, "layouter: ", log.Lshortfile))
 
 func TestLayoutRel(t *testing.T) {
 	emptybuffercontainer := func(dim Dimensions) { fmt.Println("emptybuffercontainer", dim) }
@@ -23,7 +26,7 @@ func TestLayoutRel(t *testing.T) {
 			)),
 		FlexItemBox(statusline, Exact(Rel(0.5)), nil))
 
-	flex.StartLayouting(200, 200)
+	layouter.StartLayouting(flex, 200, 200)
 }
 
 func TestLayoutAbs(t *testing.T) {
@@ -34,7 +37,7 @@ func TestLayoutAbs(t *testing.T) {
 		FlexItemBox(linenumbers, Exact(Abs(3)), nil),
 		FlexItemBox(buffer, Max(Rel(1)), nil),
 	)
-	flex.StartLayouting(200, 200)
+	layouter.StartLayouting(flex, 200, 200)
 }
 
 func TestSimplex(t *testing.T) {
@@ -87,6 +90,7 @@ func TestSimplexBoxRegularForm(t *testing.T) {
 
 type s struct {
 	name string
+  i int
 }
 
 func TestPtr(t *testing.T) {
@@ -99,4 +103,18 @@ func TestPtr(t *testing.T) {
 	te.name = "test3"
 	fmt.Printf("Name is %s\n", te.name)
 	fmt.Printf("Address of s: %p, Address of s.name: %p\n", &te, &te.name)
+}
+
+type SM map[int]s
+
+func TestMapAddressable(t *testing.T) {
+  m := make(SM, 10)
+  m[0] = s{"test0", 0}
+  m[1] = s{"test1", 1}
+
+  s1 := s{"test0", 0}
+	fmt.Printf("Address of s: %p\n", &s1)
+  s2 := s1
+	fmt.Printf("Address of s: %p\n", &s2)
+  
 }

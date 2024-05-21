@@ -1,6 +1,7 @@
 package layout
 
 import (
+	"log"
 	"slices"
 	"sync"
 )
@@ -9,7 +10,8 @@ type Point struct {
 	X, Y int
 }
 
-type Layout interface {
+type Layouter struct {
+  log *log.Logger
 }
 
 type Flex struct {
@@ -25,8 +27,12 @@ func Row(items ...FlexItem) *Flex {
 	return &Flex{Dir: X, Items: items}
 }
 
+func NewLayouter(log *log.Logger) *Layouter {
+  return &Layouter{log: log}
+}
 
-func (f Flex) StartLayouting(width, height int) {
+func (l *Layouter) StartLayouting(f *Flex, width, height int) {
+  l.log.Printf("Start layouting with width %d and height %d", width, height)
 	c := context{
 		curDimensions: Dimensions{
 			Origin: Point{X: 0, Y: 0},
