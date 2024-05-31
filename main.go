@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"log"
+  Buffer "main/buffer"
 	BRope "main/brope"
 	"main/commands"
 	"main/config"
@@ -38,10 +39,6 @@ type Origin struct {
 	x, y int
 }
 
-type BufferArea struct {
-  minX, maxX, minY, maxY int
-}
-
 type InputSink func(tcell.Event)
 type InputAreaType int
 
@@ -54,6 +51,7 @@ const (
 type Application struct {
 	// TODO refactor this into multiple buffers
 	file   string
+  buffer Buffer.Buffer
 	rope   BRope.Rope
 	config *config.Config
 
@@ -64,8 +62,8 @@ type Application struct {
 	activeInputArea *InputArea
 	inputAreas      map[InputAreaType]*InputArea
 
-	window     *Window
-	screen     tcell.Screen
+	window *Window
+	screen tcell.Screen
 
 	isAlive bool
 
@@ -73,7 +71,7 @@ type Application struct {
 }
 
 type Area struct {
-	box *Box
+	box    *Box
 	cursor *Cursor
 }
 
@@ -103,7 +101,7 @@ func (app *Application) handleInputBufferArea(ev tcell.Event) {
 	cursor := app.activeInputArea.area.cursor
 	window := app.window
 	s := app.screen
-  box := app.activeInputArea.area.box
+	box := app.activeInputArea.area.box
 
 	switch ev := ev.(type) {
 	case *tcell.EventResize:
@@ -124,14 +122,14 @@ func (app *Application) handleInputBufferArea(ev tcell.Event) {
 			s.Sync()
 		} else if ev.Key() == tcell.KeyRune && ev.Rune() == ':' {
 			// switch into command mode
-      app.activeInputArea = app.inputAreas[commandArea]
+			app.activeInputArea = app.inputAreas[commandArea]
 		} else if ev.Key() == tcell.KeyRune {
 			x, y := cursor.x-box.min.x, cursor.y-box.min.y
 			app.log.Printf("Inserting '%c' into rope '%v' at Cursor (x=%v, y=%v)", ev.Rune(), app.rope.String(), x, y)
 			app.rope = app.rope.InsertChar(y, x, ev.Rune())
 			cursor.x++
 		} else if ev.Key() == tcell.KeyBackspace || ev.Key() == tcell.KeyBackspace2 {
-      minx, miny := app.activeInputArea.area.box.min.x, app.activeInputArea.area.box.min.y
+			minx, miny := app.activeInputArea.area.box.min.x, app.activeInputArea.area.box.min.y
 			x, y := cursor.x-minx, cursor.y-miny
 			app.rope = app.rope.DeleteAt(y, x)
 			cursor.x--
@@ -164,10 +162,10 @@ func (app *Application) handleInputCommandArea(ev tcell.Event) {
 	case *tcell.EventKey:
 		if ev.Key() == tcell.KeyEscape {
 			app.currentCommand = ""
-      app.activeInputArea = app.inputAreas[bufferArea]
-      // invalidate cursor, causing them to be clamped again next time
-      cursor.x, cursor.y = -1, -1
-      app.activeInputArea = app.inputAreas[bufferArea]
+			app.activeInputArea = app.inputAreas[bufferArea]
+			// invalidate cursor, causing them to be clamped again next time
+			cursor.x, cursor.y = -1, -1
+			app.activeInputArea = app.inputAreas[bufferArea]
 		} else if ev.Key() == tcell.KeyCtrlC {
 			app.quit(s)
 		} else if ev.Key() == tcell.KeyLeft {
@@ -181,16 +179,16 @@ func (app *Application) handleInputCommandArea(ev tcell.Event) {
 			app.currentCommand += string(rune)
 			cursor.x++
 		} else if ev.Key() == tcell.KeyBackspace || ev.Key() == tcell.KeyBackspace2 {
-      if len(app.currentCommand) > 0 {
-        app.currentCommand = app.currentCommand[:len(app.currentCommand)-1]
-      }
+			if len(app.currentCommand) > 0 {
+				app.currentCommand = app.currentCommand[:len(app.currentCommand)-1]
+			}
 			cursor.x--
 		} else if ev.Key() == tcell.KeyEnter {
 			app.commands.Exec(app.currentCommand)
-      // invalidate cursor, causing them to be clamped again next time
-      cursor.x, cursor.y = -1, -1
+			// invalidate cursor, causing them to be clamped again next time
+			cursor.x, cursor.y = -1, -1
 			app.currentCommand = ""
-      app.activeInputArea = app.inputAreas[bufferArea]
+			app.activeInputArea = app.inputAreas[bufferArea]
 		}
 	}
 }
@@ -235,7 +233,7 @@ func (app *Application) lineNumberBox(dims layout.Dimensions) {
 	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X+dims.Width, dims.Origin.Y+dims.Height
 
 	if app.activeInputArea.typ == bufferArea {
-    cursor := app.activeInputArea.area.cursor
+		cursor := app.activeInputArea.area.cursor
 		pad := xmax - xmin
 
 		for i := ymin; i < ymax; i++ {
@@ -275,31 +273,31 @@ func (app *Application) lineNumberBox(dims layout.Dimensions) {
 }
 
 func (app *Application) bufferBox(dims layout.Dimensions) {
-  app.log.Printf("Drawing buffer box")
+	app.log.Printf("Drawing buffer box")
 	s := app.screen
 	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X+dims.Width, dims.Origin.Y+dims.Height
 
-  if app.activeInputArea.typ == bufferArea {
+	if app.activeInputArea.typ == bufferArea {
 		drawRunes(s, xmin, ymin, xmax, ymax, DefaultStyle, app.rope.Runes())
-    box := Box{Origin{xmin, ymin}, Origin{xmax, ymax}}
-    inputArea := app.inputAreas[bufferArea]
-    inputArea.area.box = &box
-  }
+		box := Box{Origin{xmin, ymin}, Origin{xmax, ymax}}
+		inputArea := app.inputAreas[bufferArea]
+		inputArea.area.box = &box
+	}
 }
 
 func (app *Application) clampAreaCursor() {
 	cursor := app.activeInputArea.area.cursor
-  box := app.activeInputArea.area.box
-  minx, miny := box.min.x, box.min.y
-  maxx, maxy := box.max.x, box.max.y
+	box := app.activeInputArea.area.box
+	minx, miny := box.min.x, box.min.y
+	maxx, maxy := box.max.x, box.max.y
 
 	// move cursor to end of previous line
-  if app.activeInputArea.typ == bufferArea {
-    if cursor.x < minx && cursor.y > miny {
-      cursor.y--
-      cursor.x = minx + app.rope.LastCharInRow(cursor.y) + 1
-    }
-  }
+	if app.activeInputArea.typ == bufferArea {
+		if cursor.x < minx && cursor.y > miny {
+			cursor.y--
+			cursor.x = minx + app.rope.LastCharInRow(cursor.y) + 1
+		}
+	}
 
 	// keep cursor in left and right bounds
 	cursor.x = max(cursor.x, minx)
@@ -310,7 +308,7 @@ func (app *Application) clampAreaCursor() {
 	cursor.y = min(cursor.y, maxy)
 
 	// todo clamp with last line of buffer
-  // app.log.Printf("Clamped cursor to (%v, %v)", cursor.x, cursor.y)
+	// app.log.Printf("Clamped cursor to (%v, %v)", cursor.x, cursor.y)
 }
 
 func (app *Application) statusLineBox(dims layout.Dimensions) {
@@ -325,9 +323,9 @@ func (app *Application) statusLineBox(dims layout.Dimensions) {
 	if app.activeInputArea.typ == commandArea {
 		// Cursor needs to consider 'Cmd: ' prefx
 		drawText(s, xmin+1, ymin+1, xmax-1, ymax-1, DefaultStyle, prefix+app.currentCommand)
-    box := Box{Origin{xmin + offset, ymin + 1}, Origin{xmax - 7, ymax - 1}}
-    inputArea := app.inputAreas[commandArea]
-    inputArea.area.box = &box
+		box := Box{Origin{xmin + offset, ymin + 1}, Origin{xmax - 7, ymax - 1}}
+		inputArea := app.inputAreas[commandArea]
+		inputArea.area.box = &box
 	}
 }
 
@@ -353,33 +351,32 @@ func main() {
 	defer config.Cleanup()
 	commands := commands.NewCommands(log)
 	app := &Application{
-		file:        "",
-		config:      config,
-		commands:    commands,
-		rope:        BRope.NewRopeString(""),
-		inputAreas:  make(map[InputAreaType]*InputArea, 10),
-		window:      window,
-		screen:      s,
-		log:         log,
-		isAlive:     true,
+		file:       "",
+		config:     config,
+		commands:   commands,
+		rope:       BRope.NewRopeString(""),
+		inputAreas: make(map[InputAreaType]*InputArea, 10),
+		window:     window,
+		screen:     s,
+		log:        log,
+		isAlive:    true,
 	}
-
 
 	bufferInputArea := &InputArea{
 		typ:  bufferArea,
-    area: Area{&Box{Origin{0, 0}, Origin{window.width - 1, window.height - 1}}, &Cursor{Origin{0, 0}, Origin{0, 0}}},
+		area: Area{&Box{Origin{0, 0}, Origin{window.width - 1, window.height - 1}}, &Cursor{Origin{0, 0}, Origin{0, 0}}},
 		sink: app.handleInputBufferArea,
 	}
 
 	commandInputArea := &InputArea{
 		typ:  commandArea,
-    area: Area{&Box{Origin{0, 0}, Origin{window.width - 1, window.height - 1}}, &Cursor{Origin{0, 0}, Origin{0, 0}}},
+		area: Area{&Box{Origin{0, 0}, Origin{window.width - 1, window.height - 1}}, &Cursor{Origin{0, 0}, Origin{0, 0}}},
 		sink: app.handleInputCommandArea,
 	}
 
 	app.inputAreas[bufferArea] = bufferInputArea
 	app.inputAreas[commandArea] = commandInputArea
-  app.activeInputArea = bufferInputArea
+	app.activeInputArea = bufferInputArea
 
 	commands.Register("help", app.helpCmd)
 	commands.Register("quit", app.quitCmd)
@@ -411,7 +408,7 @@ func main() {
 	// die without leaving any diagnostic trace.
 	defer app.quit(s)
 
-  layouter := layout.NewLayouter(log)
+	layouter := layout.NewLayouter(log)
 
 	layout := Column(
 		FlexItemBox(EmptyBox, Max(Rel(1)), Row(
@@ -426,9 +423,9 @@ func main() {
 		window.update(s.Size())
 		s.Clear()
 		layouter.StartLayouting(layout, window.width, window.height)
-    app.clampAreaCursor()
+		app.clampAreaCursor()
 
-    cx, cy := app.activeInputArea.area.cursor.x, app.activeInputArea.area.cursor.y
+		cx, cy := app.activeInputArea.area.cursor.x, app.activeInputArea.area.cursor.y
 		s.ShowCursor(cx, cy)
 
 		// Update screen

@@ -195,7 +195,7 @@ var ai AutoId
 type FlexItem struct {
 	id int
 	Box  LayoutBox
-	Flex *Flex
+	Flex *Flex // Optional container for more flex items
 	Size Constraint
 }
 
