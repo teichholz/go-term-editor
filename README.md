@@ -1,6 +1,6 @@
 # go-term-editor
 
-A simple editor I developed on in my free time. As of now this project is paused, since it took too much of my time and was not well scoped.
+A simple editor I develop on in my free time.
 
 The project is inspired by:
 - https://github.com/xi-editor/xi-editor: The implementation of a rope as a b-tree as well as many useful generic operations on it
@@ -13,4 +13,5 @@ To implement the terminal editor, I used https://github.com/gdamore/tcell.
 ## Structure
 - brope: Contains a reimplementation of the rope as written in the xi-editor. It is based on the idea of a b-tree. 
 - layout: Contains a crude implementation of a ui layout constraint solver. My first intention was to use linear programming for that, but but it currently is too feature poor to justify the added complexity of linear programming.
+- config: Editor configuration via a simple json file. In the future it is planned to embed Lua (or maybe starlark) to be able to interop with the go program and configure the editor that way. 
 - btree: A copy of the go b-tree reference implementation. Would have been used as a template to implement copy on write for the b-tree rope, but it turned out less useful than I thought it would.
