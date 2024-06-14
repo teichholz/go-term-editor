@@ -5,11 +5,9 @@ import (
 	"fmt"
 	"io"
 	"log"
-  Buffer "main/buffer"
-	BRope "main/brope"
+	Buffer "main/buffer"
 	"main/commands"
 	"main/config"
-	Files "main/files"
 	"main/layout"
 	. "main/layout"
 	"os"
@@ -20,11 +18,6 @@ import (
 type Cursor struct {
 	Origin
 	saved Origin
-}
-
-// TODO maybe store Cursor inside each Area, so that we can easily have more areas + input sinks
-type CommandArea struct {
-	min, max Origin
 }
 
 type Window struct {
@@ -39,46 +32,84 @@ type Origin struct {
 	x, y int
 }
 
+
 type InputSink func(tcell.Event)
 type InputAreaType int
+
 
 const (
 	bufferArea InputAreaType = iota
 	commandArea
-	fileArea
 )
 
+// Buffer (in memory of file)
+// Window is viewport on buffer. Eeach window is its own InputArea. 
+// Tab page is collection of windows
+
+// TODO flesh out
+
 type Application struct {
-	// TODO refactor this into multiple buffers
-	file   string
-  buffer Buffer.Buffer
-	rope   BRope.Rope
+	// TODO refactor this into multiple buffers, buffers need to factor in an open tab, and the input area
+  currentBuffer *Buffer.Buffer
+	buffers *Buffer.Buffers
+
+  // editor configuration
 	config *config.Config
 
-	// TODO refactor this into area type
+  // command to execute is build up and stored here
 	currentCommand string
+  // map of all possible commands and their implementations
 	commands       *commands.Commands
 
 	activeInputArea *InputArea
 	inputAreas      map[InputAreaType]*InputArea
 
+  currentArea Area
+  commandArea *CommandArea 
+
+  // current terminal window size. Gets updated by the value tcell sends us
 	window *Window
+  // tcell state holder
 	screen tcell.Screen
 
+  // whether the application is still running
 	isAlive bool
 
 	log *log.Logger
 }
 
-type Area struct {
+type WindowArea struct {
 	box    *Box
 	cursor *Cursor
 }
 
 type InputArea struct {
 	typ  InputAreaType
-	area Area
+	area WindowArea
 	sink InputSink
+}
+
+type BufferWindow struct {
+  inputArea *InputArea
+  buffer *Buffer.Buffer
+}
+
+func (win *BufferWindow) send(ev tcell.Event) { 
+  win.inputArea.sink(ev)
+}
+
+type CommandArea struct {
+  inputArea *InputArea
+}
+
+func (cmda *CommandArea) send(ev tcell.Event) { 
+  cmda.inputArea.sink(ev)
+}
+
+
+type Area interface {
+  // Areas can be "active" in which case events are send to them
+  send(tcell.Event) 
 }
 
 func (app *Application) switchInputArea(inputArea InputAreaType) {
@@ -125,19 +156,19 @@ func (app *Application) handleInputBufferArea(ev tcell.Event) {
 			app.activeInputArea = app.inputAreas[commandArea]
 		} else if ev.Key() == tcell.KeyRune {
 			x, y := cursor.x-box.min.x, cursor.y-box.min.y
-			app.log.Printf("Inserting '%c' into rope '%v' at Cursor (x=%v, y=%v)", ev.Rune(), app.rope.String(), x, y)
-			app.rope = app.rope.InsertChar(y, x, ev.Rune())
+			app.log.Printf("Inserting '%c' into rope '%v' at Cursor (x=%v, y=%v)", ev.Rune(), app.currentBuffer.Rope.String(), x, y)
+			app.currentBuffer.Rope = app.currentBuffer.Rope.InsertChar(y, x, ev.Rune())
 			cursor.x++
 		} else if ev.Key() == tcell.KeyBackspace || ev.Key() == tcell.KeyBackspace2 {
 			minx, miny := app.activeInputArea.area.box.min.x, app.activeInputArea.area.box.min.y
 			x, y := cursor.x-minx, cursor.y-miny
-			app.rope = app.rope.DeleteAt(y, x)
+			app.currentBuffer.Rope = app.currentBuffer.Rope.DeleteAt(y, x)
 			cursor.x--
-			app.log.Printf("Deleting character. Rope is now:\n '%v'", app.rope.String())
+			app.log.Printf("Deleting character. Rope is now:\n '%v'", app.currentBuffer.Rope.String())
 		} else if ev.Key() == tcell.KeyEnter {
 			x, y := cursor.x-box.min.x, cursor.y-box.min.y
-			app.log.Printf("Inserting '\\n' into rope '%v' at Cursor (x=%v, y=%v)", app.rope.String(), x, y)
-			app.rope = app.rope.InsertChar(y, x, '\n')
+			app.log.Printf("Inserting '\\n' into rope '%v' at Cursor (x=%v, y=%v)", app.currentBuffer.Rope.String(), x, y)
+			app.currentBuffer.Rope = app.currentBuffer.Rope.InsertChar(y, x, '\n')
 			cursor.x = app.activeInputArea.area.box.min.x
 			cursor.y++
 		}
@@ -197,12 +228,11 @@ func (app *Application) quit(s tcell.Screen) {
 	maybePanic := recover()
 	s.Fini()
 
-	file := app.file
-	err := Files.Write(file, app.rope)
+	err := app.buffers.WriteClose(app.currentBuffer.File)
 	if err != nil {
 		log.Fatalf("%+v", err)
 	}
-	app.log.Printf("Wrote rope to file %v:\n'%v'", file, app.rope)
+	app.log.Printf("Wrote rope to file %v:\n'%v'", app.currentBuffer.File, app.currentBuffer.Rope)
 
 	if maybePanic != nil {
 		panic(maybePanic)
@@ -212,6 +242,9 @@ func (app *Application) quit(s tcell.Screen) {
 }
 
 var nFlag = flag.Int("n", 1234, "help message for flag n")
+// TODO make these flags work
+var oFlag = flag.String("o", "", "Files to open horizontally split on startup")
+var OFlag = flag.String("O", "", "Files to open vertically split on startup")
 
 func NewLogger() *log.Logger {
 	// Open a file for logging
@@ -242,20 +275,21 @@ func (app *Application) lineNumberBox(dims layout.Dimensions) {
 
 		if !app.config.EditorConfig.RelativeLineNumbers {
 			var lineCount int
-			if app.rope.LineCount() == 0 {
+			if app.currentBuffer.Rope.LineCount() == 0 {
 				lineCount = 1
 			} else {
-				lineCount = app.rope.LineCount()
+				lineCount = app.currentBuffer.Rope.LineCount()
 			}
 			for i := 0; i < lineCount; i++ {
 				drawText(s, xmin, i, xmax, i, DefaultStyle, fmt.Sprintf("%*v", pad, i))
 			}
 		} else {
+      // TODO relative liner numbers are not working properly
 			var lineCount int
-			if app.rope.LineCount() == 0 {
+			if app.currentBuffer.Rope.LineCount() == 0 {
 				lineCount = 1
 			} else {
-				lineCount = app.rope.LineCount()
+				lineCount = app.currentBuffer.Rope.LineCount()
 			}
 			if lineCount == 1 {
 				drawText(s, xmin, cursor.y, xmax, cursor.y, DefaultStyle, fmt.Sprintf("%*v", pad, 0))
@@ -278,7 +312,7 @@ func (app *Application) bufferBox(dims layout.Dimensions) {
 	xmin, ymin, xmax, ymax := dims.Origin.X, dims.Origin.Y, dims.Origin.X+dims.Width, dims.Origin.Y+dims.Height
 
 	if app.activeInputArea.typ == bufferArea {
-		drawRunes(s, xmin, ymin, xmax, ymax, DefaultStyle, app.rope.Runes())
+		drawRunes(s, xmin, ymin, xmax, ymax, DefaultStyle, app.currentBuffer.Rope.Runes())
 		box := Box{Origin{xmin, ymin}, Origin{xmax, ymax}}
 		inputArea := app.inputAreas[bufferArea]
 		inputArea.area.box = &box
@@ -295,7 +329,7 @@ func (app *Application) clampAreaCursor() {
 	if app.activeInputArea.typ == bufferArea {
 		if cursor.x < minx && cursor.y > miny {
 			cursor.y--
-			cursor.x = minx + app.rope.LastCharInRow(cursor.y) + 1
+			cursor.x = minx + app.currentBuffer.Rope.LastCharInRow(cursor.y) + 1
 		}
 	}
 
@@ -307,9 +341,14 @@ func (app *Application) clampAreaCursor() {
 	cursor.y = max(cursor.y, miny)
 	cursor.y = min(cursor.y, maxy)
 
-	// todo clamp with last line of buffer
+  // clamp cursor to last line of buffer, should be in range [0, app.currentBuffer.Rope.LineCount())
+  if app.activeInputArea.typ == bufferArea {
+    cursor.y = min(cursor.y, app.currentBuffer.Rope.LineCount()-1)
+  }
+
 	// app.log.Printf("Clamped cursor to (%v, %v)", cursor.x, cursor.y)
 }
+
 
 func (app *Application) statusLineBox(dims layout.Dimensions) {
 	s := app.screen
@@ -351,28 +390,32 @@ func main() {
 	defer config.Cleanup()
 	commands := commands.NewCommands(log)
 	app := &Application{
-		file:       "",
 		config:     config,
+		buffers:     Buffer.NewBuffers(log),
 		commands:   commands,
-		rope:       BRope.NewRopeString(""),
 		inputAreas: make(map[InputAreaType]*InputArea, 10),
 		window:     window,
 		screen:     s,
 		log:        log,
 		isAlive:    true,
 	}
-
+ 
 	bufferInputArea := &InputArea{
 		typ:  bufferArea,
-		area: Area{&Box{Origin{0, 0}, Origin{window.width - 1, window.height - 1}}, &Cursor{Origin{0, 0}, Origin{0, 0}}},
+		area: WindowArea{&Box{Origin{0, 0}, Origin{window.width - 1, window.height - 1}}, &Cursor{Origin{0, 0}, Origin{0, 0}}},
 		sink: app.handleInputBufferArea,
 	}
 
 	commandInputArea := &InputArea{
 		typ:  commandArea,
-		area: Area{&Box{Origin{0, 0}, Origin{window.width - 1, window.height - 1}}, &Cursor{Origin{0, 0}, Origin{0, 0}}},
+		area: WindowArea{&Box{Origin{0, 0}, Origin{window.width - 1, window.height - 1}}, &Cursor{Origin{0, 0}, Origin{0, 0}}},
 		sink: app.handleInputCommandArea,
 	}
+
+  ca := &CommandArea{
+    inputArea: commandInputArea,
+  }
+  app.commandArea = ca
 
 	app.inputAreas[bufferArea] = bufferInputArea
 	app.inputAreas[commandArea] = commandInputArea
@@ -380,6 +423,7 @@ func main() {
 
 	commands.Register("help", app.helpCmd)
 	commands.Register("quit", app.quitCmd)
+	commands.Register("exit", app.quitCmd)
 	commands.Register("write", app.writeCmd)
 	commands.Register("read", app.readCmd)
 	commands.Register("hsplit", app.hsplitCmd)
@@ -389,18 +433,35 @@ func main() {
 	file := flag.Arg(0)
 
 	if file == "" {
-		rope := BRope.NewRopeString("")
-		app.rope = rope
+    var erro error
+    app.currentBuffer, erro = app.buffers.OpenTemp() 
+
+    if erro != nil {
+      log.Fatalf("Could not open file: %v", err)
+    }
+
+    bw := &BufferWindow{
+      inputArea: bufferInputArea,
+      buffer: app.currentBuffer,
+    }
+    app.currentArea = bw
+
 		log.Print("Started program without any files. Created new rope.")
 	} else {
-		app.file = file
-		var err error
-		rope, err := Files.Read(file)
-		if err != nil {
-			log.Fatalf("%+v", err)
-		}
-		log.Printf("Read rope from file %v:\n'%v'", file, rope)
-		app.rope = rope
+    var erro error
+    app.currentBuffer, erro = app.buffers.OpenFile(file)
+
+    if erro != nil {
+      log.Fatalf("Could not open file: %v", err)
+    }
+
+    bw := &BufferWindow{
+      inputArea: bufferInputArea,
+      buffer: app.currentBuffer,
+    }
+    app.currentArea = bw
+    
+		log.Printf("Read rope from file %v:\n'%v'", file, app.currentBuffer.Rope)
 	}
 
 	// You have to catch panics in a defer, clean up, and
@@ -448,7 +509,7 @@ func (app *Application) quitCmd() {
 }
 
 func (app *Application) writeCmd() {
-	err := Files.Write(app.file, app.rope)
+	err := app.buffers.Write(app.currentBuffer.File)
 	if err != nil {
 		app.log.Fatalf("Could not write buffer content to file: %v", err)
 	}

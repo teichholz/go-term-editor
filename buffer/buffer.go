@@ -9,29 +9,49 @@ import (
 )
 
 type file string
+
 type Buffer struct {
-  Open map[string]BRope.Rope
-
-  log *log.Logger
+	File string
+	Rope BRope.Rope
 }
 
-func NewBuffer(log *log.Logger) *Buffer {
-  return &Buffer{
-    Open: make(map[string]BRope.Rope),
-    log: log,
-  }
+type Buffers struct {
+	Open map[string]*Buffer
+
+	log *log.Logger
 }
 
-func (b *Buffer) OpenFile(file string) error {
-  rope, err := Read(file)
+func NewBuffers(log *log.Logger) *Buffers {
+	return &Buffers{
+		Open: make(map[string]*Buffer),
+		log:  log,
+	}
+}
 
-  if err != nil {
-    return err  
-  }
-  
-  b.Open[file] = rope
+// Opens a unique temporary buffer
+func (b *Buffers) OpenTemp() (*Buffer, error) {
+	temp, err := os.CreateTemp(os.TempDir(), "temp")
+	if err != nil {
+		return nil, err
+	}
 
-  return nil
+	buf := &Buffer{File: temp.Name(), Rope: BRope.EmptyRope()}
+	b.Open[temp.Name()] = buf
+
+	return buf, nil
+}
+
+func (b *Buffers) OpenFile(file string) (*Buffer, error) {
+	rope, err := Read(file)
+
+	if err != nil {
+		return nil, err
+	}
+
+	buf := &Buffer{File: file, Rope: rope}
+	b.Open[file] = buf
+
+	return buf, nil
 }
 
 func Read(path string) (BRope.Rope, error) {
@@ -52,7 +72,30 @@ func Read(path string) (BRope.Rope, error) {
 	return dest, nil
 }
 
-func Write(path string, buffer io.Reader) error {
+func (b *Buffers) WriteClose(file string) error {
+	err := write(file, b.Open[file].Rope)
+	if err != nil {
+		return err
+	}
+
+	return b.Close(file)
+}
+
+func (b *Buffers) Write(file string) error {
+	err := write(file, b.Open[file].Rope)
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (b *Buffers) Close(file string) error {
+	delete(b.Open, file)
+	return nil
+}
+
+func write(path string, buffer io.Reader) error {
 	file, err := os.OpenFile(path, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0666)
 	if err != nil {
 		return err

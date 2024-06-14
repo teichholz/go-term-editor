@@ -50,7 +50,7 @@ func (cfg *Config) Init() {
 }
 
 func (cfg *Config) writeConfigIfMissing() {
-	_, err := os.DirFS(confDir).Open("config.json")
+	_, err := os.DirFS(confDir).Open(confName)
 	// write config file if it does not exist
 	if err != nil {
 		content, err := fs.ReadFile(config, confName)
